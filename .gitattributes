@@ -1,0 +1,2 @@
+7DSpokemon.NDS.txt filter=lfs diff=lfs merge=lfs -text
+PokemonAlpha.NDS.txt filter=lfs diff=lfs merge=lfs -text
