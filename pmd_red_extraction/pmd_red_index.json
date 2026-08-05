@@ -1,0 +1,1962 @@
+[
+  {
+    "bpl_file": "A01P01",
+    "map_id": "MAP_FILE_ID_PERSONALITY_TEST_CYAN",
+    "has_scripts": true,
+    "approx_entities": 7,
+    "approx_cutscenes": 5,
+    "bgm": "MUS_DREAM"
+  },
+  {
+    "bpl_file": "A01P02",
+    "map_id": "MAP_FILE_ID_PERSONALITY_TEST_PURPLE",
+    "has_scripts": true,
+    "approx_entities": 1,
+    "approx_cutscenes": 1,
+    "bgm": "Unknown"
+  },
+  {
+    "bpl_file": "A02P01",
+    "map_id": "MAP_FILE_ID_FUGITIVES_FISSURE",
+    "has_scripts": true,
+    "approx_entities": 0,
+    "approx_cutscenes": 0,
+    "bgm": "MUS_THE_ESCAPE"
+  },
+  {
+    "bpl_file": "A02P02",
+    "map_id": "MAP_FILE_ID_FUGITIVES_FIRE",
+    "has_scripts": true,
+    "approx_entities": 0,
+    "approx_cutscenes": 0,
+    "bgm": "MUS_THE_ESCAPE"
+  },
+  {
+    "bpl_file": "A02P03",
+    "map_id": "MAP_FILE_ID_FUGITIVES_LAPIS_CAVE",
+    "has_scripts": true,
+    "approx_entities": 1,
+    "approx_cutscenes": 1,
+    "bgm": "MUS_THE_MOUNTAIN_OF_FIRE"
+  },
+  {
+    "bpl_file": "A02P04",
+    "map_id": "MAP_FILE_ID_FUGITIVES_VOLCANO",
+    "has_scripts": true,
+    "approx_entities": 0,
+    "approx_cutscenes": 1,
+    "bgm": "MUS_THE_ESCAPE"
+  },
+  {
+    "bpl_file": "A03P01",
+    "map_id": "MAP_FILE_ID_FUGITIVES_SNOW_ROAD",
+    "has_scripts": true,
+    "approx_entities": 1,
+    "approx_cutscenes": 1,
+    "bgm": "MUS_ESCAPE_THROUGH_THE_SNOW"
+  },
+  {
+    "bpl_file": "A03P02",
+    "map_id": "MAP_FILE_ID_FUGITIVES_SNOW_FOREST",
+    "has_scripts": true,
+    "approx_entities": 0,
+    "approx_cutscenes": 0,
+    "bgm": "MUS_ESCAPE_THROUGH_THE_SNOW"
+  },
+  {
+    "bpl_file": "A03P03",
+    "map_id": "MAP_FILE_ID_FUGITIVES_BLIZZARD_ROAD",
+    "has_scripts": true,
+    "approx_entities": 1,
+    "approx_cutscenes": 1,
+    "bgm": "Unknown"
+  },
+  {
+    "bpl_file": "A04P01",
+    "map_id": "MAP_FILE_ID_SUMMIT_SUNSET",
+    "has_scripts": true,
+    "approx_entities": 4,
+    "approx_cutscenes": 3,
+    "bgm": "MUS_WORLD_CALAMITY"
+  },
+  {
+    "bpl_file": "A04P02",
+    "map_id": "MAP_FILE_ID_SKY_TOWER",
+    "has_scripts": true,
+    "approx_entities": 0,
+    "approx_cutscenes": 0,
+    "bgm": "MUS_SKY_TOWER"
+  },
+  {
+    "bpl_file": "A04P03",
+    "map_id": "MAP_FILE_ID_COMET",
+    "has_scripts": true,
+    "approx_entities": 0,
+    "approx_cutscenes": 1,
+    "bgm": "MUS_WORLD_CALAMITY"
+  },
+  {
+    "bpl_file": "A04P04",
+    "map_id": "MAP_FILE_ID_NIGHTMARE",
+    "has_scripts": true,
+    "approx_entities": 1,
+    "approx_cutscenes": 0,
+    "bgm": "Unknown"
+  },
+  {
+    "bpl_file": "A05P01",
+    "map_id": "MAP_FILE_ID_NIGHT_SKY_1",
+    "has_scripts": true,
+    "approx_entities": 0,
+    "approx_cutscenes": 1,
+    "bgm": "MUS_CREDITS"
+  },
+  {
+    "bpl_file": "A05P02",
+    "map_id": "MAP_FILE_ID_NIGHT_SKY_2",
+    "has_scripts": true,
+    "approx_entities": 0,
+    "approx_cutscenes": 0,
+    "bgm": "Unknown"
+  },
+  {
+    "bpl_file": "A05P03",
+    "map_id": "MAP_FILE_ID_THE_END",
+    "has_scripts": true,
+    "approx_entities": 0,
+    "approx_cutscenes": 0,
+    "bgm": "Unknown"
+  },
+  {
+    "bpl_file": "B01P01A",
+    "map_id": "MAP_FILE_ID_TEAM_BASE_PIKACHU_BASIC",
+    "has_scripts": true,
+    "approx_entities": 62,
+    "approx_cutscenes": 30,
+    "bgm": "MUS_RESCUE_TEAM_BASE"
+  },
+  {
+    "bpl_file": "B01P01B",
+    "map_id": "MAP_FILE_ID_TEAM_BASE_PIKACHU_CONSTRUCTION",
+    "has_scripts": false,
+    "approx_entities": 0,
+    "approx_cutscenes": 0,
+    "bgm": "Unknown"
+  },
+  {
+    "bpl_file": "B01P01C",
+    "map_id": "MAP_FILE_ID_TEAM_BASE_PIKACHU_FINAL",
+    "has_scripts": false,
+    "approx_entities": 0,
+    "approx_cutscenes": 0,
+    "bgm": "Unknown"
+  },
+  {
+    "bpl_file": "B01P02A",
+    "map_id": "MAP_FILE_ID_TEAM_BASE_INSIDE_PIKACHU_BASIC",
+    "has_scripts": true,
+    "approx_entities": 25,
+    "approx_cutscenes": 23,
+    "bgm": "MUS_RESCUE_TEAM_BASE"
+  },
+  {
+    "bpl_file": "B01P02B",
+    "map_id": "MAP_FILE_ID_TEAM_BASE_INSIDE_PIKACHU_CONSTRUCTION",
+    "has_scripts": false,
+    "approx_entities": 0,
+    "approx_cutscenes": 0,
+    "bgm": "Unknown"
+  },
+  {
+    "bpl_file": "B01P02C",
+    "map_id": "MAP_FILE_ID_TEAM_BASE_INSIDE_PIKACHU_FINAL",
+    "has_scripts": false,
+    "approx_entities": 0,
+    "approx_cutscenes": 0,
+    "bgm": "Unknown"
+  },
+  {
+    "bpl_file": "B02P01A",
+    "map_id": "MAP_FILE_ID_TEAM_BASE_MEOWTH_BASIC",
+    "has_scripts": false,
+    "approx_entities": 0,
+    "approx_cutscenes": 0,
+    "bgm": "Unknown"
+  },
+  {
+    "bpl_file": "B02P01B",
+    "map_id": "MAP_FILE_ID_TEAM_BASE_MEOWTH_CONSTRUCTION",
+    "has_scripts": false,
+    "approx_entities": 0,
+    "approx_cutscenes": 0,
+    "bgm": "Unknown"
+  },
+  {
+    "bpl_file": "B02P01C",
+    "map_id": "MAP_FILE_ID_TEAM_BASE_MEOWTH_FINAL",
+    "has_scripts": false,
+    "approx_entities": 0,
+    "approx_cutscenes": 0,
+    "bgm": "Unknown"
+  },
+  {
+    "bpl_file": "B02P02A",
+    "map_id": "MAP_FILE_ID_TEAM_BASE_INSIDE_MEOWTH_BASIC",
+    "has_scripts": false,
+    "approx_entities": 0,
+    "approx_cutscenes": 0,
+    "bgm": "Unknown"
+  },
+  {
+    "bpl_file": "B02P02B",
+    "map_id": "MAP_FILE_ID_TEAM_BASE_INSIDE_MEOWTH_CONSTRUCTION",
+    "has_scripts": false,
+    "approx_entities": 0,
+    "approx_cutscenes": 0,
+    "bgm": "Unknown"
+  },
+  {
+    "bpl_file": "B02P02C",
+    "map_id": "MAP_FILE_ID_TEAM_BASE_INSIDE_MEOWTH_FINAL",
+    "has_scripts": false,
+    "approx_entities": 0,
+    "approx_cutscenes": 0,
+    "bgm": "Unknown"
+  },
+  {
+    "bpl_file": "B03P01A",
+    "map_id": "MAP_FILE_ID_TEAM_BASE_EEVEE_BASIC",
+    "has_scripts": false,
+    "approx_entities": 0,
+    "approx_cutscenes": 0,
+    "bgm": "Unknown"
+  },
+  {
+    "bpl_file": "B03P01B",
+    "map_id": "MAP_FILE_ID_TEAM_BASE_EEVEE_CONSTRUCTION",
+    "has_scripts": false,
+    "approx_entities": 0,
+    "approx_cutscenes": 0,
+    "bgm": "Unknown"
+  },
+  {
+    "bpl_file": "B03P01C",
+    "map_id": "MAP_FILE_ID_TEAM_BASE_EEVEE_FINAL",
+    "has_scripts": false,
+    "approx_entities": 0,
+    "approx_cutscenes": 0,
+    "bgm": "Unknown"
+  },
+  {
+    "bpl_file": "B03P02A",
+    "map_id": "MAP_FILE_ID_TEAM_BASE_INSIDE_EEVEE_BASIC",
+    "has_scripts": false,
+    "approx_entities": 0,
+    "approx_cutscenes": 0,
+    "bgm": "Unknown"
+  },
+  {
+    "bpl_file": "B03P02B",
+    "map_id": "MAP_FILE_ID_TEAM_BASE_INSIDE_EEVEE_CONSTRUCTION",
+    "has_scripts": false,
+    "approx_entities": 0,
+    "approx_cutscenes": 0,
+    "bgm": "Unknown"
+  },
+  {
+    "bpl_file": "B03P02C",
+    "map_id": "MAP_FILE_ID_TEAM_BASE_INSIDE_EEVEE_FINAL",
+    "has_scripts": false,
+    "approx_entities": 0,
+    "approx_cutscenes": 0,
+    "bgm": "Unknown"
+  },
+  {
+    "bpl_file": "B04P01A",
+    "map_id": "MAP_FILE_ID_TEAM_BASE_SKITTY_BASIC",
+    "has_scripts": false,
+    "approx_entities": 0,
+    "approx_cutscenes": 0,
+    "bgm": "Unknown"
+  },
+  {
+    "bpl_file": "B04P01B",
+    "map_id": "MAP_FILE_ID_TEAM_BASE_SKITTY_CONSTRUCTION",
+    "has_scripts": false,
+    "approx_entities": 0,
+    "approx_cutscenes": 0,
+    "bgm": "Unknown"
+  },
+  {
+    "bpl_file": "B04P01C",
+    "map_id": "MAP_FILE_ID_TEAM_BASE_SKITTY_FINAL",
+    "has_scripts": false,
+    "approx_entities": 0,
+    "approx_cutscenes": 0,
+    "bgm": "Unknown"
+  },
+  {
+    "bpl_file": "B04P02A",
+    "map_id": "MAP_FILE_ID_TEAM_BASE_INSIDE_SKITTY_BASIC",
+    "has_scripts": false,
+    "approx_entities": 0,
+    "approx_cutscenes": 0,
+    "bgm": "Unknown"
+  },
+  {
+    "bpl_file": "B04P02B",
+    "map_id": "MAP_FILE_ID_TEAM_BASE_INSIDE_SKITTY_CONSTRUCTION",
+    "has_scripts": false,
+    "approx_entities": 0,
+    "approx_cutscenes": 0,
+    "bgm": "Unknown"
+  },
+  {
+    "bpl_file": "B04P02C",
+    "map_id": "MAP_FILE_ID_TEAM_BASE_INSIDE_SKITTY_FINAL",
+    "has_scripts": false,
+    "approx_entities": 0,
+    "approx_cutscenes": 0,
+    "bgm": "Unknown"
+  },
+  {
+    "bpl_file": "B05P01A",
+    "map_id": "MAP_FILE_ID_TEAM_BASE_SQUIRTLE_BASIC",
+    "has_scripts": false,
+    "approx_entities": 0,
+    "approx_cutscenes": 0,
+    "bgm": "Unknown"
+  },
+  {
+    "bpl_file": "B05P01B",
+    "map_id": "MAP_FILE_ID_TEAM_BASE_SQUIRTLE_CONSTRUCTION",
+    "has_scripts": false,
+    "approx_entities": 0,
+    "approx_cutscenes": 0,
+    "bgm": "Unknown"
+  },
+  {
+    "bpl_file": "B05P01C",
+    "map_id": "MAP_FILE_ID_TEAM_BASE_SQUIRTLE_FINAL",
+    "has_scripts": false,
+    "approx_entities": 0,
+    "approx_cutscenes": 0,
+    "bgm": "Unknown"
+  },
+  {
+    "bpl_file": "B05P02A",
+    "map_id": "MAP_FILE_ID_TEAM_BASE_INSIDE_SQUIRTLE_BASIC",
+    "has_scripts": false,
+    "approx_entities": 0,
+    "approx_cutscenes": 0,
+    "bgm": "Unknown"
+  },
+  {
+    "bpl_file": "B05P02B",
+    "map_id": "MAP_FILE_ID_TEAM_BASE_INSIDE_SQUIRTLE_CONSTRUCTION",
+    "has_scripts": false,
+    "approx_entities": 0,
+    "approx_cutscenes": 0,
+    "bgm": "Unknown"
+  },
+  {
+    "bpl_file": "B05P02C",
+    "map_id": "MAP_FILE_ID_TEAM_BASE_INSIDE_SQUIRTLE_FINAL",
+    "has_scripts": false,
+    "approx_entities": 0,
+    "approx_cutscenes": 0,
+    "bgm": "Unknown"
+  },
+  {
+    "bpl_file": "B06P01A",
+    "map_id": "MAP_FILE_ID_TEAM_BASE_TOTODILE_BASIC",
+    "has_scripts": false,
+    "approx_entities": 0,
+    "approx_cutscenes": 0,
+    "bgm": "Unknown"
+  },
+  {
+    "bpl_file": "B06P01B",
+    "map_id": "MAP_FILE_ID_TEAM_BASE_TOTODILE_CONSTRUCTION",
+    "has_scripts": false,
+    "approx_entities": 0,
+    "approx_cutscenes": 0,
+    "bgm": "Unknown"
+  },
+  {
+    "bpl_file": "B06P01C",
+    "map_id": "MAP_FILE_ID_TEAM_BASE_TOTODILE_FINAL",
+    "has_scripts": false,
+    "approx_entities": 0,
+    "approx_cutscenes": 0,
+    "bgm": "Unknown"
+  },
+  {
+    "bpl_file": "B06P02A",
+    "map_id": "MAP_FILE_ID_TEAM_BASE_INSIDE_TOTODILE_BASIC",
+    "has_scripts": false,
+    "approx_entities": 0,
+    "approx_cutscenes": 0,
+    "bgm": "Unknown"
+  },
+  {
+    "bpl_file": "B06P02B",
+    "map_id": "MAP_FILE_ID_TEAM_BASE_INSIDE_TOTODILE_CONSTRUCTION",
+    "has_scripts": false,
+    "approx_entities": 0,
+    "approx_cutscenes": 0,
+    "bgm": "Unknown"
+  },
+  {
+    "bpl_file": "B06P02C",
+    "map_id": "MAP_FILE_ID_TEAM_BASE_INSIDE_TOTODILE_FINAL",
+    "has_scripts": false,
+    "approx_entities": 0,
+    "approx_cutscenes": 0,
+    "bgm": "Unknown"
+  },
+  {
+    "bpl_file": "B07P01A",
+    "map_id": "MAP_FILE_ID_TEAM_BASE_MUDKIP_BASIC",
+    "has_scripts": false,
+    "approx_entities": 0,
+    "approx_cutscenes": 0,
+    "bgm": "Unknown"
+  },
+  {
+    "bpl_file": "B07P01B",
+    "map_id": "MAP_FILE_ID_TEAM_BASE_MUDKIP_CONSTRUCTION",
+    "has_scripts": false,
+    "approx_entities": 0,
+    "approx_cutscenes": 0,
+    "bgm": "Unknown"
+  },
+  {
+    "bpl_file": "B07P01C",
+    "map_id": "MAP_FILE_ID_TEAM_BASE_MUDKIP_FINAL",
+    "has_scripts": false,
+    "approx_entities": 0,
+    "approx_cutscenes": 0,
+    "bgm": "Unknown"
+  },
+  {
+    "bpl_file": "B07P02A",
+    "map_id": "MAP_FILE_ID_TEAM_BASE_INSIDE_MUDKIP_BASIC",
+    "has_scripts": false,
+    "approx_entities": 0,
+    "approx_cutscenes": 0,
+    "bgm": "Unknown"
+  },
+  {
+    "bpl_file": "B07P02B",
+    "map_id": "MAP_FILE_ID_TEAM_BASE_INSIDE_MUDKIP_CONSTRUCTION",
+    "has_scripts": false,
+    "approx_entities": 0,
+    "approx_cutscenes": 0,
+    "bgm": "Unknown"
+  },
+  {
+    "bpl_file": "B07P02C",
+    "map_id": "MAP_FILE_ID_TEAM_BASE_INSIDE_MUDKIP_FINAL",
+    "has_scripts": false,
+    "approx_entities": 0,
+    "approx_cutscenes": 0,
+    "bgm": "Unknown"
+  },
+  {
+    "bpl_file": "B08P01A",
+    "map_id": "MAP_FILE_ID_TEAM_BASE_PSYDUCK_BASIC",
+    "has_scripts": false,
+    "approx_entities": 0,
+    "approx_cutscenes": 0,
+    "bgm": "Unknown"
+  },
+  {
+    "bpl_file": "B08P01B",
+    "map_id": "MAP_FILE_ID_TEAM_BASE_PSYDUCK_CONSTRUCTION",
+    "has_scripts": false,
+    "approx_entities": 0,
+    "approx_cutscenes": 0,
+    "bgm": "Unknown"
+  },
+  {
+    "bpl_file": "B08P01C",
+    "map_id": "MAP_FILE_ID_TEAM_BASE_PSYDUCK_FINAL",
+    "has_scripts": false,
+    "approx_entities": 0,
+    "approx_cutscenes": 0,
+    "bgm": "Unknown"
+  },
+  {
+    "bpl_file": "B08P02A",
+    "map_id": "MAP_FILE_ID_TEAM_BASE_INSIDE_PSYDUCK_BASIC",
+    "has_scripts": false,
+    "approx_entities": 0,
+    "approx_cutscenes": 0,
+    "bgm": "Unknown"
+  },
+  {
+    "bpl_file": "B08P02B",
+    "map_id": "MAP_FILE_ID_TEAM_BASE_INSIDE_PSYDUCK_CONSTRUCTION",
+    "has_scripts": false,
+    "approx_entities": 0,
+    "approx_cutscenes": 0,
+    "bgm": "Unknown"
+  },
+  {
+    "bpl_file": "B08P02C",
+    "map_id": "MAP_FILE_ID_TEAM_BASE_INSIDE_PSYDUCK_FINAL",
+    "has_scripts": false,
+    "approx_entities": 0,
+    "approx_cutscenes": 0,
+    "bgm": "Unknown"
+  },
+  {
+    "bpl_file": "B09P01A",
+    "map_id": "MAP_FILE_ID_TEAM_BASE_CHARMANDER_BASIC",
+    "has_scripts": false,
+    "approx_entities": 0,
+    "approx_cutscenes": 0,
+    "bgm": "Unknown"
+  },
+  {
+    "bpl_file": "B09P01B",
+    "map_id": "MAP_FILE_ID_TEAM_BASE_CHARMANDER_CONSTRUCTION",
+    "has_scripts": false,
+    "approx_entities": 0,
+    "approx_cutscenes": 0,
+    "bgm": "Unknown"
+  },
+  {
+    "bpl_file": "B09P01C",
+    "map_id": "MAP_FILE_ID_TEAM_BASE_CHARMANDER_FINAL",
+    "has_scripts": false,
+    "approx_entities": 0,
+    "approx_cutscenes": 0,
+    "bgm": "Unknown"
+  },
+  {
+    "bpl_file": "B09P02A",
+    "map_id": "MAP_FILE_ID_TEAM_BASE_INSIDE_CHARMANDER_BASIC",
+    "has_scripts": false,
+    "approx_entities": 0,
+    "approx_cutscenes": 0,
+    "bgm": "Unknown"
+  },
+  {
+    "bpl_file": "B09P02B",
+    "map_id": "MAP_FILE_ID_TEAM_BASE_INSIDE_CHARMANDER_CONSTRUCTION",
+    "has_scripts": false,
+    "approx_entities": 0,
+    "approx_cutscenes": 0,
+    "bgm": "Unknown"
+  },
+  {
+    "bpl_file": "B09P02C",
+    "map_id": "MAP_FILE_ID_TEAM_BASE_INSIDE_CHARMANDER_FINAL",
+    "has_scripts": false,
+    "approx_entities": 0,
+    "approx_cutscenes": 0,
+    "bgm": "Unknown"
+  },
+  {
+    "bpl_file": "B10P01A",
+    "map_id": "MAP_FILE_ID_TEAM_BASE_TORCHIC_BASIC",
+    "has_scripts": false,
+    "approx_entities": 0,
+    "approx_cutscenes": 0,
+    "bgm": "Unknown"
+  },
+  {
+    "bpl_file": "B10P01B",
+    "map_id": "MAP_FILE_ID_TEAM_BASE_TORCHIC_CONSTRUCTION",
+    "has_scripts": false,
+    "approx_entities": 0,
+    "approx_cutscenes": 0,
+    "bgm": "Unknown"
+  },
+  {
+    "bpl_file": "B10P01C",
+    "map_id": "MAP_FILE_ID_TEAM_BASE_TORCHIC_FINAL",
+    "has_scripts": false,
+    "approx_entities": 0,
+    "approx_cutscenes": 0,
+    "bgm": "Unknown"
+  },
+  {
+    "bpl_file": "B10P02A",
+    "map_id": "MAP_FILE_ID_TEAM_BASE_INSIDE_TORCHIC_BASIC",
+    "has_scripts": false,
+    "approx_entities": 0,
+    "approx_cutscenes": 0,
+    "bgm": "Unknown"
+  },
+  {
+    "bpl_file": "B10P02B",
+    "map_id": "MAP_FILE_ID_TEAM_BASE_INSIDE_TORCHIC_CONSTRUCTION",
+    "has_scripts": false,
+    "approx_entities": 0,
+    "approx_cutscenes": 0,
+    "bgm": "Unknown"
+  },
+  {
+    "bpl_file": "B10P02C",
+    "map_id": "MAP_FILE_ID_TEAM_BASE_INSIDE_TORCHIC_FINAL",
+    "has_scripts": false,
+    "approx_entities": 0,
+    "approx_cutscenes": 0,
+    "bgm": "Unknown"
+  },
+  {
+    "bpl_file": "B11P01A",
+    "map_id": "MAP_FILE_ID_TEAM_BASE_CYNDAQUIL_BASIC",
+    "has_scripts": false,
+    "approx_entities": 0,
+    "approx_cutscenes": 0,
+    "bgm": "Unknown"
+  },
+  {
+    "bpl_file": "B11P01B",
+    "map_id": "MAP_FILE_ID_TEAM_BASE_CYNDAQUIL_CONSTRUCTION",
+    "has_scripts": false,
+    "approx_entities": 0,
+    "approx_cutscenes": 0,
+    "bgm": "Unknown"
+  },
+  {
+    "bpl_file": "B11P01C",
+    "map_id": "MAP_FILE_ID_TEAM_BASE_CYNDAQUIL_FINAL",
+    "has_scripts": false,
+    "approx_entities": 0,
+    "approx_cutscenes": 0,
+    "bgm": "Unknown"
+  },
+  {
+    "bpl_file": "B11P02A",
+    "map_id": "MAP_FILE_ID_TEAM_BASE_INSIDE_CYNDAQUIL_BASIC",
+    "has_scripts": false,
+    "approx_entities": 0,
+    "approx_cutscenes": 0,
+    "bgm": "Unknown"
+  },
+  {
+    "bpl_file": "B11P02B",
+    "map_id": "MAP_FILE_ID_TEAM_BASE_INSIDE_CYNDAQUIL_CONSTRUCTION",
+    "has_scripts": false,
+    "approx_entities": 0,
+    "approx_cutscenes": 0,
+    "bgm": "Unknown"
+  },
+  {
+    "bpl_file": "B11P02C",
+    "map_id": "MAP_FILE_ID_TEAM_BASE_INSIDE_CYNDAQUIL_FINAL",
+    "has_scripts": false,
+    "approx_entities": 0,
+    "approx_cutscenes": 0,
+    "bgm": "Unknown"
+  },
+  {
+    "bpl_file": "B12P01A",
+    "map_id": "MAP_FILE_ID_TEAM_BASE_CUBONE_BASIC",
+    "has_scripts": false,
+    "approx_entities": 0,
+    "approx_cutscenes": 0,
+    "bgm": "Unknown"
+  },
+  {
+    "bpl_file": "B12P01B",
+    "map_id": "MAP_FILE_ID_TEAM_BASE_CUBONE_CONSTRUCTION",
+    "has_scripts": false,
+    "approx_entities": 0,
+    "approx_cutscenes": 0,
+    "bgm": "Unknown"
+  },
+  {
+    "bpl_file": "B12P01C",
+    "map_id": "MAP_FILE_ID_TEAM_BASE_CUBONE_FINAL",
+    "has_scripts": false,
+    "approx_entities": 0,
+    "approx_cutscenes": 0,
+    "bgm": "Unknown"
+  },
+  {
+    "bpl_file": "B12P02A",
+    "map_id": "MAP_FILE_ID_TEAM_BASE_INSIDE_CUBONE_BASIC",
+    "has_scripts": false,
+    "approx_entities": 0,
+    "approx_cutscenes": 0,
+    "bgm": "Unknown"
+  },
+  {
+    "bpl_file": "B12P02B",
+    "map_id": "MAP_FILE_ID_TEAM_BASE_INSIDE_CUBONE_CONSTRUCTION",
+    "has_scripts": false,
+    "approx_entities": 0,
+    "approx_cutscenes": 0,
+    "bgm": "Unknown"
+  },
+  {
+    "bpl_file": "B12P02C",
+    "map_id": "MAP_FILE_ID_TEAM_BASE_INSIDE_CUBONE_FINAL",
+    "has_scripts": false,
+    "approx_entities": 0,
+    "approx_cutscenes": 0,
+    "bgm": "Unknown"
+  },
+  {
+    "bpl_file": "B13P01A",
+    "map_id": "MAP_FILE_ID_TEAM_BASE_MACHOP_BASIC",
+    "has_scripts": false,
+    "approx_entities": 0,
+    "approx_cutscenes": 0,
+    "bgm": "Unknown"
+  },
+  {
+    "bpl_file": "B13P01B",
+    "map_id": "MAP_FILE_ID_TEAM_BASE_MACHOP_CONSTRUCTION",
+    "has_scripts": false,
+    "approx_entities": 0,
+    "approx_cutscenes": 0,
+    "bgm": "Unknown"
+  },
+  {
+    "bpl_file": "B13P01C",
+    "map_id": "MAP_FILE_ID_TEAM_BASE_MACHOP_FINAL",
+    "has_scripts": false,
+    "approx_entities": 0,
+    "approx_cutscenes": 0,
+    "bgm": "Unknown"
+  },
+  {
+    "bpl_file": "B13P02A",
+    "map_id": "MAP_FILE_ID_TEAM_BASE_INSIDE_MACHOP_BASIC",
+    "has_scripts": false,
+    "approx_entities": 0,
+    "approx_cutscenes": 0,
+    "bgm": "Unknown"
+  },
+  {
+    "bpl_file": "B13P02B",
+    "map_id": "MAP_FILE_ID_TEAM_BASE_INSIDE_MACHOP_CONSTRUCTION",
+    "has_scripts": false,
+    "approx_entities": 0,
+    "approx_cutscenes": 0,
+    "bgm": "Unknown"
+  },
+  {
+    "bpl_file": "B13P02C",
+    "map_id": "MAP_FILE_ID_TEAM_BASE_INSIDE_MACHOP_FINAL",
+    "has_scripts": false,
+    "approx_entities": 0,
+    "approx_cutscenes": 0,
+    "bgm": "Unknown"
+  },
+  {
+    "bpl_file": "B14P01A",
+    "map_id": "MAP_FILE_ID_TEAM_BASE_BULBASAUR_BASIC",
+    "has_scripts": false,
+    "approx_entities": 0,
+    "approx_cutscenes": 0,
+    "bgm": "Unknown"
+  },
+  {
+    "bpl_file": "B14P01B",
+    "map_id": "MAP_FILE_ID_TEAM_BASE_BULBASAUR_CONSTRUCTION",
+    "has_scripts": false,
+    "approx_entities": 0,
+    "approx_cutscenes": 0,
+    "bgm": "Unknown"
+  },
+  {
+    "bpl_file": "B14P01C",
+    "map_id": "MAP_FILE_ID_TEAM_BASE_BULBASAUR_FINAL",
+    "has_scripts": false,
+    "approx_entities": 0,
+    "approx_cutscenes": 0,
+    "bgm": "Unknown"
+  },
+  {
+    "bpl_file": "B14P02A",
+    "map_id": "MAP_FILE_ID_TEAM_BASE_INSIDE_BULBASAUR_BASIC",
+    "has_scripts": false,
+    "approx_entities": 0,
+    "approx_cutscenes": 0,
+    "bgm": "Unknown"
+  },
+  {
+    "bpl_file": "B14P02B",
+    "map_id": "MAP_FILE_ID_TEAM_BASE_INSIDE_BULBASAUR_CONSTRUCTION",
+    "has_scripts": false,
+    "approx_entities": 0,
+    "approx_cutscenes": 0,
+    "bgm": "Unknown"
+  },
+  {
+    "bpl_file": "B14P02C",
+    "map_id": "MAP_FILE_ID_TEAM_BASE_INSIDE_BULBASAUR_FINAL",
+    "has_scripts": false,
+    "approx_entities": 0,
+    "approx_cutscenes": 0,
+    "bgm": "Unknown"
+  },
+  {
+    "bpl_file": "B15P01A",
+    "map_id": "MAP_FILE_ID_TEAM_BASE_CHIKORITA_BASIC",
+    "has_scripts": false,
+    "approx_entities": 0,
+    "approx_cutscenes": 0,
+    "bgm": "Unknown"
+  },
+  {
+    "bpl_file": "B15P01B",
+    "map_id": "MAP_FILE_ID_TEAM_BASE_CHIKORITA_CONSTRUCTION",
+    "has_scripts": false,
+    "approx_entities": 0,
+    "approx_cutscenes": 0,
+    "bgm": "Unknown"
+  },
+  {
+    "bpl_file": "B15P01C",
+    "map_id": "MAP_FILE_ID_TEAM_BASE_CHIKORITA_FINAL",
+    "has_scripts": false,
+    "approx_entities": 0,
+    "approx_cutscenes": 0,
+    "bgm": "Unknown"
+  },
+  {
+    "bpl_file": "B15P02A",
+    "map_id": "MAP_FILE_ID_TEAM_BASE_INSIDE_CHIKORITA_BASIC",
+    "has_scripts": false,
+    "approx_entities": 0,
+    "approx_cutscenes": 0,
+    "bgm": "Unknown"
+  },
+  {
+    "bpl_file": "B15P02B",
+    "map_id": "MAP_FILE_ID_TEAM_BASE_INSIDE_CHIKORITA_CONSTRUCTION",
+    "has_scripts": false,
+    "approx_entities": 0,
+    "approx_cutscenes": 0,
+    "bgm": "Unknown"
+  },
+  {
+    "bpl_file": "B15P02C",
+    "map_id": "MAP_FILE_ID_TEAM_BASE_INSIDE_CHIKORITA_FINAL",
+    "has_scripts": false,
+    "approx_entities": 0,
+    "approx_cutscenes": 0,
+    "bgm": "Unknown"
+  },
+  {
+    "bpl_file": "B16P01A",
+    "map_id": "MAP_FILE_ID_TEAM_BASE_TREECKO_BASIC",
+    "has_scripts": false,
+    "approx_entities": 0,
+    "approx_cutscenes": 0,
+    "bgm": "Unknown"
+  },
+  {
+    "bpl_file": "B16P01B",
+    "map_id": "MAP_FILE_ID_TEAM_BASE_TREECKO_CONSTRUCTION",
+    "has_scripts": false,
+    "approx_entities": 0,
+    "approx_cutscenes": 0,
+    "bgm": "Unknown"
+  },
+  {
+    "bpl_file": "B16P01C",
+    "map_id": "MAP_FILE_ID_TEAM_BASE_TREECKO_FINAL",
+    "has_scripts": false,
+    "approx_entities": 0,
+    "approx_cutscenes": 0,
+    "bgm": "Unknown"
+  },
+  {
+    "bpl_file": "B16P02A",
+    "map_id": "MAP_FILE_ID_TEAM_BASE_INSIDE_TREECKO_BASIC",
+    "has_scripts": false,
+    "approx_entities": 0,
+    "approx_cutscenes": 0,
+    "bgm": "Unknown"
+  },
+  {
+    "bpl_file": "B16P02B",
+    "map_id": "MAP_FILE_ID_TEAM_BASE_INSIDE_TREECKO_CONSTRUCTION",
+    "has_scripts": false,
+    "approx_entities": 0,
+    "approx_cutscenes": 0,
+    "bgm": "Unknown"
+  },
+  {
+    "bpl_file": "B16P02C",
+    "map_id": "MAP_FILE_ID_TEAM_BASE_INSIDE_TREECKO_FINAL",
+    "has_scripts": false,
+    "approx_entities": 0,
+    "approx_cutscenes": 0,
+    "bgm": "Unknown"
+  },
+  {
+    "bpl_file": "D01P01",
+    "map_id": "MAP_FILE_ID_TINY_WOODS_ENTRY",
+    "has_scripts": true,
+    "approx_entities": 2,
+    "approx_cutscenes": 1,
+    "bgm": "MUS_THERES_TROUBLE"
+  },
+  {
+    "bpl_file": "D01P02",
+    "map_id": "MAP_FILE_ID_TINY_WOODS_END",
+    "has_scripts": true,
+    "approx_entities": 0,
+    "approx_cutscenes": 0,
+    "bgm": "MUS_IN_THE_DEPTHS_OF_THE_PIT"
+  },
+  {
+    "bpl_file": "D02P01",
+    "map_id": "MAP_FILE_ID_THUNDERWAVE_CAVE_ENTRY",
+    "has_scripts": true,
+    "approx_entities": 1,
+    "approx_cutscenes": 1,
+    "bgm": "MUS_THUNDERWAVE_CAVE"
+  },
+  {
+    "bpl_file": "D02P02",
+    "map_id": "MAP_FILE_ID_THUNDERWAVE_CAVE_END",
+    "has_scripts": true,
+    "approx_entities": 0,
+    "approx_cutscenes": 0,
+    "bgm": "MUS_IN_THE_DEPTHS_OF_THE_PIT"
+  },
+  {
+    "bpl_file": "D03P01",
+    "map_id": "MAP_FILE_ID_MT_STEEL_ENTRY",
+    "has_scripts": true,
+    "approx_entities": 2,
+    "approx_cutscenes": 1,
+    "bgm": "MUS_MT_STEEL"
+  },
+  {
+    "bpl_file": "D03P02",
+    "map_id": "MAP_FILE_ID_MT_STEEL_END",
+    "has_scripts": true,
+    "approx_entities": 1,
+    "approx_cutscenes": 0,
+    "bgm": "MUS_IN_THE_DEPTHS_OF_THE_PIT"
+  },
+  {
+    "bpl_file": "D04P01",
+    "map_id": "MAP_FILE_ID_SINISTER_WOODS_ENTRY",
+    "has_scripts": true,
+    "approx_entities": 1,
+    "approx_cutscenes": 1,
+    "bgm": "MUS_SINISTER_WOODS"
+  },
+  {
+    "bpl_file": "D04P02",
+    "map_id": "MAP_FILE_ID_SINISTER_WOODS_END",
+    "has_scripts": true,
+    "approx_entities": 0,
+    "approx_cutscenes": 0,
+    "bgm": "MUS_IN_THE_DEPTHS_OF_THE_PIT"
+  },
+  {
+    "bpl_file": "D05P01",
+    "map_id": "MAP_FILE_ID_SILENT_CHASM_ENTRY",
+    "has_scripts": true,
+    "approx_entities": 0,
+    "approx_cutscenes": 0,
+    "bgm": "MUS_SILENT_CHASM"
+  },
+  {
+    "bpl_file": "D05P02",
+    "map_id": "MAP_FILE_ID_SILENT_CHASM_END",
+    "has_scripts": true,
+    "approx_entities": 1,
+    "approx_cutscenes": 0,
+    "bgm": "MUS_IN_THE_DEPTHS_OF_THE_PIT"
+  },
+  {
+    "bpl_file": "D06P01",
+    "map_id": "MAP_FILE_ID_MT_THUNDER_ENTRY",
+    "has_scripts": true,
+    "approx_entities": 1,
+    "approx_cutscenes": 1,
+    "bgm": "MUS_MT_THUNDER"
+  },
+  {
+    "bpl_file": "D06P02",
+    "map_id": "MAP_FILE_ID_MT_THUNDER_MID",
+    "has_scripts": true,
+    "approx_entities": 2,
+    "approx_cutscenes": 0,
+    "bgm": "MUS_MT_THUNDER"
+  },
+  {
+    "bpl_file": "D06P03",
+    "map_id": "MAP_FILE_ID_MT_THUNDER_END",
+    "has_scripts": true,
+    "approx_entities": 1,
+    "approx_cutscenes": 0,
+    "bgm": "MUS_IN_THE_DEPTHS_OF_THE_PIT"
+  },
+  {
+    "bpl_file": "D07P01",
+    "map_id": "MAP_FILE_ID_GREAT_CANYON_ENTRY",
+    "has_scripts": true,
+    "approx_entities": 1,
+    "approx_cutscenes": 1,
+    "bgm": "MUS_GREAT_CANYON"
+  },
+  {
+    "bpl_file": "D07P02",
+    "map_id": "MAP_FILE_ID_HILL_OF_THE_ANCIENTS",
+    "has_scripts": true,
+    "approx_entities": 1,
+    "approx_cutscenes": 1,
+    "bgm": "MUS_IN_THE_DEPTHS_OF_THE_PIT"
+  },
+  {
+    "bpl_file": "D08P01",
+    "map_id": "MAP_FILE_ID_LAPIS_CAVE_ENTRY",
+    "has_scripts": true,
+    "approx_entities": 6,
+    "approx_cutscenes": 2,
+    "bgm": "MUS_LAPIS_CAVE"
+  },
+  {
+    "bpl_file": "D08P02",
+    "map_id": "MAP_FILE_ID_LAPIS_CAVE_END",
+    "has_scripts": true,
+    "approx_entities": 0,
+    "approx_cutscenes": 0,
+    "bgm": "MUS_THERES_TROUBLE"
+  },
+  {
+    "bpl_file": "D09P01",
+    "map_id": "MAP_FILE_ID_MT_BLAZE_ENTRY",
+    "has_scripts": true,
+    "approx_entities": 6,
+    "approx_cutscenes": 2,
+    "bgm": "MUS_MT_BLAZE"
+  },
+  {
+    "bpl_file": "D09P02",
+    "map_id": "MAP_FILE_ID_MT_BLAZE_MID",
+    "has_scripts": true,
+    "approx_entities": 2,
+    "approx_cutscenes": 0,
+    "bgm": "MUS_MT_BLAZE"
+  },
+  {
+    "bpl_file": "D09P03",
+    "map_id": "MAP_FILE_ID_MT_BLAZE_END",
+    "has_scripts": true,
+    "approx_entities": 0,
+    "approx_cutscenes": 0,
+    "bgm": "MUS_IN_THE_DEPTHS_OF_THE_PIT"
+  },
+  {
+    "bpl_file": "D10P01",
+    "map_id": "MAP_FILE_ID_FROSTY_FOREST_ENTRY",
+    "has_scripts": true,
+    "approx_entities": 6,
+    "approx_cutscenes": 2,
+    "bgm": "MUS_ESCAPE_THROUGH_THE_SNOW"
+  },
+  {
+    "bpl_file": "D10P02",
+    "map_id": "MAP_FILE_ID_FROSTY_FOREST_MID",
+    "has_scripts": true,
+    "approx_entities": 3,
+    "approx_cutscenes": 1,
+    "bgm": "MUS_FROSTY_FOREST"
+  },
+  {
+    "bpl_file": "D10P03",
+    "map_id": "MAP_FILE_ID_FROSTY_FOREST_END",
+    "has_scripts": true,
+    "approx_entities": 1,
+    "approx_cutscenes": 0,
+    "bgm": "MUS_IN_THE_DEPTHS_OF_THE_PIT"
+  },
+  {
+    "bpl_file": "D11P01",
+    "map_id": "MAP_FILE_ID_MT_FREEZE_ENTRY",
+    "has_scripts": true,
+    "approx_entities": 6,
+    "approx_cutscenes": 2,
+    "bgm": "MUS_ESCAPE_THROUGH_THE_SNOW"
+  },
+  {
+    "bpl_file": "D11P02",
+    "map_id": "MAP_FILE_ID_MT_FREEZE_MID",
+    "has_scripts": true,
+    "approx_entities": 2,
+    "approx_cutscenes": 0,
+    "bgm": "MUS_MT_FREEZE"
+  },
+  {
+    "bpl_file": "D11P03",
+    "map_id": "MAP_FILE_ID_MT_FREEZE_END",
+    "has_scripts": true,
+    "approx_entities": 3,
+    "approx_cutscenes": 1,
+    "bgm": "MUS_LEGEND_OF_NINETALES"
+  },
+  {
+    "bpl_file": "D12P01",
+    "map_id": "MAP_FILE_ID_MAGMA_CAVERN_ENTRY",
+    "has_scripts": true,
+    "approx_entities": 2,
+    "approx_cutscenes": 1,
+    "bgm": "MUS_MAGMA_CAVERN"
+  },
+  {
+    "bpl_file": "D12P02",
+    "map_id": "MAP_FILE_ID_MAGMA_CAVERN_MID",
+    "has_scripts": true,
+    "approx_entities": 2,
+    "approx_cutscenes": 0,
+    "bgm": "MUS_MAGMA_CAVERN"
+  },
+  {
+    "bpl_file": "D12P04",
+    "map_id": "MAP_FILE_ID_MAGMA_CAVERN_END",
+    "has_scripts": true,
+    "approx_entities": 1,
+    "approx_cutscenes": 0,
+    "bgm": "MUS_IN_THE_DEPTHS_OF_THE_PIT"
+  },
+  {
+    "bpl_file": "D13P01",
+    "map_id": "MAP_FILE_ID_SKY_TOWER_ENTRY",
+    "has_scripts": true,
+    "approx_entities": 1,
+    "approx_cutscenes": 1,
+    "bgm": "MUS_SKY_TOWER"
+  },
+  {
+    "bpl_file": "D13P02",
+    "map_id": "MAP_FILE_ID_SKY_TOWER_MID",
+    "has_scripts": true,
+    "approx_entities": 2,
+    "approx_cutscenes": 0,
+    "bgm": "MUS_SKY_TOWER"
+  },
+  {
+    "bpl_file": "D13P03",
+    "map_id": "MAP_FILE_ID_SKY_TOWER_END",
+    "has_scripts": true,
+    "approx_entities": 1,
+    "approx_cutscenes": 1,
+    "bgm": "MUS_RAYQUAZAS_DOMAIN"
+  },
+  {
+    "bpl_file": "D14P01",
+    "map_id": "MAP_FILE_ID_D14",
+    "has_scripts": true,
+    "approx_entities": 0,
+    "approx_cutscenes": 0,
+    "bgm": "MUS_THERES_TROUBLE"
+  },
+  {
+    "bpl_file": "D15P01",
+    "map_id": "MAP_FILE_ID_D15",
+    "has_scripts": true,
+    "approx_entities": 0,
+    "approx_cutscenes": 0,
+    "bgm": "MUS_THERES_TROUBLE"
+  },
+  {
+    "bpl_file": "D16P01",
+    "map_id": "MAP_FILE_ID_D16",
+    "has_scripts": true,
+    "approx_entities": 0,
+    "approx_cutscenes": 1,
+    "bgm": "MUS_IN_THE_DEPTHS_OF_THE_PIT"
+  },
+  {
+    "bpl_file": "D17P01",
+    "map_id": "MAP_FILE_ID_D17",
+    "has_scripts": true,
+    "approx_entities": 0,
+    "approx_cutscenes": 1,
+    "bgm": "MUS_IN_THE_DEPTHS_OF_THE_PIT"
+  },
+  {
+    "bpl_file": "D18P01",
+    "map_id": "MAP_FILE_ID_D18",
+    "has_scripts": true,
+    "approx_entities": 0,
+    "approx_cutscenes": 1,
+    "bgm": "MUS_IN_THE_DEPTHS_OF_THE_PIT"
+  },
+  {
+    "bpl_file": "D19P01",
+    "map_id": "MAP_FILE_ID_D19",
+    "has_scripts": true,
+    "approx_entities": 0,
+    "approx_cutscenes": 0,
+    "bgm": "MUS_THERES_TROUBLE"
+  },
+  {
+    "bpl_file": "D20P01",
+    "map_id": "MAP_FILE_ID_D20",
+    "has_scripts": true,
+    "approx_entities": 0,
+    "approx_cutscenes": 0,
+    "bgm": "MUS_THERES_TROUBLE"
+  },
+  {
+    "bpl_file": "D21P01",
+    "map_id": "MAP_FILE_ID_D21",
+    "has_scripts": true,
+    "approx_entities": 0,
+    "approx_cutscenes": 0,
+    "bgm": "MUS_IN_THE_DEPTHS_OF_THE_PIT"
+  },
+  {
+    "bpl_file": "D22P01",
+    "map_id": "MAP_FILE_ID_D22",
+    "has_scripts": true,
+    "approx_entities": 0,
+    "approx_cutscenes": 0,
+    "bgm": "Unknown"
+  },
+  {
+    "bpl_file": "D23P01",
+    "map_id": "MAP_FILE_ID_D23",
+    "has_scripts": true,
+    "approx_entities": 0,
+    "approx_cutscenes": 0,
+    "bgm": "MUS_IN_THE_DEPTHS_OF_THE_PIT"
+  },
+  {
+    "bpl_file": "D24P01",
+    "map_id": "MAP_FILE_ID_D24_1",
+    "has_scripts": true,
+    "approx_entities": 1,
+    "approx_cutscenes": 1,
+    "bgm": "MUS_IN_THE_DEPTHS_OF_THE_PIT"
+  },
+  {
+    "bpl_file": "D24P02",
+    "map_id": "MAP_FILE_ID_D24_2",
+    "has_scripts": true,
+    "approx_entities": 0,
+    "approx_cutscenes": 0,
+    "bgm": "MUS_STORMY_SEA"
+  },
+  {
+    "bpl_file": "D25P01",
+    "map_id": "MAP_FILE_ID_D25",
+    "has_scripts": true,
+    "approx_entities": 0,
+    "approx_cutscenes": 0,
+    "bgm": "MUS_IN_THE_DEPTHS_OF_THE_PIT"
+  },
+  {
+    "bpl_file": "H01P01",
+    "map_id": "MAP_FILE_ID_FRIEND_AREA_BOUNTIFUL_SEA",
+    "has_scripts": true,
+    "approx_entities": 2,
+    "approx_cutscenes": 0,
+    "bgm": "MUS_FRIEND_AREA_OCEANIC"
+  },
+  {
+    "bpl_file": "H01P01W",
+    "map_id": "MAP_FILE_ID_UNK_107",
+    "has_scripts": false,
+    "approx_entities": 0,
+    "approx_cutscenes": 0,
+    "bgm": "Unknown"
+  },
+  {
+    "bpl_file": "H01P02",
+    "map_id": "MAP_FILE_ID_FRIEND_AREA_TREASURE_SEA",
+    "has_scripts": true,
+    "approx_entities": 2,
+    "approx_cutscenes": 0,
+    "bgm": "MUS_FRIEND_AREA_OCEANIC"
+  },
+  {
+    "bpl_file": "H01P03",
+    "map_id": "MAP_FILE_ID_FRIEND_AREA_SERENE_SEA",
+    "has_scripts": true,
+    "approx_entities": 2,
+    "approx_cutscenes": 0,
+    "bgm": "MUS_FRIEND_AREA_OCEANIC"
+  },
+  {
+    "bpl_file": "H02P01",
+    "map_id": "MAP_FILE_ID_FRIEND_AREA_DEEP_SEA_FLOOR",
+    "has_scripts": true,
+    "approx_entities": 2,
+    "approx_cutscenes": 0,
+    "bgm": "MUS_FRIEND_AREA_OCEANIC"
+  },
+  {
+    "bpl_file": "H02P01W",
+    "map_id": "MAP_FILE_ID_UNK_111",
+    "has_scripts": false,
+    "approx_entities": 0,
+    "approx_cutscenes": 0,
+    "bgm": "Unknown"
+  },
+  {
+    "bpl_file": "H02P02",
+    "map_id": "MAP_FILE_ID_FRIEND_AREA_DEEP_SEA_CURRENT",
+    "has_scripts": true,
+    "approx_entities": 2,
+    "approx_cutscenes": 0,
+    "bgm": "MUS_FRIEND_AREA_DEEPSEA_CURRENT"
+  },
+  {
+    "bpl_file": "H02P02W",
+    "map_id": "MAP_FILE_ID_UNK_113",
+    "has_scripts": false,
+    "approx_entities": 0,
+    "approx_cutscenes": 0,
+    "bgm": "Unknown"
+  },
+  {
+    "bpl_file": "H02P03",
+    "map_id": "MAP_FILE_ID_FRIEND_AREA_SEAFLOOR_CAVE",
+    "has_scripts": true,
+    "approx_entities": 2,
+    "approx_cutscenes": 0,
+    "bgm": "MUS_FRIEND_AREA_SEAFLOOR_CAVE"
+  },
+  {
+    "bpl_file": "H02P03W",
+    "map_id": "MAP_FILE_ID_UNK_115",
+    "has_scripts": false,
+    "approx_entities": 0,
+    "approx_cutscenes": 0,
+    "bgm": "Unknown"
+  },
+  {
+    "bpl_file": "H03P01",
+    "map_id": "MAP_FILE_ID_FRIEND_AREA_SHALLOW_BEACH",
+    "has_scripts": true,
+    "approx_entities": 2,
+    "approx_cutscenes": 0,
+    "bgm": "MUS_FRIEND_AREA_POND"
+  },
+  {
+    "bpl_file": "H04P01",
+    "map_id": "MAP_FILE_ID_FRIEND_AREA_MT_DEEPGREEN",
+    "has_scripts": true,
+    "approx_entities": 2,
+    "approx_cutscenes": 0,
+    "bgm": "MUS_FRIEND_AREA_STEPPE"
+  },
+  {
+    "bpl_file": "H04P02",
+    "map_id": "MAP_FILE_ID_FRIEND_AREA_MT_CLEFT",
+    "has_scripts": true,
+    "approx_entities": 2,
+    "approx_cutscenes": 0,
+    "bgm": "MUS_FRIEND_AREA_FIELD"
+  },
+  {
+    "bpl_file": "H05P01",
+    "map_id": "MAP_FILE_ID_FRIEND_AREA_MT_MOONVIEW",
+    "has_scripts": true,
+    "approx_entities": 2,
+    "approx_cutscenes": 0,
+    "bgm": "MUS_FRIEND_AREA_FOREST"
+  },
+  {
+    "bpl_file": "H05P02",
+    "map_id": "MAP_FILE_ID_FRIEND_AREA_RAINBOW_PEAK",
+    "has_scripts": true,
+    "approx_entities": 2,
+    "approx_cutscenes": 0,
+    "bgm": "MUS_FRIEND_AREA_RAINBOW_PEAK"
+  },
+  {
+    "bpl_file": "H06P01",
+    "map_id": "MAP_FILE_ID_FRIEND_AREA_WILD_PLAINS",
+    "has_scripts": true,
+    "approx_entities": 2,
+    "approx_cutscenes": 0,
+    "bgm": "MUS_FRIEND_AREA_FIELD"
+  },
+  {
+    "bpl_file": "H06P02",
+    "map_id": "MAP_FILE_ID_FRIEND_AREA_BEAU_PLAINS",
+    "has_scripts": true,
+    "approx_entities": 2,
+    "approx_cutscenes": 0,
+    "bgm": "MUS_FRIEND_AREA_FIELD"
+  },
+  {
+    "bpl_file": "H06P03",
+    "map_id": "MAP_FILE_ID_FRIEND_AREA_SKY_BLUE_PLAINS",
+    "has_scripts": true,
+    "approx_entities": 2,
+    "approx_cutscenes": 0,
+    "bgm": "MUS_FRIEND_AREA_STEPPE"
+  },
+  {
+    "bpl_file": "H06P04",
+    "map_id": "MAP_FILE_ID_FRIEND_AREA_SAFARI",
+    "has_scripts": true,
+    "approx_entities": 2,
+    "approx_cutscenes": 0,
+    "bgm": "MUS_FRIEND_AREA_STEPPE"
+  },
+  {
+    "bpl_file": "H06P05",
+    "map_id": "MAP_FILE_ID_FRIEND_AREA_SCORCHED_PLAINS",
+    "has_scripts": true,
+    "approx_entities": 2,
+    "approx_cutscenes": 0,
+    "bgm": "MUS_FRIEND_AREA_FIELD"
+  },
+  {
+    "bpl_file": "H06P06",
+    "map_id": "MAP_FILE_ID_FRIEND_AREA_SACRED_FIELD",
+    "has_scripts": true,
+    "approx_entities": 2,
+    "approx_cutscenes": 0,
+    "bgm": "MUS_FRIEND_AREA_FIELD"
+  },
+  {
+    "bpl_file": "H07P01",
+    "map_id": "MAP_FILE_ID_FRIEND_AREA_MIST_RISE_FOREST",
+    "has_scripts": true,
+    "approx_entities": 2,
+    "approx_cutscenes": 0,
+    "bgm": "MUS_FRIEND_AREA_FOREST"
+  },
+  {
+    "bpl_file": "H07P02",
+    "map_id": "MAP_FILE_ID_FRIEND_AREA_FLYAWAY_FOREST",
+    "has_scripts": true,
+    "approx_entities": 2,
+    "approx_cutscenes": 0,
+    "bgm": "MUS_FRIEND_AREA_FOREST"
+  },
+  {
+    "bpl_file": "H07P03",
+    "map_id": "MAP_FILE_ID_FRIEND_AREA_OVERGROWN_FOREST",
+    "has_scripts": true,
+    "approx_entities": 2,
+    "approx_cutscenes": 0,
+    "bgm": "MUS_FRIEND_AREA_FOREST"
+  },
+  {
+    "bpl_file": "H07P04",
+    "map_id": "MAP_FILE_ID_FRIEND_AREA_ENERGETIC_FOREST",
+    "has_scripts": true,
+    "approx_entities": 2,
+    "approx_cutscenes": 0,
+    "bgm": "MUS_FRIEND_AREA_FOREST"
+  },
+  {
+    "bpl_file": "H07P04W",
+    "map_id": "MAP_FILE_ID_UNK_131",
+    "has_scripts": false,
+    "approx_entities": 0,
+    "approx_cutscenes": 0,
+    "bgm": "Unknown"
+  },
+  {
+    "bpl_file": "H07P05",
+    "map_id": "MAP_FILE_ID_FRIEND_AREA_MUSHROOM_FOREST",
+    "has_scripts": true,
+    "approx_entities": 2,
+    "approx_cutscenes": 0,
+    "bgm": "MUS_FRIEND_AREA_FOREST"
+  },
+  {
+    "bpl_file": "H07P06",
+    "map_id": "MAP_FILE_ID_FRIEND_AREA_HEALING_FOREST",
+    "has_scripts": true,
+    "approx_entities": 2,
+    "approx_cutscenes": 0,
+    "bgm": "MUS_FRIEND_AREA_HEALING_FOREST"
+  },
+  {
+    "bpl_file": "H07P07",
+    "map_id": "MAP_FILE_ID_FRIEND_AREA_TRANSFORM_FOREST",
+    "has_scripts": true,
+    "approx_entities": 2,
+    "approx_cutscenes": 0,
+    "bgm": "MUS_FRIEND_AREA_FOREST"
+  },
+  {
+    "bpl_file": "H07P08",
+    "map_id": "MAP_FILE_ID_FRIEND_AREA_SECRETIVE_FOREST",
+    "has_scripts": true,
+    "approx_entities": 2,
+    "approx_cutscenes": 0,
+    "bgm": "MUS_FRIEND_AREA_FOREST"
+  },
+  {
+    "bpl_file": "H08P01",
+    "map_id": "MAP_FILE_ID_FRIEND_AREA_RUB_A_DUB_RIVER",
+    "has_scripts": true,
+    "approx_entities": 2,
+    "approx_cutscenes": 0,
+    "bgm": "MUS_FRIEND_AREA_POND"
+  },
+  {
+    "bpl_file": "H09P01",
+    "map_id": "MAP_FILE_ID_FRIEND_AREA_TADPOLE_POND",
+    "has_scripts": true,
+    "approx_entities": 2,
+    "approx_cutscenes": 0,
+    "bgm": "MUS_FRIEND_AREA_POND"
+  },
+  {
+    "bpl_file": "H09P02",
+    "map_id": "MAP_FILE_ID_FRIEND_AREA_TURTLESHELL_POND",
+    "has_scripts": true,
+    "approx_entities": 2,
+    "approx_cutscenes": 0,
+    "bgm": "MUS_FRIEND_AREA_POND"
+  },
+  {
+    "bpl_file": "H10P01",
+    "map_id": "MAP_FILE_ID_FRIEND_AREA_MYSTIC_LAKE",
+    "has_scripts": true,
+    "approx_entities": 2,
+    "approx_cutscenes": 0,
+    "bgm": "MUS_FRIEND_AREA_OCEANIC"
+  },
+  {
+    "bpl_file": "H10P02",
+    "map_id": "MAP_FILE_ID_FRIEND_AREA_WATERFALL_LAKE",
+    "has_scripts": true,
+    "approx_entities": 2,
+    "approx_cutscenes": 0,
+    "bgm": "MUS_FRIEND_AREA_POND"
+  },
+  {
+    "bpl_file": "H11P01",
+    "map_id": "MAP_FILE_ID_FRIEND_AREA_PEANUT_SWAMP",
+    "has_scripts": true,
+    "approx_entities": 2,
+    "approx_cutscenes": 0,
+    "bgm": "MUS_FRIEND_AREA_SWAMP"
+  },
+  {
+    "bpl_file": "H12P01",
+    "map_id": "MAP_FILE_ID_FRIEND_AREA_POISON_SWAMP",
+    "has_scripts": true,
+    "approx_entities": 2,
+    "approx_cutscenes": 0,
+    "bgm": "MUS_FRIEND_AREA_SWAMP"
+  },
+  {
+    "bpl_file": "H13P01",
+    "map_id": "MAP_FILE_ID_FRIEND_AREA_ECHO_CAVE",
+    "has_scripts": true,
+    "approx_entities": 2,
+    "approx_cutscenes": 0,
+    "bgm": "MUS_FRIEND_AREA_CAVES"
+  },
+  {
+    "bpl_file": "H13P02",
+    "map_id": "MAP_FILE_ID_FRIEND_AREA_CRYPTIC_CAVE",
+    "has_scripts": true,
+    "approx_entities": 2,
+    "approx_cutscenes": 0,
+    "bgm": "MUS_FRIEND_AREA_CRYPTIC_CAVE"
+  },
+  {
+    "bpl_file": "H13P03",
+    "map_id": "MAP_FILE_ID_FRIEND_AREA_DRAGON_CAVE",
+    "has_scripts": true,
+    "approx_entities": 2,
+    "approx_cutscenes": 0,
+    "bgm": "MUS_FRIEND_AREA_CAVES"
+  },
+  {
+    "bpl_file": "H13P04",
+    "map_id": "MAP_FILE_ID_FRIEND_AREA_BOULDER_CAVE",
+    "has_scripts": true,
+    "approx_entities": 2,
+    "approx_cutscenes": 0,
+    "bgm": "MUS_FRIEND_AREA_CAVES"
+  },
+  {
+    "bpl_file": "H14P01",
+    "map_id": "MAP_FILE_ID_FRIEND_AREA_JUNGLE",
+    "has_scripts": true,
+    "approx_entities": 2,
+    "approx_cutscenes": 0,
+    "bgm": "MUS_FRIEND_AREA_WILDS"
+  },
+  {
+    "bpl_file": "H15P01",
+    "map_id": "MAP_FILE_ID_FRIEND_AREA_DECREPIT_LAB",
+    "has_scripts": true,
+    "approx_entities": 2,
+    "approx_cutscenes": 0,
+    "bgm": "MUS_FRIEND_AREA_LAB"
+  },
+  {
+    "bpl_file": "H16P01",
+    "map_id": "MAP_FILE_ID_FRIEND_AREA_MT_DISCIPLINE",
+    "has_scripts": true,
+    "approx_entities": 2,
+    "approx_cutscenes": 0,
+    "bgm": "MUS_FRIEND_AREA_WILDS"
+  },
+  {
+    "bpl_file": "H17P01",
+    "map_id": "MAP_FILE_ID_FRIEND_AREA_THUNDER_MEADOW",
+    "has_scripts": true,
+    "approx_entities": 2,
+    "approx_cutscenes": 0,
+    "bgm": "MUS_FRIEND_AREA_WILDS"
+  },
+  {
+    "bpl_file": "H17P01W",
+    "map_id": "MAP_FILE_ID_UNK_151",
+    "has_scripts": false,
+    "approx_entities": 0,
+    "approx_cutscenes": 0,
+    "bgm": "Unknown"
+  },
+  {
+    "bpl_file": "H18P01",
+    "map_id": "MAP_FILE_ID_FRIEND_AREA_POWER_PLANT",
+    "has_scripts": true,
+    "approx_entities": 2,
+    "approx_cutscenes": 0,
+    "bgm": "MUS_FRIEND_AREA_LAB"
+  },
+  {
+    "bpl_file": "H19P01",
+    "map_id": "MAP_FILE_ID_FRIEND_AREA_CRATER",
+    "has_scripts": true,
+    "approx_entities": 2,
+    "approx_cutscenes": 0,
+    "bgm": "MUS_FRIEND_AREA_CAVES"
+  },
+  {
+    "bpl_file": "H19P01W",
+    "map_id": "MAP_FILE_ID_UNK_154",
+    "has_scripts": false,
+    "approx_entities": 0,
+    "approx_cutscenes": 0,
+    "bgm": "Unknown"
+  },
+  {
+    "bpl_file": "H20P01",
+    "map_id": "MAP_FILE_ID_FRIEND_AREA_FURNACE_DESERT",
+    "has_scripts": true,
+    "approx_entities": 2,
+    "approx_cutscenes": 0,
+    "bgm": "MUS_FRIEND_AREA_WILDS"
+  },
+  {
+    "bpl_file": "H21P01",
+    "map_id": "MAP_FILE_ID_FRIEND_AREA_AGED_CHAMBER_AN",
+    "has_scripts": true,
+    "approx_entities": 2,
+    "approx_cutscenes": 0,
+    "bgm": "MUS_FRIEND_AREA_CAVES"
+  },
+  {
+    "bpl_file": "H21P02",
+    "map_id": "MAP_FILE_ID_FRIEND_AREA_AGED_CHAMBER_O_EXCLAIM",
+    "has_scripts": true,
+    "approx_entities": 2,
+    "approx_cutscenes": 0,
+    "bgm": "MUS_FRIEND_AREA_CAVES"
+  },
+  {
+    "bpl_file": "H22P01",
+    "map_id": "MAP_FILE_ID_FRIEND_AREA_ANCIENT_RELIC",
+    "has_scripts": true,
+    "approx_entities": 2,
+    "approx_cutscenes": 0,
+    "bgm": "MUS_FRIEND_AREA_CAVES"
+  },
+  {
+    "bpl_file": "H23P01",
+    "map_id": "MAP_FILE_ID_FRIEND_AREA_DARKNESS_RIDGE",
+    "has_scripts": true,
+    "approx_entities": 2,
+    "approx_cutscenes": 0,
+    "bgm": "MUS_FRIEND_AREA_SWAMP"
+  },
+  {
+    "bpl_file": "H24P01",
+    "map_id": "MAP_FILE_ID_FRIEND_AREA_FRIGID_CAVERN",
+    "has_scripts": true,
+    "approx_entities": 2,
+    "approx_cutscenes": 0,
+    "bgm": "MUS_FRIEND_AREA_OCEANIC"
+  },
+  {
+    "bpl_file": "H25P01",
+    "map_id": "MAP_FILE_ID_FRIEND_AREA_ICE_FLOE_BEACH",
+    "has_scripts": true,
+    "approx_entities": 2,
+    "approx_cutscenes": 0,
+    "bgm": "MUS_FRIEND_AREA_OCEANIC"
+  },
+  {
+    "bpl_file": "H26P01",
+    "map_id": "MAP_FILE_ID_FRIEND_AREA_VOLCANIC_PIT",
+    "has_scripts": true,
+    "approx_entities": 2,
+    "approx_cutscenes": 0,
+    "bgm": "MUS_FRIEND_AREA_VOLCANIC_PIT"
+  },
+  {
+    "bpl_file": "H27P01",
+    "map_id": "MAP_FILE_ID_FRIEND_AREA_STRATOS_LOOKOUT",
+    "has_scripts": true,
+    "approx_entities": 2,
+    "approx_cutscenes": 0,
+    "bgm": "MUS_FRIEND_AREA_STRATOS_LOOKOUT"
+  },
+  {
+    "bpl_file": "H28P01",
+    "map_id": "MAP_FILE_ID_FRIEND_AREA_RAVAGED_FIELD",
+    "has_scripts": true,
+    "approx_entities": 2,
+    "approx_cutscenes": 0,
+    "bgm": "MUS_FRIEND_AREA_WILDS"
+  },
+  {
+    "bpl_file": "H28P02",
+    "map_id": "MAP_FILE_ID_FRIEND_AREA_MAGNETIC_QUARRY",
+    "has_scripts": true,
+    "approx_entities": 2,
+    "approx_cutscenes": 0,
+    "bgm": "MUS_FRIEND_AREA_WILDS"
+  },
+  {
+    "bpl_file": "H29P01",
+    "map_id": "MAP_FILE_ID_FRIEND_AREA_LEGENDARY_ISLAND",
+    "has_scripts": true,
+    "approx_entities": 2,
+    "approx_cutscenes": 0,
+    "bgm": "MUS_FRIEND_AREA_LEGENDARY_ISLAND"
+  },
+  {
+    "bpl_file": "H29P02",
+    "map_id": "MAP_FILE_ID_FRIEND_AREA_SOUTHERN_ISLAND",
+    "has_scripts": true,
+    "approx_entities": 2,
+    "approx_cutscenes": 0,
+    "bgm": "MUS_FRIEND_AREA_SOUTHERN_ISLAND"
+  },
+  {
+    "bpl_file": "H29P03",
+    "map_id": "MAP_FILE_ID_FRIEND_AREA_ENCLOSED_ISLAND",
+    "has_scripts": true,
+    "approx_entities": 2,
+    "approx_cutscenes": 0,
+    "bgm": "MUS_FRIEND_AREA_ENCLOSED_ISLAND"
+  },
+  {
+    "bpl_file": "H29P03W",
+    "map_id": "MAP_FILE_ID_UNK_169",
+    "has_scripts": false,
+    "approx_entities": 0,
+    "approx_cutscenes": 0,
+    "bgm": "Unknown"
+  },
+  {
+    "bpl_file": "H29P04",
+    "map_id": "MAP_FILE_ID_FRIEND_AREA_FINAL_ISLAND",
+    "has_scripts": true,
+    "approx_entities": 2,
+    "approx_cutscenes": 0,
+    "bgm": "MUS_FRIEND_AREA_FINAL_ISLAND"
+  },
+  {
+    "bpl_file": "S01",
+    "map_id": "MAP_FILE_ID_PERSONALITY_TEST_MULTICOLOR",
+    "has_scripts": true,
+    "approx_entities": 0,
+    "approx_cutscenes": 0,
+    "bgm": "MUS_WELCOME_TO_THE_WORLD_OF_POKEMON"
+  },
+  {
+    "bpl_file": "S02",
+    "map_id": "MAP_FILE_ID_TITLE_SCREEN",
+    "has_scripts": true,
+    "approx_entities": 0,
+    "approx_cutscenes": 1,
+    "bgm": "MUS_OPENING_TITLE"
+  },
+  {
+    "bpl_file": "S03",
+    "map_id": "MAP_FILE_ID_INTRO",
+    "has_scripts": true,
+    "approx_entities": 0,
+    "approx_cutscenes": 0,
+    "bgm": "MUS_INTRO"
+  },
+  {
+    "bpl_file": "S04",
+    "map_id": "MAP_FILE_ID_LOGO_POKEMON_COMPANY",
+    "has_scripts": true,
+    "approx_entities": 0,
+    "approx_cutscenes": 0,
+    "bgm": "Unknown"
+  },
+  {
+    "bpl_file": "S05",
+    "map_id": "MAP_FILE_ID_LOGO_WARNING",
+    "has_scripts": true,
+    "approx_entities": 0,
+    "approx_cutscenes": 0,
+    "bgm": "Unknown"
+  },
+  {
+    "bpl_file": "S06",
+    "map_id": "MAP_FILE_ID_TEAM_BASE_WALL_MAP",
+    "has_scripts": true,
+    "approx_entities": 0,
+    "approx_cutscenes": 0,
+    "bgm": "Unknown"
+  },
+  {
+    "bpl_file": "T00P01",
+    "map_id": "MAP_FILE_ID_COUNT",
+    "has_scripts": true,
+    "approx_entities": 3,
+    "approx_cutscenes": 1,
+    "bgm": "MUS_POKEMON_SQUARE"
+  },
+  {
+    "bpl_file": "T01P01",
+    "map_id": "MAP_FILE_ID_POKEMON_SQUARE",
+    "has_scripts": true,
+    "approx_entities": 39,
+    "approx_cutscenes": 9,
+    "bgm": "MUS_POKEMON_SQUARE"
+  },
+  {
+    "bpl_file": "T01P02A",
+    "map_id": "MAP_FILE_ID_WHISCASH_POND",
+    "has_scripts": true,
+    "approx_entities": 16,
+    "approx_cutscenes": 3,
+    "bgm": "MUS_FILE_SELECT"
+  },
+  {
+    "bpl_file": "T01P02B",
+    "map_id": "MAP_FILE_ID_WHISCASH_POND_OPEN",
+    "has_scripts": false,
+    "approx_entities": 0,
+    "approx_cutscenes": 0,
+    "bgm": "Unknown"
+  },
+  {
+    "bpl_file": "T01P03",
+    "map_id": "MAP_FILE_ID_PELIPPER_POST_OFFICE",
+    "has_scripts": true,
+    "approx_entities": 21,
+    "approx_cutscenes": 5,
+    "bgm": "MUS_POKEMON_SQUARE"
+  },
+  {
+    "bpl_file": "T01P04",
+    "map_id": "MAP_FILE_ID_PELIPPER_POST_OFFICE_INSIDE",
+    "has_scripts": true,
+    "approx_entities": 3,
+    "approx_cutscenes": 0,
+    "bgm": "MUS_POKEMON_SQUARE"
+  },
+  {
+    "bpl_file": "T01P05",
+    "map_id": "MAP_FILE_ID_MAKUHITA_DOJO",
+    "has_scripts": true,
+    "approx_entities": 3,
+    "approx_cutscenes": 0,
+    "bgm": "MUS_POKEMON_SQUARE"
+  },
+  {
+    "bpl_file": "T01P06",
+    "map_id": "MAP_FILE_ID_MAKUHITA_DOJO_INSIDE",
+    "has_scripts": true,
+    "approx_entities": 1,
+    "approx_cutscenes": 0,
+    "bgm": "MUS_MAKUHITA_DOJO"
+  },
+  {
+    "bpl_file": "T01P07",
+    "map_id": "MAP_FILE_ID_LUMINOUS_CAVE",
+    "has_scripts": true,
+    "approx_entities": 1,
+    "approx_cutscenes": 1,
+    "bgm": "MUS_FILE_SELECT"
+  },
+  {
+    "bpl_file": "T01P07W",
+    "map_id": "MAP_FILE_ID_UNK_9",
+    "has_scripts": false,
+    "approx_entities": 0,
+    "approx_cutscenes": 0,
+    "bgm": "Unknown"
+  },
+  {
+    "bpl_file": "W01",
+    "map_id": "MAP_FILE_ID_W01",
+    "has_scripts": false,
+    "approx_entities": 0,
+    "approx_cutscenes": 0,
+    "bgm": "Unknown"
+  },
+  {
+    "bpl_file": "W03P01",
+    "map_id": "MAP_FILE_ID_W03_PO1",
+    "has_scripts": false,
+    "approx_entities": 0,
+    "approx_cutscenes": 0,
+    "bgm": "Unknown"
+  },
+  {
+    "bpl_file": "W03P02",
+    "map_id": "MAP_FILE_ID_W03_PO2",
+    "has_scripts": false,
+    "approx_entities": 0,
+    "approx_cutscenes": 0,
+    "bgm": "Unknown"
+  },
+  {
+    "bpl_file": "W03P03",
+    "map_id": "MAP_FILE_ID_W03_PO3",
+    "has_scripts": false,
+    "approx_entities": 0,
+    "approx_cutscenes": 0,
+    "bgm": "Unknown"
+  },
+  {
+    "bpl_file": "W04",
+    "map_id": "MAP_FILE_ID_W04",
+    "has_scripts": false,
+    "approx_entities": 0,
+    "approx_cutscenes": 0,
+    "bgm": "Unknown"
+  },
+  {
+    "bpl_file": "W05",
+    "map_id": "MAP_FILE_ID_W05",
+    "has_scripts": false,
+    "approx_entities": 0,
+    "approx_cutscenes": 0,
+    "bgm": "Unknown"
+  },
+  {
+    "bpl_file": "W06",
+    "map_id": "MAP_FILE_ID_W06",
+    "has_scripts": false,
+    "approx_entities": 0,
+    "approx_cutscenes": 0,
+    "bgm": "Unknown"
+  }
+]

@@ -1,0 +1,37 @@
+{
+  "$type": "PMDC.Data.MonsterData, PMDC",
+  "Name": {
+    "DefaultText": "Bulbasaur",
+    "LocalTexts": {}
+  },
+  "Released": true,
+  "Comment": "Converted from PMD Red ID: 1",
+  "Title": {
+    "DefaultText": "Pokémon",
+    "LocalTexts": {}
+  },
+  "IndexNum": 1,
+  "ExpYield": 50,
+  "JoinRate": 10,
+  "Forms": [
+    {
+      "$type": "RogueEssence.Data.BaseMonsterForm, RogueEssence",
+      "FormName": {
+        "DefaultText": "",
+        "LocalTexts": {}
+      },
+      "Element1": "grass",
+      "Element2": "poison",
+      "Intrinsic1": "overgrow",
+      "Intrinsic2": "none",
+      "Intrinsic3": "none",
+      "LevelSkills": [],
+      "BaseStatHP": 45,
+      "BaseStatAttack": 49,
+      "BaseStatDefense": 49,
+      "BaseStatSpAtk": 65,
+      "BaseStatSpDef": 65,
+      "BaseStatSpeed": 45
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "$type": "PMDC.Data.SkillData, PMDC",
+  "Name": {
+    "DefaultText": "Tackle",
+    "LocalTexts": {}
+  },
+  "Desc": {
+    "DefaultText": "Converted skill.",
+    "LocalTexts": {}
+  },
+  "Released": true,
+  "Comment": "Converted from PMD Red ID: 33",
+  "Element": "normal",
+  "Category": "Physical",
+  "BaseCharges": 35,
+  "BaseHitRate": 100,
+  "HitRateStat": "RogueEssence.Data.Stat.Accuracy",
+  "Data": {
+    "$type": "RogueEssence.Data.BattleData, RogueEssence",
+    "ActionType": 0,
+    "Element": "normal",
+    "Category": "Physical",
+    "HitRate": 100,
+    "SkillStates": [],
+    "BeforeEffects": [],
+    "BeforeHitEffects": [],
+    "OnHits": [
+      {
+        "$type": "PMDC.Dungeon.DamageAnimEvent, PMDC",
+        "Damage": 40
+      }
+    ],
+    "OnEffects": []
+  }
+}

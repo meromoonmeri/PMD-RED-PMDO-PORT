@@ -1,0 +1,19 @@
+<!-- RogueElements FloorPlan / PMDO Dungeon Pack Generator -->
+<!-- Source: PMD Red (SKY_TOWER_SUMMIT) -->
+<FloorPlan>
+  <Name>Sky Tower Summit</Name>
+  <Spawns>
+    <MobSpawn>
+      <Species>geodude</Species>
+      <Rate>10</Rate>
+    </MobSpawn>
+    <MobSpawn>
+      <Species>machop</Species>
+      <Rate>10</Rate>
+    </MobSpawn>
+    <MobSpawn>
+      <Species>zubat</Species>
+      <Rate>10</Rate>
+    </MobSpawn>
+  </Spawns>
+</FloorPlan>

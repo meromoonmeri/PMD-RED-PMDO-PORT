@@ -1,0 +1,786 @@
+{
+  "DUNGEON_TINY_WOODS": {
+    "id": 0,
+    "spawns": [
+      "zubat",
+      "geodude",
+      "machop"
+    ]
+  },
+  "DUNGEON_THUNDERWAVE_CAVE": {
+    "id": 1,
+    "spawns": [
+      "zubat",
+      "geodude",
+      "machop"
+    ]
+  },
+  "DUNGEON_MT_STEEL": {
+    "id": 2,
+    "spawns": [
+      "zubat",
+      "geodude",
+      "machop"
+    ]
+  },
+  "DUNGEON_SINISTER_WOODS": {
+    "id": 3,
+    "spawns": [
+      "zubat",
+      "geodude",
+      "machop"
+    ]
+  },
+  "DUNGEON_SILENT_CHASM": {
+    "id": 4,
+    "spawns": [
+      "zubat",
+      "geodude",
+      "machop"
+    ]
+  },
+  "DUNGEON_MT_THUNDER": {
+    "id": 5,
+    "spawns": [
+      "zubat",
+      "geodude",
+      "machop"
+    ]
+  },
+  "DUNGEON_MT_THUNDER_PEAK": {
+    "id": 6,
+    "spawns": [
+      "zubat",
+      "geodude",
+      "machop"
+    ]
+  },
+  "DUNGEON_GREAT_CANYON": {
+    "id": 7,
+    "spawns": [
+      "zubat",
+      "geodude",
+      "machop"
+    ]
+  },
+  "DUNGEON_LAPIS_CAVE": {
+    "id": 8,
+    "spawns": [
+      "zubat",
+      "geodude",
+      "machop"
+    ]
+  },
+  "DUNGEON_MT_BLAZE": {
+    "id": 9,
+    "spawns": [
+      "zubat",
+      "geodude",
+      "machop"
+    ]
+  },
+  "DUNGEON_MT_BLAZE_PEAK": {
+    "id": 10,
+    "spawns": [
+      "zubat",
+      "geodude",
+      "machop"
+    ]
+  },
+  "DUNGEON_FROSTY_FOREST": {
+    "id": 11,
+    "spawns": [
+      "zubat",
+      "geodude",
+      "machop"
+    ]
+  },
+  "DUNGEON_FROSTY_GROTTO": {
+    "id": 12,
+    "spawns": [
+      "zubat",
+      "geodude",
+      "machop"
+    ]
+  },
+  "DUNGEON_MT_FREEZE": {
+    "id": 13,
+    "spawns": [
+      "zubat",
+      "geodude",
+      "machop"
+    ]
+  },
+  "DUNGEON_MT_FREEZE_PEAK": {
+    "id": 14,
+    "spawns": [
+      "zubat",
+      "geodude",
+      "machop"
+    ]
+  },
+  "DUNGEON_MAGMA_CAVERN": {
+    "id": 15,
+    "spawns": [
+      "zubat",
+      "geodude",
+      "machop"
+    ]
+  },
+  "DUNGEON_MAGMA_CAVERN_PIT": {
+    "id": 16,
+    "spawns": [
+      "zubat",
+      "geodude",
+      "machop"
+    ]
+  },
+  "DUNGEON_SKY_TOWER": {
+    "id": 17,
+    "spawns": [
+      "zubat",
+      "geodude",
+      "machop"
+    ]
+  },
+  "DUNGEON_SKY_TOWER_SUMMIT": {
+    "id": 18,
+    "spawns": [
+      "zubat",
+      "geodude",
+      "machop"
+    ]
+  },
+  "DUNGEON_STORMY_SEA": {
+    "id": 19,
+    "spawns": [
+      "zubat",
+      "geodude",
+      "machop"
+    ]
+  },
+  "DUNGEON_SILVER_TRENCH": {
+    "id": 20,
+    "spawns": [
+      "zubat",
+      "geodude",
+      "machop"
+    ]
+  },
+  "DUNGEON_METEOR_CAVE": {
+    "id": 21,
+    "spawns": [
+      "zubat",
+      "geodude",
+      "machop"
+    ]
+  },
+  "DUNGEON_MT_FREEZE_PEAK_2": {
+    "id": 22,
+    "spawns": [
+      "zubat",
+      "geodude",
+      "machop"
+    ]
+  },
+  "DUNGEON_WESTERN_CAVE": {
+    "id": 23,
+    "spawns": [
+      "zubat",
+      "geodude",
+      "machop"
+    ]
+  },
+  "DUNGEON_BOSS_3": {
+    "id": 24,
+    "spawns": [
+      "zubat",
+      "geodude",
+      "machop"
+    ]
+  },
+  "DUNGEON_BOSS_4": {
+    "id": 25,
+    "spawns": [
+      "zubat",
+      "geodude",
+      "machop"
+    ]
+  },
+  "DUNGEON_WISH_CAVE": {
+    "id": 26,
+    "spawns": [
+      "zubat",
+      "geodude",
+      "machop"
+    ]
+  },
+  "DUNGEON_BURIED_RELIC": {
+    "id": 27,
+    "spawns": [
+      "zubat",
+      "geodude",
+      "machop"
+    ]
+  },
+  "DUNGEON_PITFALL_VALLEY": {
+    "id": 28,
+    "spawns": [
+      "zubat",
+      "geodude",
+      "machop"
+    ]
+  },
+  "DUNGEON_NORTHERN_RANGE": {
+    "id": 29,
+    "spawns": [
+      "zubat",
+      "geodude",
+      "machop"
+    ]
+  },
+  "DUNGEON_BOSS_9": {
+    "id": 30,
+    "spawns": [
+      "zubat",
+      "geodude",
+      "machop"
+    ]
+  },
+  "DUNGEON_DESERT_REGION": {
+    "id": 31,
+    "spawns": [
+      "zubat",
+      "geodude",
+      "machop"
+    ]
+  },
+  "DUNGEON_SOUTHERN_CAVERN": {
+    "id": 32,
+    "spawns": [
+      "zubat",
+      "geodude",
+      "machop"
+    ]
+  },
+  "DUNGEON_WYVERN_HILL": {
+    "id": 33,
+    "spawns": [
+      "zubat",
+      "geodude",
+      "machop"
+    ]
+  },
+  "DUNGEON_FIERY_FIELD": {
+    "id": 34,
+    "spawns": [
+      "zubat",
+      "geodude",
+      "machop"
+    ]
+  },
+  "DUNGEON_NORTHWIND_FIELD": {
+    "id": 35,
+    "spawns": [
+      "zubat",
+      "geodude",
+      "machop"
+    ]
+  },
+  "DUNGEON_SOLAR_CAVE": {
+    "id": 36,
+    "spawns": [
+      "zubat",
+      "geodude",
+      "machop"
+    ]
+  },
+  "DUNGEON_LIGHTNING_FIELD": {
+    "id": 37,
+    "spawns": [
+      "zubat",
+      "geodude",
+      "machop"
+    ]
+  },
+  "DUNGEON_DARKNIGHT_RELIC": {
+    "id": 38,
+    "spawns": [
+      "zubat",
+      "geodude",
+      "machop"
+    ]
+  },
+  "DUNGEON_WONDROUS_SEA": {
+    "id": 39,
+    "spawns": [
+      "zubat",
+      "geodude",
+      "machop"
+    ]
+  },
+  "DUNGEON_MURKY_CAVE": {
+    "id": 40,
+    "spawns": [
+      "zubat",
+      "geodude",
+      "machop"
+    ]
+  },
+  "DUNGEON_GRAND_SEA": {
+    "id": 41,
+    "spawns": [
+      "zubat",
+      "geodude",
+      "machop"
+    ]
+  },
+  "DUNGEON_UPROAR_FOREST": {
+    "id": 42,
+    "spawns": [
+      "zubat",
+      "geodude",
+      "machop"
+    ]
+  },
+  "DUNGEON_ODDITY_CAVE": {
+    "id": 43,
+    "spawns": [
+      "zubat",
+      "geodude",
+      "machop"
+    ]
+  },
+  "DUNGEON_REMAINS_ISLAND": {
+    "id": 44,
+    "spawns": [
+      "zubat",
+      "geodude",
+      "machop"
+    ]
+  },
+  "DUNGEON_MARVELOUS_SEA": {
+    "id": 45,
+    "spawns": [
+      "zubat",
+      "geodude",
+      "machop"
+    ]
+  },
+  "DUNGEON_FANTASY_STRAIT": {
+    "id": 46,
+    "spawns": [
+      "zubat",
+      "geodude",
+      "machop"
+    ]
+  },
+  "DUNGEON_ROCK_PATH": {
+    "id": 47,
+    "spawns": [
+      "zubat",
+      "geodude",
+      "machop"
+    ]
+  },
+  "DUNGEON_SNOW_PATH": {
+    "id": 48,
+    "spawns": [
+      "zubat",
+      "geodude",
+      "machop"
+    ]
+  },
+  "DUNGEON_AUTOPILOT": {
+    "id": 49,
+    "spawns": [
+      "zubat",
+      "geodude",
+      "machop"
+    ]
+  },
+  "DUNGEON_D50": {
+    "id": 50,
+    "spawns": [
+      "zubat",
+      "geodude",
+      "machop"
+    ]
+  },
+  "DUNGEON_D51": {
+    "id": 51,
+    "spawns": [
+      "zubat",
+      "geodude",
+      "machop"
+    ]
+  },
+  "DUNGEON_NORMAL_MAZE": {
+    "id": 52,
+    "spawns": [
+      "zubat",
+      "geodude",
+      "machop"
+    ]
+  },
+  "DUNGEON_HOWLING_FOREST": {
+    "id": 53,
+    "spawns": [
+      "zubat",
+      "geodude",
+      "machop"
+    ]
+  },
+  "DUNGEON_D54": {
+    "id": 54,
+    "spawns": [
+      "zubat",
+      "geodude",
+      "machop"
+    ]
+  },
+  "DUNGEON_POISON_MAZE": {
+    "id": 55,
+    "spawns": [
+      "zubat",
+      "geodude",
+      "machop"
+    ]
+  },
+  "DUNGEON_WATERFALL_POND": {
+    "id": 56,
+    "spawns": [
+      "zubat",
+      "geodude",
+      "machop"
+    ]
+  },
+  "DUNGEON_UNOWN_RELIC": {
+    "id": 57,
+    "spawns": [
+      "zubat",
+      "geodude",
+      "machop"
+    ]
+  },
+  "DUNGEON_JOYOUS_TOWER": {
+    "id": 58,
+    "spawns": [
+      "zubat",
+      "geodude",
+      "machop"
+    ]
+  },
+  "DUNGEON_FAR_OFF_SEA": {
+    "id": 59,
+    "spawns": [
+      "zubat",
+      "geodude",
+      "machop"
+    ]
+  },
+  "DUNGEON_MT_FARAWAY": {
+    "id": 60,
+    "spawns": [
+      "zubat",
+      "geodude",
+      "machop"
+    ]
+  },
+  "DUNGEON_D61": {
+    "id": 61,
+    "spawns": [
+      "zubat",
+      "geodude",
+      "machop"
+    ]
+  },
+  "DUNGEON_PURITY_FOREST": {
+    "id": 62,
+    "spawns": [
+      "zubat",
+      "geodude",
+      "machop"
+    ]
+  },
+  "DUNGEON_OUT_ON_RESCUE": {
+    "id": 63,
+    "spawns": [
+      "zubat",
+      "geodude",
+      "machop"
+    ]
+  },
+  "DUNGEON_JOIN_LOCATION_LEADER": {
+    "id": 64,
+    "spawns": [
+      "zubat",
+      "geodude",
+      "machop"
+    ]
+  },
+  "DUNGEON_JOIN_LOCATION_PARTNER": {
+    "id": 65,
+    "spawns": [
+      "zubat",
+      "geodude",
+      "machop"
+    ]
+  },
+  "DUNGEON_UNKNOWN_WORLD": {
+    "id": 66,
+    "spawns": [
+      "zubat",
+      "geodude",
+      "machop"
+    ]
+  },
+  "DUNGEON_FROSTY_GROTTO_2": {
+    "id": 67,
+    "spawns": [
+      "zubat",
+      "geodude",
+      "machop"
+    ]
+  },
+  "DUNGEON_HOWLING_FOREST_2": {
+    "id": 68,
+    "spawns": [
+      "zubat",
+      "geodude",
+      "machop"
+    ]
+  },
+  "DUNGEON_POKEMON_SQUARE": {
+    "id": 69,
+    "spawns": [
+      "zubat",
+      "geodude",
+      "machop"
+    ]
+  },
+  "DUNGEON_POKEMON_SQUARE_2": {
+    "id": 70,
+    "spawns": [
+      "zubat",
+      "geodude",
+      "machop"
+    ]
+  },
+  "DUNGEON_RESCUE_TEAM_BASE": {
+    "id": 71,
+    "spawns": [
+      "zubat",
+      "geodude",
+      "machop"
+    ]
+  },
+  "DUNGEON_RESCUE_TEAM_BASE_2": {
+    "id": 72,
+    "spawns": [
+      "zubat",
+      "geodude",
+      "machop"
+    ]
+  },
+  "DUNGEON_AGB_SLOT": {
+    "id": 73,
+    "spawns": [
+      "zubat",
+      "geodude",
+      "machop"
+    ]
+  },
+  "DUNGEON_JOIN_LOCATION_CLIENT_POKEMON": {
+    "id": 74,
+    "spawns": [
+      "zubat",
+      "geodude",
+      "machop"
+    ]
+  },
+  "DUNGEON_NORMAL_MAZE_2": {
+    "id": 75,
+    "spawns": [
+      "zubat",
+      "geodude",
+      "machop"
+    ]
+  },
+  "DUNGEON_FIRE_MAZE": {
+    "id": 76,
+    "spawns": [
+      "zubat",
+      "geodude",
+      "machop"
+    ]
+  },
+  "DUNGEON_WATER_MAZE": {
+    "id": 77,
+    "spawns": [
+      "zubat",
+      "geodude",
+      "machop"
+    ]
+  },
+  "DUNGEON_GRASS_MAZE": {
+    "id": 78,
+    "spawns": [
+      "zubat",
+      "geodude",
+      "machop"
+    ]
+  },
+  "DUNGEON_ELECTRIC_MAZE": {
+    "id": 79,
+    "spawns": [
+      "zubat",
+      "geodude",
+      "machop"
+    ]
+  },
+  "DUNGEON_ICE_MAZE": {
+    "id": 80,
+    "spawns": [
+      "zubat",
+      "geodude",
+      "machop"
+    ]
+  },
+  "DUNGEON_FIGHTING_MAZE": {
+    "id": 81,
+    "spawns": [
+      "zubat",
+      "geodude",
+      "machop"
+    ]
+  },
+  "DUNGEON_GROUND_MAZE": {
+    "id": 82,
+    "spawns": [
+      "zubat",
+      "geodude",
+      "machop"
+    ]
+  },
+  "DUNGEON_FLYING_MAZE": {
+    "id": 83,
+    "spawns": [
+      "zubat",
+      "geodude",
+      "machop"
+    ]
+  },
+  "DUNGEON_PSYCHIC_MAZE": {
+    "id": 84,
+    "spawns": [
+      "zubat",
+      "geodude",
+      "machop"
+    ]
+  },
+  "DUNGEON_POISON_MAZE_2": {
+    "id": 85,
+    "spawns": [
+      "zubat",
+      "geodude",
+      "machop"
+    ]
+  },
+  "DUNGEON_BUG_MAZE": {
+    "id": 86,
+    "spawns": [
+      "zubat",
+      "geodude",
+      "machop"
+    ]
+  },
+  "DUNGEON_ROCK_MAZE": {
+    "id": 87,
+    "spawns": [
+      "zubat",
+      "geodude",
+      "machop"
+    ]
+  },
+  "DUNGEON_GHOST_MAZE": {
+    "id": 88,
+    "spawns": [
+      "zubat",
+      "geodude",
+      "machop"
+    ]
+  },
+  "DUNGEON_DRAGON_MAZE": {
+    "id": 89,
+    "spawns": [
+      "zubat",
+      "geodude",
+      "machop"
+    ]
+  },
+  "DUNGEON_DARK_MAZE": {
+    "id": 90,
+    "spawns": [
+      "zubat",
+      "geodude",
+      "machop"
+    ]
+  },
+  "DUNGEON_STEEL_MAZE": {
+    "id": 91,
+    "spawns": [
+      "zubat",
+      "geodude",
+      "machop"
+    ]
+  },
+  "DUNGEON_TEAM_SHIFTY": {
+    "id": 92,
+    "spawns": [
+      "zubat",
+      "geodude",
+      "machop"
+    ]
+  },
+  "DUNGEON_TEAM_CONSTRICTOR": {
+    "id": 93,
+    "spawns": [
+      "zubat",
+      "geodude",
+      "machop"
+    ]
+  },
+  "DUNGEON_TEAM_HYDRO": {
+    "id": 94,
+    "spawns": [
+      "zubat",
+      "geodude",
+      "machop"
+    ]
+  },
+  "DUNGEON_TEAM_RUMBLEROCK": {
+    "id": 95,
+    "spawns": [
+      "zubat",
+      "geodude",
+      "machop"
+    ]
+  },
+  "DUNGEON_RESCUE_TEAM_2": {
+    "id": 96,
+    "spawns": [
+      "zubat",
+      "geodude",
+      "machop"
+    ]
+  },
+  "DUNGEON_RESCUE_TEAM_MAZE": {
+    "id": 97,
+    "spawns": [
+      "zubat",
+      "geodude",
+      "machop"
+    ]
+  }
+}

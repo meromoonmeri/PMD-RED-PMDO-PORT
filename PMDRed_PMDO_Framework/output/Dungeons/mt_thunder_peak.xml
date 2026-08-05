@@ -1,0 +1,19 @@
+<!-- RogueElements FloorPlan / PMDO Dungeon Pack Generator -->
+<!-- Source: PMD Red (MT_THUNDER_PEAK) -->
+<FloorPlan>
+  <Name>Mt Thunder Peak</Name>
+  <Spawns>
+    <MobSpawn>
+      <Species>geodude</Species>
+      <Rate>10</Rate>
+    </MobSpawn>
+    <MobSpawn>
+      <Species>machop</Species>
+      <Rate>10</Rate>
+    </MobSpawn>
+    <MobSpawn>
+      <Species>zubat</Species>
+      <Rate>10</Rate>
+    </MobSpawn>
+  </Spawns>
+</FloorPlan>

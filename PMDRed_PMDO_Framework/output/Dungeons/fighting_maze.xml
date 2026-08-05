@@ -1,0 +1,19 @@
+<!-- RogueElements FloorPlan / PMDO Dungeon Pack Generator -->
+<!-- Source: PMD Red (FIGHTING_MAZE) -->
+<FloorPlan>
+  <Name>Fighting Maze</Name>
+  <Spawns>
+    <MobSpawn>
+      <Species>geodude</Species>
+      <Rate>10</Rate>
+    </MobSpawn>
+    <MobSpawn>
+      <Species>machop</Species>
+      <Rate>10</Rate>
+    </MobSpawn>
+    <MobSpawn>
+      <Species>zubat</Species>
+      <Rate>10</Rate>
+    </MobSpawn>
+  </Spawns>
+</FloorPlan>
