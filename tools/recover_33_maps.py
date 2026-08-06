@@ -381,8 +381,19 @@ def git(*args, check=True):
 def save_and_purge(src, info):
     """git add -A && commit && push origin master && os.remove + skip-worktree."""
     files = [info['tile'], info['ground']]
+    # Re-execution : si les fichiers sont deja skip-worktree (export precedente),
+    # on retire le flag pour permettre un eventuel re-add ; sinon git add -A
+    # les ignorerait et le commit echouerait sur « nothing to commit ».
+    git('update-index', '--no-skip-worktree', *files, check=False)
     git('add', '-A')
-    git('commit', '-m', f'feat: Export carte {src}')
+    cp = git('commit', '-m', f'feat: Export carte {src}', check=False)
+    if cp.returncode != 0:
+        if 'nothing to commit' in (cp.stdout + cp.stderr):
+            # deja exporte (meme contenu) : on purge et on considere OK
+            print(f'  deja a jour: {src}')
+        else:
+            print(f'  !! COMMIT ECHOUE pour {src}:\n{(cp.stdout+cp.stderr)[-800:]}')
+            sys.exit(2)
     p = git('push', 'origin', 'master', check=False)
     if p.returncode != 0:
         print(f'  !! PUSH ECHOUE pour {src}:\n{p.stderr[-800:]}')
