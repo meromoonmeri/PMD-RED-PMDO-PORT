@@ -315,10 +315,11 @@ def convert(mid, bpl, bpc, bma):
     if hero is None:
         walk = [(x, y) for x in range(W) for y in range(H) if not coll[y*W + x]]
         if walk:
-            cx = sum(p[0] for p in walk)//len(walk)
-            cy = sum(p[1] for p in walk)//len(walk)
-            hero = (cx, cy)
-            markers.insert(0, mk_marker('Main_Entrance_Marker', cx*T, cy*T, 0))
+            # centre géométrique de la carte, puis walkable le plus proche
+            gx = W // 2
+            gy = H // 2
+            hero = min(walk, key=lambda p: (p[0]-gx)**2 + (p[1]-gy)**2)
+            markers.insert(0, mk_marker('Main_Entrance_Marker', hero[0]*T, hero[1]*T, 0))
 
     comment = (f'PMD Red {bpl} ({mid}). Pixel-perfect export 1:1 from '
                f'pret/pmd-red (bpl {bpl}, bpc {bpc}, bma {bma}). '
@@ -383,8 +384,10 @@ def already_on_origin():
 
 
 def main():
+    force = '--force' in sys.argv
+    args = [a for a in sys.argv[1:] if a != '--force']
     on_origin = already_on_origin()
-    targets = sys.argv[1:]
+    targets = args
     if targets:
         wanted = {t.lower() for t in targets}
         entries = [(mid, e) for mid, e in DEP.items() if e['bpl'].lower() in wanted]
@@ -399,7 +402,7 @@ def main():
     for mid, e in entries:
         bpl, bpc, bma = e['bpl'], e['bpc'], e['bma']
         asset = bpl.lower()
-        if asset in on_origin:
+        if asset in on_origin and not force:
             print(f'--- {bpl} ({mid}) --- deja exporte, skip')
             skipped.append(bpl)
             continue
