@@ -1,0 +1,42 @@
+{
+  "pokemon": {
+    "exists_in_pmdo": true,
+    "action": "reuse_native",
+    "conversion_rule": "Aucun sprite ou portrait extrait. Création uniquement de références via Mapping PMDO Species. Génération de PMDO SpawnList<MobSpawn>."
+  },
+  "moves": {
+    "exists_in_pmdo": true,
+    "action": "convert_parameters_only",
+    "conversion_rule": "Extraire puissance, précision, PP. Ignorer totalement l'IA de ciblage GBA (utilisation AITactics PMDC)."
+  },
+  "items": {
+    "exists_in_pmdo": "partial",
+    "action": "compare_and_import",
+    "conversion_rule": "Si présent dans PMDO : reuse_native. Si absent : extraire ItemData complet, icones et sprites au sol."
+  },
+  "weather": {
+    "exists_in_pmdo": true,
+    "action": "convert_parameters_only",
+    "conversion_rule": "Ne pas recréer la mécanique. Assigner les MapStatus PMDC natifs aux donjons selon probabilités."
+  },
+  "combat_ai": {
+    "exists_in_pmdo": true,
+    "action": "ignore",
+    "conversion_rule": "Ignorer totalement. PMDC AITactics prend le relais."
+  },
+  "dungeons": {
+    "exists_in_pmdo": true,
+    "action": "convert_data_only",
+    "conversion_rule": "Ignorer l'algorithme GBA. Extraire nb étages, tables de spawn et boss. Mapper vers RogueElements FloorPlan et PMDO Dungeon Pack."
+  },
+  "grounds": {
+    "exists_in_pmdo": false,
+    "action": "full_conversion",
+    "conversion_rule": "Convertir BMA, BPC, BPL vers .rsground et .tile. Injecter Object.obstacles et Spawners."
+  },
+  "cinematics": {
+    "exists_in_pmdo": false,
+    "action": "adapt",
+    "conversion_rule": "Créer un Cinematic Intermediate Format (CIF). Conserver la mise en scène, remplacer le texte narratif par un appel UI:WaitShowDialogue() lié à strings.fr.resx pour l'histoire New Era."
+  }
+}

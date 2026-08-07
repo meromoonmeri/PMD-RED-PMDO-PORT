@@ -1,0 +1,377 @@
+{
+  "schema": 1,
+  "cases": [
+    {
+      "map_id": "MAP_FILE_ID_SQUARE",
+      "source": {
+        "bpl": "T00P01",
+        "bpc": "T00P01c",
+        "bma": "T00P01m",
+        "bpa": []
+      },
+      "requirements": {
+        "bma_layers": 1,
+        "bpa_slots": 0,
+        "palette_animation": false
+      },
+      "execution": {
+        "ran": true,
+        "frames_emitted": 1,
+        "files": [
+          "T00P01_Tick_0.png"
+        ],
+        "black_ratio": [
+          0.0
+        ],
+        "bma_layers_consumed": 1,
+        "bpa_slots_required": 0,
+        "bpa_slots_consumed": 0,
+        "palette_animation_executed": false,
+        "period_ticks": 1,
+        "ticks_emitted": 1,
+        "source_files": [
+          "T00P01.bpl",
+          "T00P01c.bpc",
+          "T00P01m.bma"
+        ]
+      },
+      "validation": {
+        "validated": false,
+        "reason": "oracle_absent"
+      }
+    },
+    {
+      "map_id": "MAP_FILE_ID_POKEMON_SQUARE",
+      "source": {
+        "bpl": "T01P01",
+        "bpc": "T01P01c",
+        "bma": "T01P01m",
+        "bpa": [
+          "T01P011"
+        ]
+      },
+      "requirements": {
+        "bma_layers": 1,
+        "bpa_slots": 1,
+        "palette_animation": true
+      },
+      "execution": {
+        "ran": true,
+        "frames_emitted": 16,
+        "files": [
+          "T01P01_Tick_0.png",
+          "T01P01_Tick_1.png",
+          "T01P01_Tick_2.png",
+          "T01P01_Tick_3.png",
+          "T01P01_Tick_4.png",
+          "T01P01_Tick_5.png",
+          "T01P01_Tick_6.png",
+          "T01P01_Tick_7.png",
+          "T01P01_Tick_8.png",
+          "T01P01_Tick_9.png",
+          "T01P01_Tick_10.png",
+          "T01P01_Tick_11.png",
+          "T01P01_Tick_12.png",
+          "T01P01_Tick_13.png",
+          "T01P01_Tick_14.png",
+          "T01P01_Tick_15.png"
+        ],
+        "black_ratio": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "bma_layers_consumed": 1,
+        "bpa_slots_required": 1,
+        "bpa_slots_consumed": 1,
+        "palette_animation_executed": true,
+        "period_ticks": 72,
+        "ticks_emitted": 16,
+        "source_files": [
+          "T01P01.bpl",
+          "T01P01c.bpc",
+          "T01P01m.bma",
+          "T01P011.bpa"
+        ]
+      },
+      "validation": {
+        "validated": false,
+        "reason": "oracle_absent"
+      }
+    },
+    {
+      "map_id": "MAP_FILE_ID_PELIPPER_POST_OFFICE",
+      "source": {
+        "bpl": "T01P03",
+        "bpc": "T01P03c",
+        "bma": "T01P03m",
+        "bpa": [
+          "T01P031"
+        ]
+      },
+      "requirements": {
+        "bma_layers": 2,
+        "bpa_slots": 1,
+        "palette_animation": true
+      },
+      "execution": {
+        "ran": true,
+        "frames_emitted": 16,
+        "files": [
+          "T01P03_Tick_0.png",
+          "T01P03_Tick_1.png",
+          "T01P03_Tick_2.png",
+          "T01P03_Tick_3.png",
+          "T01P03_Tick_4.png",
+          "T01P03_Tick_5.png",
+          "T01P03_Tick_6.png",
+          "T01P03_Tick_7.png",
+          "T01P03_Tick_8.png",
+          "T01P03_Tick_9.png",
+          "T01P03_Tick_10.png",
+          "T01P03_Tick_11.png",
+          "T01P03_Tick_12.png",
+          "T01P03_Tick_13.png",
+          "T01P03_Tick_14.png",
+          "T01P03_Tick_15.png"
+        ],
+        "black_ratio": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "bma_layers_consumed": 2,
+        "bpa_slots_required": 1,
+        "bpa_slots_consumed": 1,
+        "palette_animation_executed": true,
+        "period_ticks": 300,
+        "ticks_emitted": 16,
+        "source_files": [
+          "T01P03.bpl",
+          "T01P03c.bpc",
+          "T01P03m.bma",
+          "T01P031.bpa"
+        ]
+      },
+      "validation": {
+        "validated": false,
+        "reason": "oracle_absent"
+      }
+    },
+    {
+      "map_id": "MAP_FILE_ID_TEAM_BASE_PIKACHU_CONSTRUCTION",
+      "source": {
+        "bpl": "B01P01B",
+        "bpc": "B01P01Bc",
+        "bma": "B01P01Bm",
+        "bpa": [
+          "B01P01B1",
+          "B01P01B3"
+        ]
+      },
+      "requirements": {
+        "bma_layers": 1,
+        "bpa_slots": 2,
+        "palette_animation": false
+      },
+      "execution": {
+        "ran": true,
+        "frames_emitted": 16,
+        "files": [
+          "B01P01B_Tick_0.png",
+          "B01P01B_Tick_1.png",
+          "B01P01B_Tick_2.png",
+          "B01P01B_Tick_3.png",
+          "B01P01B_Tick_4.png",
+          "B01P01B_Tick_5.png",
+          "B01P01B_Tick_6.png",
+          "B01P01B_Tick_7.png",
+          "B01P01B_Tick_8.png",
+          "B01P01B_Tick_9.png",
+          "B01P01B_Tick_10.png",
+          "B01P01B_Tick_11.png",
+          "B01P01B_Tick_12.png",
+          "B01P01B_Tick_13.png",
+          "B01P01B_Tick_14.png",
+          "B01P01B_Tick_15.png"
+        ],
+        "black_ratio": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "bma_layers_consumed": 1,
+        "bpa_slots_required": 2,
+        "bpa_slots_consumed": 2,
+        "palette_animation_executed": false,
+        "period_ticks": 36,
+        "ticks_emitted": 16,
+        "source_files": [
+          "B01P01B.bpl",
+          "B01P01Bc.bpc",
+          "B01P01Bm.bma",
+          "B01P01B1.bpa",
+          "B01P01B3.bpa"
+        ]
+      },
+      "validation": {
+        "validated": false,
+        "reason": "oracle_absent"
+      }
+    },
+    {
+      "map_id": "MAP_FILE_ID_SUMMIT_SUNSET",
+      "source": {
+        "bpl": "A04P01",
+        "bpc": "A04P01c",
+        "bma": "A04P01m",
+        "bpa": [
+          "A04P011"
+        ]
+      },
+      "requirements": {
+        "bma_layers": 1,
+        "bpa_slots": 1,
+        "palette_animation": true
+      },
+      "execution": {
+        "ran": true,
+        "frames_emitted": 16,
+        "files": [
+          "A04P01_Tick_0.png",
+          "A04P01_Tick_1.png",
+          "A04P01_Tick_2.png",
+          "A04P01_Tick_3.png",
+          "A04P01_Tick_4.png",
+          "A04P01_Tick_5.png",
+          "A04P01_Tick_6.png",
+          "A04P01_Tick_7.png",
+          "A04P01_Tick_8.png",
+          "A04P01_Tick_9.png",
+          "A04P01_Tick_10.png",
+          "A04P01_Tick_11.png",
+          "A04P01_Tick_12.png",
+          "A04P01_Tick_13.png",
+          "A04P01_Tick_14.png",
+          "A04P01_Tick_15.png"
+        ],
+        "black_ratio": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "bma_layers_consumed": 1,
+        "bpa_slots_required": 1,
+        "bpa_slots_consumed": 1,
+        "palette_animation_executed": true,
+        "period_ticks": 672,
+        "ticks_emitted": 16,
+        "source_files": [
+          "A04P01.bpl",
+          "A04P01c.bpc",
+          "A04P01m.bma",
+          "A04P011.bpa"
+        ]
+      },
+      "validation": {
+        "validated": false,
+        "reason": "oracle_absent"
+      }
+    },
+    {
+      "map_id": "MAP_FILE_ID_SKY_TOWER_END",
+      "source": {
+        "bpl": "D13P03",
+        "bpc": "D13P03c",
+        "bma": "D13P03m",
+        "bpa": []
+      },
+      "requirements": {
+        "bma_layers": 1,
+        "bpa_slots": 0,
+        "palette_animation": false
+      },
+      "execution": {
+        "ran": true,
+        "frames_emitted": 1,
+        "files": [
+          "D13P03_Tick_0.png"
+        ],
+        "black_ratio": [
+          0.8382608695652174
+        ],
+        "bma_layers_consumed": 1,
+        "bpa_slots_required": 0,
+        "bpa_slots_consumed": 0,
+        "palette_animation_executed": false,
+        "period_ticks": 1,
+        "ticks_emitted": 1,
+        "source_files": [
+          "D13P03.bpl",
+          "D13P03c.bpc",
+          "D13P03m.bma"
+        ]
+      },
+      "validation": {
+        "validated": false,
+        "reason": "oracle_absent"
+      }
+    }
+  ],
+  "summary": {
+    "executed": 6,
+    "validated": 0
+  }
+}
