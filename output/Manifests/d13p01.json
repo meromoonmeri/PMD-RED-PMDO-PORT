@@ -1,0 +1,62 @@
+{
+  "converter_version": "2",
+  "external_graphics_used": false,
+  "features": {
+    "bma_layers_consumed": 1,
+    "bpa_slots_consumed": 0,
+    "bpa_slots_required": 0,
+    "frames": 64,
+    "height": 36,
+    "palette_animation_executed": true,
+    "period_ticks": 64,
+    "source_files": [
+      "D13P01.bpl",
+      "D13P01c.bpc",
+      "D13P01m.bma"
+    ],
+    "ticks_emitted": 64,
+    "tile_entries": 17964,
+    "unique_tiles": 1675,
+    "width": 51
+  },
+  "inputs": [
+    {
+      "authority": "pret/pmd-red",
+      "bytes": 388,
+      "path": "/tmp/pmd-red/data/map_bg/D13P01m.bma",
+      "role": "bma",
+      "sha256": "a25ee7786cd1b5822f898a73d41a8979e7f8aba55d5b6528bf301a8097a98aff"
+    },
+    {
+      "authority": "pret/pmd-red",
+      "bytes": 24216,
+      "path": "/tmp/pmd-red/data/map_bg/D13P01c.bpc",
+      "role": "bpc",
+      "sha256": "5ecd992eea48e4e3ec04111a24405c2b14b6f1d8b345598516a25cfb4d5c6df1"
+    },
+    {
+      "authority": "pret/pmd-red",
+      "bytes": 1668,
+      "path": "/tmp/pmd-red/data/map_bg/D13P01.bpl",
+      "role": "bpl",
+      "sha256": "20ec9eb8d7a3f1fb6024713d84fb15832a8b0cf876c1d27f4ca5fb9ab5bdf34c"
+    }
+  ],
+  "map_id": "MAP_FILE_ID_SKY_TOWER_ENTRY",
+  "outputs": [
+    {
+      "bytes": 1186183,
+      "path": "/home/user/pmdo_batch/Data/Ground/d13p01.rsground",
+      "role": "ground",
+      "sha256": "263e3c2b0b9483ae602b11427cc30aaaa4890cd363e2eabaa789b55e73041c19"
+    },
+    {
+      "bytes": 513218,
+      "path": "/home/user/pmdo_batch/Content/Tile/d13p01_Base.tile",
+      "role": "tile",
+      "sha256": "c117afc0453964d5ceb763ce72b8be30eefa1a7b4c15003c173dbece8ac2dacc"
+    }
+  ],
+  "python": "3.13.14",
+  "schema": 1
+}

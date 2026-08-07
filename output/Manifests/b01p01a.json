@@ -1,0 +1,70 @@
+{
+  "converter_version": "2",
+  "external_graphics_used": false,
+  "features": {
+    "bma_layers_consumed": 1,
+    "bpa_slots_consumed": 1,
+    "bpa_slots_required": 1,
+    "frames": 36,
+    "height": 69,
+    "palette_animation_executed": false,
+    "period_ticks": 36,
+    "source_files": [
+      "B01P01A.bpl",
+      "B01P01Ac.bpc",
+      "B01P01Am.bma",
+      "B01P01A1.bpa"
+    ],
+    "ticks_emitted": 36,
+    "tile_entries": 8121,
+    "unique_tiles": 747,
+    "width": 69
+  },
+  "inputs": [
+    {
+      "authority": "pret/pmd-red",
+      "bytes": 956,
+      "path": "/tmp/pmd-red/data/map_bg/B01P01Am.bma",
+      "role": "bma",
+      "sha256": "14c6912d8c3456cb1d6752ecefb4d43e1260d74e4f3f6b5b9a456d0dafc38a04"
+    },
+    {
+      "authority": "pret/pmd-red",
+      "bytes": 3100,
+      "path": "/tmp/pmd-red/data/map_bg/B01P01A1.bpa",
+      "role": "bpa_0",
+      "sha256": "f967f3fbb4aa66bbbd309aa3388fa18bac3a6615ef93efde0e273b77bb62659a"
+    },
+    {
+      "authority": "pret/pmd-red",
+      "bytes": 21536,
+      "path": "/tmp/pmd-red/data/map_bg/B01P01Ac.bpc",
+      "role": "bpc",
+      "sha256": "6d09839ca11e81aa8894758335024fe351d58623cbb50fbf711029f7a559665d"
+    },
+    {
+      "authority": "pret/pmd-red",
+      "bytes": 604,
+      "path": "/tmp/pmd-red/data/map_bg/B01P01A.bpl",
+      "role": "bpl",
+      "sha256": "7c829982bec4c281f6cc8510073ae8126b561544cdde701b0b876b7bdd99089c"
+    }
+  ],
+  "map_id": "MAP_FILE_ID_TEAM_BASE_PIKACHU_BASIC",
+  "outputs": [
+    {
+      "bytes": 1133416,
+      "path": "/home/user/pmdo_batch/Data/Ground/b01p01a.rsground",
+      "role": "ground",
+      "sha256": "6bd6761e91477a7a04003eb9defa14ae361775c4ba87905290462996c86fef32"
+    },
+    {
+      "bytes": 251691,
+      "path": "/home/user/pmdo_batch/Content/Tile/b01p01a_Base.tile",
+      "role": "tile",
+      "sha256": "c3755b47b46c44e5497307a650629c42dc4b31a429e003e0a9c5134b62e482ca"
+    }
+  ],
+  "python": "3.13.14",
+  "schema": 1
+}

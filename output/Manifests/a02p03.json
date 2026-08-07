@@ -1,0 +1,62 @@
+{
+  "converter_version": "2",
+  "external_graphics_used": false,
+  "features": {
+    "bma_layers_consumed": 1,
+    "bpa_slots_consumed": 0,
+    "bpa_slots_required": 0,
+    "frames": 1,
+    "height": 36,
+    "palette_animation_executed": false,
+    "period_ticks": 1,
+    "source_files": [
+      "A02P03.bpl",
+      "A02P03c.bpc",
+      "A02P03m.bma"
+    ],
+    "ticks_emitted": 1,
+    "tile_entries": 1620,
+    "unique_tiles": 1236,
+    "width": 45
+  },
+  "inputs": [
+    {
+      "authority": "pret/pmd-red",
+      "bytes": 384,
+      "path": "/tmp/pmd-red/data/map_bg/A02P03m.bma",
+      "role": "bma",
+      "sha256": "1220f3359de7c584816bafcd1990ac6ea30fd052ee86304c584434a358e422cd"
+    },
+    {
+      "authority": "pret/pmd-red",
+      "bytes": 30544,
+      "path": "/tmp/pmd-red/data/map_bg/A02P03c.bpc",
+      "role": "bpc",
+      "sha256": "d1942f3cd5db916042a375dc5565628b43980cecd2419a69008e9917f13076c2"
+    },
+    {
+      "authority": "pret/pmd-red",
+      "bytes": 724,
+      "path": "/tmp/pmd-red/data/map_bg/A02P03.bpl",
+      "role": "bpl",
+      "sha256": "3891180f7256a104d9e4f47931e4c724c3168b03915af1670375a8c1e45bba80"
+    }
+  ],
+  "map_id": "MAP_FILE_ID_FUGITIVES_LAPIS_CAVE",
+  "outputs": [
+    {
+      "bytes": 325237,
+      "path": "/home/user/pmdo_batch/Data/Ground/a02p03.rsground",
+      "role": "ground",
+      "sha256": "0b54d2443c9fd1dd5fb8df615d082b8bd9f233924ff36a334e79b41ef3b0703c"
+    },
+    {
+      "bytes": 214234,
+      "path": "/home/user/pmdo_batch/Content/Tile/a02p03_Base.tile",
+      "role": "tile",
+      "sha256": "bc1a7606e4807a65dfe6c72f6b379751d72b9b866670b46da92a1c3b65746734"
+    }
+  ],
+  "python": "3.13.14",
+  "schema": 1
+}

@@ -1,0 +1,70 @@
+{
+  "converter_version": "2",
+  "external_graphics_used": false,
+  "features": {
+    "bma_layers_consumed": 1,
+    "bpa_slots_consumed": 1,
+    "bpa_slots_required": 1,
+    "frames": 72,
+    "height": 90,
+    "palette_animation_executed": true,
+    "period_ticks": 72,
+    "source_files": [
+      "T01P01.bpl",
+      "T01P01c.bpc",
+      "T01P01m.bma",
+      "T01P011.bpa"
+    ],
+    "ticks_emitted": 72,
+    "tile_entries": 30893,
+    "unique_tiles": 1411,
+    "width": 120
+  },
+  "inputs": [
+    {
+      "authority": "pret/pmd-red",
+      "bytes": 2116,
+      "path": "/tmp/pmd-red/data/map_bg/T01P01m.bma",
+      "role": "bma",
+      "sha256": "b094f8fe20b53778008077a4f1da5ec57bd9629fe9c490e21669e2e10f99101a"
+    },
+    {
+      "authority": "pret/pmd-red",
+      "bytes": 3100,
+      "path": "/tmp/pmd-red/data/map_bg/T01P011.bpa",
+      "role": "bpa_0",
+      "sha256": "aaef366c5202d51dc287c4f5c4448dd006a780d4ea23bfad0b1273f3bf3ca691"
+    },
+    {
+      "authority": "pret/pmd-red",
+      "bytes": 38296,
+      "path": "/tmp/pmd-red/data/map_bg/T01P01c.bpc",
+      "role": "bpc",
+      "sha256": "c97733d1b752c0a12e06724d7a5dc0dfd447548b11838ab010c15c70863b4871"
+    },
+    {
+      "authority": "pret/pmd-red",
+      "bytes": 1132,
+      "path": "/tmp/pmd-red/data/map_bg/T01P01.bpl",
+      "role": "bpl",
+      "sha256": "d75111f3ea4ae48c67015b96922be332bcf2395b291a27bc381f08666e7de95c"
+    }
+  ],
+  "map_id": "MAP_FILE_ID_POKEMON_SQUARE",
+  "outputs": [
+    {
+      "bytes": 3191105,
+      "path": "/home/user/pmdo_batch/Data/Ground/t01p01.rsground",
+      "role": "ground",
+      "sha256": "ae2318c2477ef70b53c2b9b486c4b5231fe5008e5c37057c1bdbf7ee105f545c"
+    },
+    {
+      "bytes": 735743,
+      "path": "/home/user/pmdo_batch/Content/Tile/t01p01_Base.tile",
+      "role": "tile",
+      "sha256": "cba623efdde9ce1e4ea4a1d065689235c70e55514add6f269ea2dc7717e1fe51"
+    }
+  ],
+  "python": "3.13.14",
+  "schema": 1
+}

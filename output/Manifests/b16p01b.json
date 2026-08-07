@@ -1,0 +1,78 @@
+{
+  "converter_version": "2",
+  "external_graphics_used": false,
+  "features": {
+    "bma_layers_consumed": 1,
+    "bpa_slots_consumed": 2,
+    "bpa_slots_required": 2,
+    "frames": 36,
+    "height": 69,
+    "palette_animation_executed": false,
+    "period_ticks": 36,
+    "source_files": [
+      "B16P01B.bpl",
+      "B14P01Bc.bpc",
+      "B14P01Bm.bma",
+      "B14P01B1.bpa",
+      "B16P01B3.bpa"
+    ],
+    "ticks_emitted": 36,
+    "tile_entries": 8121,
+    "unique_tiles": 1028,
+    "width": 69
+  },
+  "inputs": [
+    {
+      "authority": "pret/pmd-red",
+      "bytes": 964,
+      "path": "/tmp/pmd-red/data/map_bg/B14P01Bm.bma",
+      "role": "bma",
+      "sha256": "06efde4407bda7cb050c90b8da2ae16a5673f2f5aa69daa1040778245bdf67fd"
+    },
+    {
+      "authority": "pret/pmd-red",
+      "bytes": 3100,
+      "path": "/tmp/pmd-red/data/map_bg/B14P01B1.bpa",
+      "role": "bpa_0",
+      "sha256": "f967f3fbb4aa66bbbd309aa3388fa18bac3a6615ef93efde0e273b77bb62659a"
+    },
+    {
+      "authority": "pret/pmd-red",
+      "bytes": 200,
+      "path": "/tmp/pmd-red/data/map_bg/B16P01B3.bpa",
+      "role": "bpa_1",
+      "sha256": "54c4208d83c57da8e461994b9ae543d825a6a5e5883d4d3089550d8d63bd3fdb"
+    },
+    {
+      "authority": "pret/pmd-red",
+      "bytes": 27384,
+      "path": "/tmp/pmd-red/data/map_bg/B14P01Bc.bpc",
+      "role": "bpc",
+      "sha256": "dadc16076ea0fefc8b3bca9ad1128a446e349bffbfb60012954c020c5aa5801f"
+    },
+    {
+      "authority": "pret/pmd-red",
+      "bytes": 664,
+      "path": "/tmp/pmd-red/data/map_bg/B16P01B.bpl",
+      "role": "bpl",
+      "sha256": "17d1935df22953e3177e33f6cdea21e80a33dcfa19b14161fd86e4b26f529856"
+    }
+  ],
+  "map_id": "MAP_FILE_ID_TEAM_BASE_TREECKO_CONSTRUCTION",
+  "outputs": [
+    {
+      "bytes": 1133088,
+      "path": "/home/user/pmdo_batch/Data/Ground/b16p01b.rsground",
+      "role": "ground",
+      "sha256": "b989bd61f5f8d6cf15d2eb26a46620b972d3c12435f427b9dd066c7981cc761c"
+    },
+    {
+      "bytes": 299923,
+      "path": "/home/user/pmdo_batch/Content/Tile/b16p01b_Base.tile",
+      "role": "tile",
+      "sha256": "f2a0eb2af20904c4015e927ecc1673439455ebc08ca21f80fc68ae519cb10cb5"
+    }
+  ],
+  "python": "3.13.14",
+  "schema": 1
+}
