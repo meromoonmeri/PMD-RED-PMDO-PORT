@@ -98,7 +98,13 @@ def _period(pal,slots):
  for x in periods:p=math.lcm(p,x)
  return p
 
-def render_map(dep,data_dir,output_dir,trace=None,max_ticks=None):
+def render_map(dep,data_dir,output_dir,trace=None,max_ticks=None,dungeon_location=None,dungeon_archive=None):
+ if dungeon_location is not None:
+  from dungeon_material import DungeonArchiveMissing
+  if dungeon_archive is None:raise DungeonArchiveMissing('Ground SelectDungeon: archive dungeon requis; export BMA seul interdit')
+  # Le chargeur AT est implémenté, mais la résolution mapparam/tileset doit
+  # être prouvée avant composition. Refuser vaut mieux qu'exporter du noir.
+  raise NotImplementedError('composition sub_80ADD9C en cours: export bloqué')
  pal=parse_bpl(os.path.join(data_dir,dep['bpl']+'.bpl'));bpc=parse_bpc(os.path.join(data_dir,dep['bpc']+'.bpc'));bma=decode_bma(os.path.join(data_dir,dep['bma']+'.bma'))
  names=[None]*4
  for name in dep.get('bpa',[]):
