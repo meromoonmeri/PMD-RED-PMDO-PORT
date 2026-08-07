@@ -34,10 +34,11 @@ def main():
   if dep['bpl'].upper() in DUNGEON_BACKED:blocked.append((key,'dungeon_blobs'));continue
   root=Path(a.out);asset=dep['bpl'].lower();gp=root/'Data/Ground'/f'{asset}.rsground'
   if gp.exists() and (root/'Manifests'/(asset+'.json')).exists():done.append(key);print('SKIP',key);continue
+  timeline=ve.inspect_timeline(dep,str(data))
+  if timeline['period_ticks']>a.max_period:blocked.append((key,f'period_{timeline["period_ticks"]}'));print('BLOCK',key,blocked[-1][1]);continue
   tmp=Path(tempfile.mkdtemp())
   try:
    trace={};files=ve.render_map(dep,str(data),str(tmp),trace,max_ticks=a.max_period)
-   if trace['period_ticks']>a.max_period:blocked.append((key,f'period_{trace["period_ticks"]}'));continue
    from PIL import Image
    frames=[Image.open(x).convert('RGBA').copy() for x in files];col=collision(data/(dep['bma']+'.bma'));marks,sp=entities(dep['bpl']);asset=dep['bpl'].lower();root=Path(a.out);gp=root/'Data/Ground'/f'{asset}.rsground';info=write_ground(gp,asset,asset+'_Base',frames,col,marks,sp)
    inputs={'bpl':data/(dep['bpl']+'.bpl'),'bpc':data/(dep['bpc']+'.bpc'),'bma':data/(dep['bma']+'.bma')}

@@ -5,10 +5,15 @@ import io,json,struct
 def png(tile):
  b=io.BytesIO();tile.save(b,'PNG',optimize=True);return b.getvalue()
 def write_tile(path,frames,cell=8):
- w,h=frames[0].size;W,H=w//cell,h//cell;entries=[];mapping={}
+ w,h=frames[0].size;W,H=w//cell,h//cell;entries=[];mapping={};encoded={}
  for y in range(H):
   for x in range(W):
-   seq=[png(im.crop((x*cell,y*cell,(x+1)*cell,(y+1)*cell))) for im in frames]
+   seq=[]
+   for im in frames:
+    tile=im.crop((x*cell,y*cell,(x+1)*cell,(y+1)*cell));raw=tile.tobytes()
+    blob=encoded.get(raw)
+    if blob is None:blob=png(tile);encoded[raw]=blob
+    seq.append(blob)
    if all(v==seq[0] for v in seq):seq=seq[:1]
    keys=[]
    for fi,blob in enumerate(seq):

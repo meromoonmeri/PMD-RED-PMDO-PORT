@@ -98,6 +98,16 @@ def _period(pal,slots):
  for x in periods:p=math.lcm(p,x)
  return p
 
+def inspect_timeline(dep,data_dir):
+ pal=parse_bpl(os.path.join(data_dir,dep['bpl']+'.bpl'));bpc=parse_bpc(os.path.join(data_dir,dep['bpc']+'.bpc'))
+ names=[None]*4
+ for name in dep.get('bpa',[]):
+  try:idx=int(name[-1])-1
+  except (ValueError,IndexError):idx=next((i for i,x in enumerate(names) if x is None),0)
+  if 0<=idx<4:names[idx]=name
+ slots=[parse_bpa(os.path.join(data_dir,n+'.bpa')) if n else None for n in names]
+ return {'period_ticks':_period(pal,slots),'palette_animation':pal['animated'],'bpa_slots_required':sum(x>0 for x in bpc['slot_tiles']),'bpa_slots_available':sum(x is not None for x in slots)}
+
 def render_map(dep,data_dir,output_dir,trace=None,max_ticks=None,dungeon_location=None,dungeon_archive=None):
  if dungeon_location is not None:
   from dungeon_material import DungeonArchiveMissing
@@ -123,6 +133,7 @@ def render_map(dep,data_dir,output_dir,trace=None,max_ticks=None,dungeon_locatio
    s=slots[i]
    if need:tiles.extend(s['tiles'][_frame_at(s,tick,i<2)])
   pals=_palettes_at_tick(pal,tick);img=Image.new('RGBA',(bma['width_tiles']*8,bma['height_tiles']*8),(0,0,0,255))
+  cache={}
   for lay in reversed(bma['layers']):
    for cy in range(bma['height_chunks']):
     for cx in range(bma['width_chunks']):
@@ -131,14 +142,18 @@ def render_map(dep,data_dir,output_dir,trace=None,max_ticks=None,dungeon_locatio
      for j,ent in enumerate(bpc['chunks'][cid]):
       ti=ent&0x3FF;hf=(ent>>10)&1;vf=(ent>>11)&1;pi=(ent>>12)&0xF
       if ti==0 or ti>=len(tiles):continue
-      td=tiles[ti];palette=pals[pi%len(pals)];tx,ty=cx*bpc['chunk_width']+j%bpc['chunk_width'],cy*bpc['chunk_height']+j//bpc['chunk_width']
-      for y in range(8):
-       for x in range(4):
-        byte=td[y*4+x]
-        for k,ci in enumerate((byte&15,byte>>4)):
-         if not ci:continue
-         xx=7-(x*2+k) if hf else x*2+k;yy=7-y if vf else y;px,py=tx*8+xx,ty*8+yy
-         if 0<=px<img.width and 0<=py<img.height:img.putpixel((px,py),palette[ci])
+      palette=pals[pi%len(pals)];key=(ti,pi,hf,vf,tuple(palette));tile=cache.get(key)
+      if tile is None:
+       td=tiles[ti];tile=Image.new('RGBA',(8,8),(0,0,0,0))
+       for y in range(8):
+        for x in range(4):
+         byte=td[y*4+x]
+         for k,ci in enumerate((byte&15,byte>>4)):
+          if ci:
+           xx=7-(x*2+k) if hf else x*2+k;yy=7-y if vf else y;tile.putpixel((xx,yy),palette[ci])
+       cache[key]=tile
+      tx,ty=cx*bpc['chunk_width']+j%bpc['chunk_width'],cy*bpc['chunk_height']+j//bpc['chunk_width'];px,py=tx*8,ty*8
+      if px<img.width and py<img.height:img.alpha_composite(tile,(px,py))
   out=os.path.join(output_dir,f'{dep["bpl"]}_Tick_{tick}.png');img.save(out);files.append(out)
  if trace is not None:trace.update({'bma_layers_consumed':bma['num_layers'],'bpa_slots_required':sum(x>0 for x in bpc['slot_tiles']),'bpa_slots_consumed':sum(x is not None for x in slots),'palette_animation_executed':pal['animated'],'period_ticks':period,'ticks_emitted':len(files),'source_files':[dep['bpl']+'.bpl',dep['bpc']+'.bpc',dep['bma']+'.bma']+[x+'.bpa' for x in dep.get('bpa',[])]})
  return files
