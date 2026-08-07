@@ -1,0 +1,63 @@
+{
+  "converter_version": "2",
+  "external_graphics_used": false,
+  "features": {
+    "animation_model": "independent_cell_cycles",
+    "bma_layers_consumed": 1,
+    "bpa_slots_consumed": 0,
+    "framebuffers_materialized": 0,
+    "frames": "independent",
+    "global_period_ticks": 4800,
+    "height": 42,
+    "max_cell_frames": 16,
+    "palette_animation_executed": true,
+    "source_files": [
+      "H09P01.bpl",
+      "H09P01c.bpc",
+      "H09P01m.bma"
+    ],
+    "tile_entries": 4266,
+    "unique_tiles": 2080,
+    "width": 63
+  },
+  "inputs": [
+    {
+      "authority": "pret/pmd-red",
+      "bytes": 812,
+      "path": "/tmp/pmd-red/data/map_bg/H09P01m.bma",
+      "role": "bma",
+      "sha256": "f264fd07a837916ab74797dafb7d41eaf6335a5dbf9af671fea97d0be4df6c46"
+    },
+    {
+      "authority": "pret/pmd-red",
+      "bytes": 30824,
+      "path": "/tmp/pmd-red/data/map_bg/H09P01c.bpc",
+      "role": "bpc",
+      "sha256": "48fb305df1edbd493a733b01983c40a4fbce134dc42f4a76bfe57fe50f31d80d"
+    },
+    {
+      "authority": "pret/pmd-red",
+      "bytes": 3292,
+      "path": "/tmp/pmd-red/data/map_bg/H09P01.bpl",
+      "role": "bpl",
+      "sha256": "c4f05c8dc5286f0c8d10d38e284e56f80ae7685ffdb31ed2fbb09cfc59d8b794"
+    }
+  ],
+  "map_id": "MAP_FILE_ID_FRIEND_AREA_TADPOLE_POND",
+  "outputs": [
+    {
+      "bytes": 611487,
+      "path": "output/Grounds/h09p01.rsground",
+      "role": "ground",
+      "sha256": "5532188decfcd1ea1cc0b46ee6ab06e236c2a1a377a37e361c6f7fc3a77092ca"
+    },
+    {
+      "bytes": 361993,
+      "path": "output/Tiles/h09p01_Base.tile",
+      "role": "tile",
+      "sha256": "ec3b2344ec24ec59f06321191a3995af56ec08a1015be37e3c9240d8f3d00871"
+    }
+  ],
+  "python": "3.13.14",
+  "schema": 1
+}

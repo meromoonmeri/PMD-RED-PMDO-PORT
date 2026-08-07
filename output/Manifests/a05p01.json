@@ -1,0 +1,71 @@
+{
+  "converter_version": "2",
+  "external_graphics_used": false,
+  "features": {
+    "animation_model": "independent_cell_cycles",
+    "bma_layers_consumed": 2,
+    "bpa_slots_consumed": 1,
+    "framebuffers_materialized": 0,
+    "frames": "independent",
+    "global_period_ticks": 6840,
+    "height": 30,
+    "max_cell_frames": 6840,
+    "palette_animation_executed": true,
+    "source_files": [
+      "A05P01.bpl",
+      "A05P01c.bpc",
+      "A05P01m.bma",
+      "A05P011.bpa"
+    ],
+    "tile_entries": 83614,
+    "unique_tiles": 1261,
+    "width": 39
+  },
+  "inputs": [
+    {
+      "authority": "pret/pmd-red",
+      "bytes": 260,
+      "path": "/tmp/pmd-red/data/map_bg/A05P01m.bma",
+      "role": "bma",
+      "sha256": "61a071b32362a4b93661cfa2fec4192ef00843b833da8d8bf4cefb8be8bffe4c"
+    },
+    {
+      "authority": "pret/pmd-red",
+      "bytes": 6196,
+      "path": "/tmp/pmd-red/data/map_bg/A05P011.bpa",
+      "role": "bpa_0",
+      "sha256": "eecf9981a0568db3030d98d2368762dc9f6d3e9e70faa7745fd4e71865344b9d"
+    },
+    {
+      "authority": "pret/pmd-red",
+      "bytes": 1992,
+      "path": "/tmp/pmd-red/data/map_bg/A05P01c.bpc",
+      "role": "bpc",
+      "sha256": "a8290c4da7ecb3d8713ba0d956d19e03599494ac0ea9bdbb8df7f59b833e74ee"
+    },
+    {
+      "authority": "pret/pmd-red",
+      "bytes": 1272,
+      "path": "/tmp/pmd-red/data/map_bg/A05P01.bpl",
+      "role": "bpl",
+      "sha256": "fe9f54581a75947fd3ba51f84b8d1264ec3e3d81aa9fc4640226550f13fbf7dc"
+    }
+  ],
+  "map_id": "MAP_FILE_ID_NIGHT_SKY_1",
+  "outputs": [
+    {
+      "bytes": 4569629,
+      "path": "output/Grounds/a05p01.rsground",
+      "role": "ground",
+      "sha256": "a9de98438f109739f6325e9a145fccbc12b3fc68caff37848788b54f85e1d0a0"
+    },
+    {
+      "bytes": 1515519,
+      "path": "output/Tiles/a05p01_Base.tile",
+      "role": "tile",
+      "sha256": "e53826cc0d21526e0e01f05e84d3eb373ec3394d99a9a13267d737b9f570a0f4"
+    }
+  ],
+  "python": "3.13.14",
+  "schema": 1
+}

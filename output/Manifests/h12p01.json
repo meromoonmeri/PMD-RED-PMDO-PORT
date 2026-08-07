@@ -1,0 +1,71 @@
+{
+  "converter_version": "2",
+  "external_graphics_used": false,
+  "features": {
+    "animation_model": "independent_cell_cycles",
+    "bma_layers_consumed": 1,
+    "bpa_slots_consumed": 1,
+    "framebuffers_materialized": 0,
+    "frames": "independent",
+    "global_period_ticks": 432,
+    "height": 42,
+    "max_cell_frames": 9,
+    "palette_animation_executed": true,
+    "source_files": [
+      "H12P01.bpl",
+      "H12P01c.bpc",
+      "H12P01m.bma",
+      "H12P011.bpa"
+    ],
+    "tile_entries": 2785,
+    "unique_tiles": 1398,
+    "width": 57
+  },
+  "inputs": [
+    {
+      "authority": "pret/pmd-red",
+      "bytes": 788,
+      "path": "/tmp/pmd-red/data/map_bg/H12P01m.bma",
+      "role": "bma",
+      "sha256": "d2b35e9a45569d9e29e0fdf88b120cdf010c061d5c9aa18a4c636f03c8bd1d8f"
+    },
+    {
+      "authority": "pret/pmd-red",
+      "bytes": 2920,
+      "path": "/tmp/pmd-red/data/map_bg/H12P011.bpa",
+      "role": "bpa_0",
+      "sha256": "b450f22e765a0ed9c1fb3463732c5e27097aa0a74721ecfb988e3b8fa315ba34"
+    },
+    {
+      "authority": "pret/pmd-red",
+      "bytes": 32692,
+      "path": "/tmp/pmd-red/data/map_bg/H12P01c.bpc",
+      "role": "bpc",
+      "sha256": "ea55a92c219cc135a64b23eca1cd40b998e92b283c681c670d51d8a47bb566db"
+    },
+    {
+      "authority": "pret/pmd-red",
+      "bytes": 996,
+      "path": "/tmp/pmd-red/data/map_bg/H12P01.bpl",
+      "role": "bpl",
+      "sha256": "463b2268e267a78ed5ac92fe0d68111d729a889938095f70ed12dada22be5210"
+    }
+  ],
+  "map_id": "MAP_FILE_ID_FRIEND_AREA_POISON_SWAMP",
+  "outputs": [
+    {
+      "bytes": 499760,
+      "path": "output/Grounds/h12p01.rsground",
+      "role": "ground",
+      "sha256": "24e39f4976f1617537950c3777b314e18d5783b3f0582c0e6105bedbaf6431a8"
+    },
+    {
+      "bytes": 224802,
+      "path": "output/Tiles/h12p01_Base.tile",
+      "role": "tile",
+      "sha256": "6828920081ae35dfde33fc47126963bc241d77ef7b39ae27851136f803f0cab1"
+    }
+  ],
+  "python": "3.13.14",
+  "schema": 1
+}

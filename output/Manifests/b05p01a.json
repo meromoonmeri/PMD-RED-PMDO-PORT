@@ -1,0 +1,71 @@
+{
+  "converter_version": "2",
+  "external_graphics_used": false,
+  "features": {
+    "animation_model": "independent_cell_cycles",
+    "bma_layers_consumed": 1,
+    "bpa_slots_consumed": 1,
+    "framebuffers_materialized": 0,
+    "frames": "independent",
+    "global_period_ticks": 576,
+    "height": 69,
+    "max_cell_frames": 8,
+    "palette_animation_executed": true,
+    "source_files": [
+      "B05P01A.bpl",
+      "B05P01Ac.bpc",
+      "B05P01Am.bma",
+      "B05P01A1.bpa"
+    ],
+    "tile_entries": 5577,
+    "unique_tiles": 1123,
+    "width": 69
+  },
+  "inputs": [
+    {
+      "authority": "pret/pmd-red",
+      "bytes": 952,
+      "path": "/tmp/pmd-red/data/map_bg/B05P01Am.bma",
+      "role": "bma",
+      "sha256": "b1562765f315f6c34d9ae395833d0c9676e7a9a0a570efb5b0cdc42b7e005d56"
+    },
+    {
+      "authority": "pret/pmd-red",
+      "bytes": 3100,
+      "path": "/tmp/pmd-red/data/map_bg/B05P01A1.bpa",
+      "role": "bpa_0",
+      "sha256": "f967f3fbb4aa66bbbd309aa3388fa18bac3a6615ef93efde0e273b77bb62659a"
+    },
+    {
+      "authority": "pret/pmd-red",
+      "bytes": 25468,
+      "path": "/tmp/pmd-red/data/map_bg/B05P01Ac.bpc",
+      "role": "bpc",
+      "sha256": "cae92b72ba9cabdeecb38bc53779fab419883581ff3007442cfb4f8fffe371f7"
+    },
+    {
+      "authority": "pret/pmd-red",
+      "bytes": 1604,
+      "path": "/tmp/pmd-red/data/map_bg/B05P01A.bpl",
+      "role": "bpl",
+      "sha256": "b260bb0980387eb60ed6a1454c098b0a0fa9cb7825b154ee445d4d92c61d8077"
+    }
+  ],
+  "map_id": "MAP_FILE_ID_TEAM_BASE_SQUIRTLE_BASIC",
+  "outputs": [
+    {
+      "bytes": 1001278,
+      "path": "output/Grounds/b05p01a.rsground",
+      "role": "ground",
+      "sha256": "106ed6e739e3adc7a143acee02441df2234946e5528b03169df078a9fd72f2d5"
+    },
+    {
+      "bytes": 265614,
+      "path": "output/Tiles/b05p01a_Base.tile",
+      "role": "tile",
+      "sha256": "c6ff50e34c7531f864493ebc5993f0a532e21e3236ecfd88087c4fa4a641fa8c"
+    }
+  ],
+  "python": "3.13.14",
+  "schema": 1
+}

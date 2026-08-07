@@ -1,0 +1,63 @@
+{
+  "converter_version": "2",
+  "external_graphics_used": false,
+  "features": {
+    "animation_model": "independent_cell_cycles",
+    "bma_layers_consumed": 1,
+    "bpa_slots_consumed": 0,
+    "framebuffers_materialized": 0,
+    "frames": "independent",
+    "global_period_ticks": 13440,
+    "height": 36,
+    "max_cell_frames": 32,
+    "palette_animation_executed": true,
+    "source_files": [
+      "H25P01.bpl",
+      "H25P01c.bpc",
+      "H25P01m.bma"
+    ],
+    "tile_entries": 4220,
+    "unique_tiles": 1487,
+    "width": 60
+  },
+  "inputs": [
+    {
+      "authority": "pret/pmd-red",
+      "bytes": 576,
+      "path": "/tmp/pmd-red/data/map_bg/H25P01m.bma",
+      "role": "bma",
+      "sha256": "59872c3f17db60fa28b02c9f391301d41ee4b18f3de76765378c70e31fce6e59"
+    },
+    {
+      "authority": "pret/pmd-red",
+      "bytes": 30956,
+      "path": "/tmp/pmd-red/data/map_bg/H25P01c.bpc",
+      "role": "bpc",
+      "sha256": "b3bdea44bec9aab27f13d5fe0af30e1b545be6945ea5fe6ef00e53917ba46bcc"
+    },
+    {
+      "authority": "pret/pmd-red",
+      "bytes": 5856,
+      "path": "/tmp/pmd-red/data/map_bg/H25P01.bpl",
+      "role": "bpl",
+      "sha256": "7a0990447d3c349caffa332fb8318ac0d282595e542311c701fb61c8934cbf38"
+    }
+  ],
+  "map_id": "MAP_FILE_ID_FRIEND_AREA_ICE_FLOE_BEACH",
+  "outputs": [
+    {
+      "bytes": 536067,
+      "path": "output/Grounds/h25p01.rsground",
+      "role": "ground",
+      "sha256": "355866722dbe96a3033adfe1a8ab3b7fb78d0d9391f3b0daff5fa16a94d076fa"
+    },
+    {
+      "bytes": 270122,
+      "path": "output/Tiles/h25p01_Base.tile",
+      "role": "tile",
+      "sha256": "899bcb7bc4cf25a8959cc28560bc723d1932cb892d34dc62bbfd4f330d01c888"
+    }
+  ],
+  "python": "3.13.14",
+  "schema": 1
+}
