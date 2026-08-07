@@ -1,0 +1,65 @@
+{
+  "schema": 1,
+  "source_ground": "D11P02",
+  "dungeon_tileset": 47,
+  "emap_variant": null,
+  "authority": "pret/pmd-red + legally reconstructed European ROM blobs",
+  "external_graphics_used": false,
+  "inputs": [
+    {
+      "role": "rom",
+      "path": "/home/user/rom.gba",
+      "bytes": 33554432,
+      "sha256": "0f9d125d513d9cba628d97e2c345382eba9ba73b402b24a8fdd81f604c14cbcd"
+    },
+    {
+      "role": "font",
+      "path": "/home/user/blobs/b47fon",
+      "bytes": 9022,
+      "sha256": "7595e43a0640ee5155d8fd452ae6e3c2a7756b824b5cb1197b4d43ab498845e8"
+    },
+    {
+      "role": "palette",
+      "path": "/home/user/blobs/b47pal",
+      "bytes": 768,
+      "sha256": "90dbc274265dd045c3d53b2dc75681ececd873a1f08b8c690527c605f1aeffdd"
+    },
+    {
+      "role": "cells",
+      "path": "/home/user/blobs/b47cel",
+      "bytes": 2008,
+      "sha256": "2dd6d514ea8422d3d9c0e83cd57a693a975b1b44469e80959ece9e414481f5d7"
+    },
+    {
+      "role": "cex",
+      "path": "/home/user/blobs/b47cex",
+      "bytes": 902,
+      "sha256": "dda6b9c02d8c869bdb7b5956e2eb73f1e28cc77bd384a3772b85a1d2f61c14aa"
+    }
+  ],
+  "outputs": [
+    {
+      "role": "ground",
+      "path": "output/Grounds/d11p02.rsground",
+      "bytes": 652772,
+      "sha256": "741237a4387836ca3c12c760ce30ecc8ee95caca04302591c590d9b7c15ac68e"
+    },
+    {
+      "role": "tile",
+      "path": "output/Tiles/D11p02_Base.tile",
+      "bytes": 79744,
+      "sha256": "1afa78047a2cf2a28cc1e63fe6fb62ecfb0803b679aa08866dd3480b977f759f"
+    },
+    {
+      "role": "offline_render",
+      "path": "debug/render_ground/d11p02.png",
+      "bytes": 42718,
+      "sha256": "02ce9adbcb81835589fc6293fb8814907b55a1984a26ac0ca3866615346c6b1c"
+    }
+  ],
+  "validation": {
+    "offline_pixel_roundtrip": true,
+    "runtime_capture": false,
+    "emulator_comparison": false
+  }
+}
