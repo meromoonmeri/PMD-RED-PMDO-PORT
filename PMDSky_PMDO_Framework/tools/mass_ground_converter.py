@@ -25,11 +25,23 @@ def parse_bpc(p):
     cw, chh, nt = struct.unpack_from('<HHH', d, 0)
     nc, = struct.unpack_from('<H', d, 14)
     tiles = [bytes(32)] + [d[16+i*32:16+(i+1)*32] for i in range(nt-1)]
-    off = 16 + (nt-1)*32; n = cw * chh
+    off = 16 + (nt-1)*32
+    
+    # Hybrid calculation of chunk size n
+    n = cw * chh
+    if n == 0 or off + n * 2 * (nc - 1) > len(d):
+        if nc > 1:
+            n = max(0, (len(d) - off) // (nc - 1) // 2)
+        else:
+            n = 0
+            
     chunks = [[0]*n]
     for i in range(nc-1):
-        chunks.append(list(struct.unpack_from(f'<{n}H', d, off)))
-        off += n*2
+        if off + n*2 <= len(d):
+            chunks.append(list(struct.unpack_from(f'<{n}H', d, off)))
+            off += n*2
+        else:
+            chunks.append([0]*n)
     return cw, chh, tiles, chunks
 
 def parse_bpa(p):
@@ -149,8 +161,11 @@ def generate_rsground(base_name, W, H, collisions, sheet, anim_frames=1):
 
 def run_mass_conversion():
     bpl_files = []
-    for d in pmd_map_bg_dirs:
-        bpl_files.extend(glob.glob(os.path.join(d, '*.bpl')))
+    # Recursively discover all .bpl map files in the extracted ROM folder (Data-Driven)
+    for root, dirs, files in os.walk('/tmp/pmd-sky/files'):
+        for f in files:
+            if f.endswith('.bpl'):
+                bpl_files.append(os.path.join(root, f))
         
     print(f"Démarrage de la conversion massive pour {len(bpl_files)} maps Sky (Mode Pixel-Perfect avec Animations)...")
     start_time = time.time()
