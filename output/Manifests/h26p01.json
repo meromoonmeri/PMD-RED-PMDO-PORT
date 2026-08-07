@@ -1,0 +1,63 @@
+{
+  "converter_version": "2",
+  "external_graphics_used": false,
+  "features": {
+    "animation_model": "independent_cell_cycles",
+    "bma_layers_consumed": 1,
+    "bpa_slots_consumed": 0,
+    "framebuffers_materialized": 0,
+    "frames": "independent",
+    "global_period_ticks": 14880,
+    "height": 39,
+    "max_cell_frames": 31,
+    "palette_animation_executed": true,
+    "source_files": [
+      "H26P01.bpl",
+      "H26P01c.bpc",
+      "H26P01m.bma"
+    ],
+    "tile_entries": 7482,
+    "unique_tiles": 2602,
+    "width": 60
+  },
+  "inputs": [
+    {
+      "authority": "pret/pmd-red",
+      "bytes": 416,
+      "path": "/tmp/pmd-red/data/map_bg/H26P01m.bma",
+      "role": "bma",
+      "sha256": "e242bc5ad5ffaf4b80ca2876bb0338e9ef3d5c48585e0ca0e91a5f9f620fb253"
+    },
+    {
+      "authority": "pret/pmd-red",
+      "bytes": 30080,
+      "path": "/tmp/pmd-red/data/map_bg/H26P01c.bpc",
+      "role": "bpc",
+      "sha256": "d829d2ab947244ef091a19e9d7b975637a401b51a25ba248d7e103a1be057c9c"
+    },
+    {
+      "authority": "pret/pmd-red",
+      "bytes": 9704,
+      "path": "/tmp/pmd-red/data/map_bg/H26P01.bpl",
+      "role": "bpl",
+      "sha256": "9b24e8eecd87badce0b0187195c88ae93c426087e1081d3ada9b440316df6695"
+    }
+  ],
+  "map_id": "MAP_FILE_ID_FRIEND_AREA_VOLCANIC_PIT",
+  "outputs": [
+    {
+      "bytes": 726029,
+      "path": "output/Grounds/h26p01.rsground",
+      "role": "ground",
+      "sha256": "34651e7a4021170a80c40a9dc0a682431297460c2a23bd1f6b9a0bf1af122ec7"
+    },
+    {
+      "bytes": 475692,
+      "path": "output/Tiles/h26p01_Base.tile",
+      "role": "tile",
+      "sha256": "a2120e744770ececda0d835812675bd555414693b963687de772eba766c9ff14"
+    }
+  ],
+  "python": "3.13.14",
+  "schema": 1
+}

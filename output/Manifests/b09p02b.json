@@ -1,0 +1,71 @@
+{
+  "converter_version": "2",
+  "external_graphics_used": false,
+  "features": {
+    "animation_model": "independent_cell_cycles",
+    "bma_layers_consumed": 1,
+    "bpa_slots_consumed": 1,
+    "framebuffers_materialized": 0,
+    "frames": "independent",
+    "global_period_ticks": 720,
+    "height": 60,
+    "max_cell_frames": 18,
+    "palette_animation_executed": true,
+    "source_files": [
+      "B09P02B.bpl",
+      "B09P02c.bpc",
+      "B09P02Bm.bma",
+      "B09P021.bpa"
+    ],
+    "tile_entries": 3736,
+    "unique_tiles": 1168,
+    "width": 60
+  },
+  "inputs": [
+    {
+      "authority": "pret/pmd-red",
+      "bytes": 548,
+      "path": "/tmp/pmd-red/data/map_bg/B09P02Bm.bma",
+      "role": "bma",
+      "sha256": "03d6a45c6f9ce0d50f90865feac41845d66c7a2dcc57b879a5d4151a73247e41"
+    },
+    {
+      "authority": "pret/pmd-red",
+      "bytes": 988,
+      "path": "/tmp/pmd-red/data/map_bg/B09P021.bpa",
+      "role": "bpa_0",
+      "sha256": "bfc42fb9f7cb3babb683b1ee2a318f46e8f1881e7037a022f59852207803f4fd"
+    },
+    {
+      "authority": "pret/pmd-red",
+      "bytes": 30404,
+      "path": "/tmp/pmd-red/data/map_bg/B09P02c.bpc",
+      "role": "bpc",
+      "sha256": "0b1bb73e5b2a6e54cb3c0ce0d0f8b746648ce5cf5f91014ec3fd94fa5647177f"
+    },
+    {
+      "authority": "pret/pmd-red",
+      "bytes": 1972,
+      "path": "/tmp/pmd-red/data/map_bg/B09P02B.bpl",
+      "role": "bpl",
+      "sha256": "dc8395a1ea3b6eb4cf8f89227893b1ea6accc3ceda50012fbced53fdf5dbd64f"
+    }
+  ],
+  "map_id": "MAP_FILE_ID_TEAM_BASE_INSIDE_CHARMANDER_CONSTRUCTION",
+  "outputs": [
+    {
+      "bytes": 732546,
+      "path": "output/Grounds/b09p02b.rsground",
+      "role": "ground",
+      "sha256": "40b6a6989a777788f17e671df44634f05948bb83ecb78d483b81f8101883fbd3"
+    },
+    {
+      "bytes": 257130,
+      "path": "output/Tiles/b09p02b_Base.tile",
+      "role": "tile",
+      "sha256": "3bddc46afc2a6f166491b112b19640775dc3621591796415bcb2da01a3094ade"
+    }
+  ],
+  "python": "3.13.14",
+  "schema": 1
+}

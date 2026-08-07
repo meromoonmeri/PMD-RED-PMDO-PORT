@@ -1,0 +1,79 @@
+{
+  "converter_version": "2",
+  "external_graphics_used": false,
+  "features": {
+    "animation_model": "independent_cell_cycles",
+    "bma_layers_consumed": 1,
+    "bpa_slots_consumed": 2,
+    "framebuffers_materialized": 0,
+    "frames": "independent",
+    "global_period_ticks": 576,
+    "height": 69,
+    "max_cell_frames": 8,
+    "palette_animation_executed": true,
+    "source_files": [
+      "B05P01B.bpl",
+      "B05P01Bc.bpc",
+      "B05P01Bm.bma",
+      "B05P01B1.bpa",
+      "B05P01B3.bpa"
+    ],
+    "tile_entries": 5584,
+    "unique_tiles": 1254,
+    "width": 69
+  },
+  "inputs": [
+    {
+      "authority": "pret/pmd-red",
+      "bytes": 952,
+      "path": "/tmp/pmd-red/data/map_bg/B05P01Bm.bma",
+      "role": "bma",
+      "sha256": "316553e2b119d1bd47e50a83712bcb9b13db507f615684ed7768c4ddc1779786"
+    },
+    {
+      "authority": "pret/pmd-red",
+      "bytes": 3100,
+      "path": "/tmp/pmd-red/data/map_bg/B05P01B1.bpa",
+      "role": "bpa_0",
+      "sha256": "f967f3fbb4aa66bbbd309aa3388fa18bac3a6615ef93efde0e273b77bb62659a"
+    },
+    {
+      "authority": "pret/pmd-red",
+      "bytes": 200,
+      "path": "/tmp/pmd-red/data/map_bg/B05P01B3.bpa",
+      "role": "bpa_1",
+      "sha256": "39c58dd8f063a658fde3675209cf3fea5a7524f2f40670e55b87c8ad6ef7a1f3"
+    },
+    {
+      "authority": "pret/pmd-red",
+      "bytes": 29340,
+      "path": "/tmp/pmd-red/data/map_bg/B05P01Bc.bpc",
+      "role": "bpc",
+      "sha256": "e8ee851b7b6278cefa34b5048eb99b948d555e04d0d4c69bfbb19a2eadfa28ea"
+    },
+    {
+      "authority": "pret/pmd-red",
+      "bytes": 1188,
+      "path": "/tmp/pmd-red/data/map_bg/B05P01B.bpl",
+      "role": "bpl",
+      "sha256": "6d3d996545e54ba7133f5df9c2a88f9d6326146f8a97094bc22628f5fe5ea251"
+    }
+  ],
+  "map_id": "MAP_FILE_ID_TEAM_BASE_SQUIRTLE_CONSTRUCTION",
+  "outputs": [
+    {
+      "bytes": 1001635,
+      "path": "output/Grounds/b05p01b.rsground",
+      "role": "ground",
+      "sha256": "007f5ca70f9e8edf252f0a54ae81c9353854430b9e4df6346e2b227799b3196b"
+    },
+    {
+      "bytes": 285607,
+      "path": "output/Tiles/b05p01b_Base.tile",
+      "role": "tile",
+      "sha256": "bfdef3ce11af6b1ef773b493d39d4b50404a477ea6d2aecc226251868bc6c4bf"
+    }
+  ],
+  "python": "3.13.14",
+  "schema": 1
+}

@@ -1,0 +1,63 @@
+{
+  "converter_version": "2",
+  "external_graphics_used": false,
+  "features": {
+    "animation_model": "independent_cell_cycles",
+    "bma_layers_consumed": 1,
+    "bpa_slots_consumed": 0,
+    "framebuffers_materialized": 0,
+    "frames": "independent",
+    "global_period_ticks": 5952,
+    "height": 42,
+    "max_cell_frames": 31,
+    "palette_animation_executed": true,
+    "source_files": [
+      "H07P06.bpl",
+      "H07P06c.bpc",
+      "H07P06m.bma"
+    ],
+    "tile_entries": 5820,
+    "unique_tiles": 3436,
+    "width": 60
+  },
+  "inputs": [
+    {
+      "authority": "pret/pmd-red",
+      "bytes": 556,
+      "path": "/tmp/pmd-red/data/map_bg/H07P06m.bma",
+      "role": "bma",
+      "sha256": "543aa7cbf2507b71c3810f1bba1e36c27558d2af52694a21b04262ba2e1de939"
+    },
+    {
+      "authority": "pret/pmd-red",
+      "bytes": 32516,
+      "path": "/tmp/pmd-red/data/map_bg/H07P06c.bpc",
+      "role": "bpc",
+      "sha256": "8d2b793c853cfa215f41c52a94fded304eb25e971062ca23898fed5f00efbaba"
+    },
+    {
+      "authority": "pret/pmd-red",
+      "bytes": 4296,
+      "path": "/tmp/pmd-red/data/map_bg/H07P06.bpl",
+      "role": "bpl",
+      "sha256": "ef2685a2145d80c23e37aaca985e1b1605a52b1d2ada8963865b884af0540d8e"
+    }
+  ],
+  "map_id": "MAP_FILE_ID_FRIEND_AREA_HEALING_FOREST",
+  "outputs": [
+    {
+      "bytes": 671440,
+      "path": "output/Grounds/h07p06.rsground",
+      "role": "ground",
+      "sha256": "045aa826744122d6a304238e95ad738c47e3351434c0e8250eb10b601a568d67"
+    },
+    {
+      "bytes": 574481,
+      "path": "output/Tiles/h07p06_Base.tile",
+      "role": "tile",
+      "sha256": "f42df4678fd21d354bc0990ad08eba6265609d6f1b9c47a70db0668d76033859"
+    }
+  ],
+  "python": "3.13.14",
+  "schema": 1
+}

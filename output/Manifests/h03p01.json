@@ -1,0 +1,63 @@
+{
+  "converter_version": "2",
+  "external_graphics_used": false,
+  "features": {
+    "animation_model": "independent_cell_cycles",
+    "bma_layers_consumed": 1,
+    "bpa_slots_consumed": 0,
+    "framebuffers_materialized": 0,
+    "frames": "independent",
+    "global_period_ticks": 9600,
+    "height": 42,
+    "max_cell_frames": 64,
+    "palette_animation_executed": true,
+    "source_files": [
+      "H03P01.bpl",
+      "H03P01c.bpc",
+      "H03P01m.bma"
+    ],
+    "tile_entries": 13338,
+    "unique_tiles": 4756,
+    "width": 69
+  },
+  "inputs": [
+    {
+      "authority": "pret/pmd-red",
+      "bytes": 820,
+      "path": "/tmp/pmd-red/data/map_bg/H03P01m.bma",
+      "role": "bma",
+      "sha256": "34f5cae2344cfa2a116159d785620166a0b8b7aa9bb7ba56b9754e3f39f66e6b"
+    },
+    {
+      "authority": "pret/pmd-red",
+      "bytes": 32060,
+      "path": "/tmp/pmd-red/data/map_bg/H03P01c.bpc",
+      "role": "bpc",
+      "sha256": "03be4cbc29b609f4cc1c1ea78ceb66ee29e3357f1ecba27215b7e2d6d2e72020"
+    },
+    {
+      "authority": "pret/pmd-red",
+      "bytes": 6112,
+      "path": "/tmp/pmd-red/data/map_bg/H03P01.bpl",
+      "role": "bpl",
+      "sha256": "7328637a0c61cb362da9004a784681a41054d4c06a2de2b5a218e2b107dd92a4"
+    }
+  ],
+  "map_id": "MAP_FILE_ID_FRIEND_AREA_SHALLOW_BEACH",
+  "outputs": [
+    {
+      "bytes": 1110491,
+      "path": "output/Grounds/h03p01.rsground",
+      "role": "ground",
+      "sha256": "99b84d698d3df998104cf98afef23842b6473f8e79b12ea27d3650acd28cd024"
+    },
+    {
+      "bytes": 824934,
+      "path": "output/Tiles/h03p01_Base.tile",
+      "role": "tile",
+      "sha256": "e43d0f7c344dfbb11aef59c8ff36e0c9ff4705d1cfa69032fa0a1a8467a0f84e"
+    }
+  ],
+  "python": "3.13.14",
+  "schema": 1
+}
