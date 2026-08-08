@@ -1,0 +1,71 @@
+{
+  "converter_version": "2",
+  "external_graphics_used": false,
+  "features": {
+    "animation_model": "independent_cell_cycles",
+    "bma_layers_consumed": 1,
+    "bpa_slots_consumed": 1,
+    "framebuffers_materialized": 0,
+    "frames": "independent",
+    "global_period_ticks": 720,
+    "height": 60,
+    "max_cell_frames": 360,
+    "palette_animation_executed": true,
+    "source_files": [
+      "B09P02A.bpl",
+      "B09P02c.bpc",
+      "B09P02Am.bma",
+      "B09P021.bpa"
+    ],
+    "tile_entries": 4544,
+    "unique_tiles": 1263,
+    "width": 60
+  },
+  "inputs": [
+    {
+      "authority": "pret/pmd-red",
+      "bytes": 476,
+      "path": "/tmp/pmd-red/data/map_bg/B09P02Am.bma",
+      "role": "bma",
+      "sha256": "d79928092c3d2bb50cf6e5dcb14072a4804da005ac1ebfcc886dad7f98c5d652"
+    },
+    {
+      "authority": "pret/pmd-red",
+      "bytes": 988,
+      "path": "/tmp/pmd-red/data/map_bg/B09P021.bpa",
+      "role": "bpa_0",
+      "sha256": "bfc42fb9f7cb3babb683b1ee2a318f46e8f1881e7037a022f59852207803f4fd"
+    },
+    {
+      "authority": "pret/pmd-red",
+      "bytes": 30404,
+      "path": "/tmp/pmd-red/data/map_bg/B09P02c.bpc",
+      "role": "bpc",
+      "sha256": "0b1bb73e5b2a6e54cb3c0ce0d0f8b746648ce5cf5f91014ec3fd94fa5647177f"
+    },
+    {
+      "authority": "pret/pmd-red",
+      "bytes": 1972,
+      "path": "/tmp/pmd-red/data/map_bg/B09P02A.bpl",
+      "role": "bpl",
+      "sha256": "dc8395a1ea3b6eb4cf8f89227893b1ea6accc3ceda50012fbced53fdf5dbd64f"
+    }
+  ],
+  "map_id": "MAP_FILE_ID_TEAM_BASE_INSIDE_CHARMANDER_BASIC",
+  "outputs": [
+    {
+      "bytes": 774814,
+      "path": "output/Grounds/b09p02a.rsground",
+      "role": "ground",
+      "sha256": "7e5d7189172221f9b7536caf72f8b6c3b735fc829546f16780d1327f27c3a263"
+    },
+    {
+      "bytes": 285677,
+      "path": "output/Tiles/b09p02a_Base.tile",
+      "role": "tile",
+      "sha256": "65c6f50d2c46432c81612c2a1f21daf55b76e93087e1fc79c0a75ad9f012ee3c"
+    }
+  ],
+  "python": "3.13.14",
+  "schema": 1
+}

@@ -1,0 +1,1850 @@
+{
+  "renderer": "PMDO Ground offline tile-layer renderer",
+  "tick": 0,
+  "rendered": [
+    {
+      "id": "a01p01",
+      "png": "debug/render_ground/a01p01.png",
+      "width": 480,
+      "height": 384,
+      "warnings": []
+    },
+    {
+      "id": "a01p02",
+      "png": "debug/render_ground/a01p02.png",
+      "width": 480,
+      "height": 384,
+      "warnings": []
+    },
+    {
+      "id": "a02p01",
+      "png": "debug/render_ground/a02p01.png",
+      "width": 480,
+      "height": 360,
+      "warnings": []
+    },
+    {
+      "id": "a02p02",
+      "png": "debug/render_ground/a02p02.png",
+      "width": 264,
+      "height": 192,
+      "warnings": []
+    },
+    {
+      "id": "a02p03",
+      "png": "debug/render_ground/a02p03.png",
+      "width": 360,
+      "height": 288,
+      "warnings": []
+    },
+    {
+      "id": "a02p04",
+      "png": "debug/render_ground/a02p04.png",
+      "width": 264,
+      "height": 384,
+      "warnings": []
+    },
+    {
+      "id": "a03p01",
+      "png": "debug/render_ground/a03p01.png",
+      "width": 960,
+      "height": 288,
+      "warnings": []
+    },
+    {
+      "id": "a03p02",
+      "png": "debug/render_ground/a03p02.png",
+      "width": 264,
+      "height": 336,
+      "warnings": []
+    },
+    {
+      "id": "a03p03",
+      "png": "debug/render_ground/a03p03.png",
+      "width": 960,
+      "height": 288,
+      "warnings": []
+    },
+    {
+      "id": "a04p01",
+      "png": "debug/render_ground/a04p01.png",
+      "width": 312,
+      "height": 600,
+      "warnings": []
+    },
+    {
+      "id": "a04p02",
+      "png": "debug/render_ground/a04p02.png",
+      "width": 288,
+      "height": 216,
+      "warnings": []
+    },
+    {
+      "id": "a04p03",
+      "png": "debug/render_ground/a04p03.png",
+      "width": 288,
+      "height": 432,
+      "warnings": []
+    },
+    {
+      "id": "a04p04",
+      "png": "debug/render_ground/a04p04.png",
+      "width": 336,
+      "height": 240,
+      "warnings": []
+    },
+    {
+      "id": "a05p01",
+      "png": "debug/render_ground/a05p01.png",
+      "width": 312,
+      "height": 240,
+      "warnings": []
+    },
+    {
+      "id": "a05p02",
+      "png": "debug/render_ground/a05p02.png",
+      "width": 312,
+      "height": 240,
+      "warnings": []
+    },
+    {
+      "id": "a05p03",
+      "png": "debug/render_ground/a05p03.png",
+      "width": 312,
+      "height": 240,
+      "warnings": []
+    },
+    {
+      "id": "abime_tempetes",
+      "png": "debug/render_ground/abime_tempetes.png",
+      "width": 528,
+      "height": 504,
+      "warnings": []
+    },
+    {
+      "id": "antre_occident",
+      "png": "debug/render_ground/antre_occident.png",
+      "width": 360,
+      "height": 336,
+      "warnings": []
+    },
+    {
+      "id": "b01p01a",
+      "png": "debug/render_ground/b01p01a.png",
+      "width": 552,
+      "height": 552,
+      "warnings": []
+    },
+    {
+      "id": "b01p01b",
+      "png": "debug/render_ground/b01p01b.png",
+      "width": 552,
+      "height": 552,
+      "warnings": []
+    },
+    {
+      "id": "b01p01c",
+      "png": "debug/render_ground/b01p01c.png",
+      "width": 552,
+      "height": 552,
+      "warnings": []
+    },
+    {
+      "id": "b01p02a",
+      "png": "debug/render_ground/b01p02a.png",
+      "width": 480,
+      "height": 480,
+      "warnings": []
+    },
+    {
+      "id": "b01p02b",
+      "png": "debug/render_ground/b01p02b.png",
+      "width": 480,
+      "height": 480,
+      "warnings": []
+    },
+    {
+      "id": "b01p02c",
+      "png": "debug/render_ground/b01p02c.png",
+      "width": 480,
+      "height": 480,
+      "warnings": []
+    },
+    {
+      "id": "b02p01a",
+      "png": "debug/render_ground/b02p01a.png",
+      "width": 552,
+      "height": 552,
+      "warnings": []
+    },
+    {
+      "id": "b02p01b",
+      "png": "debug/render_ground/b02p01b.png",
+      "width": 552,
+      "height": 552,
+      "warnings": []
+    },
+    {
+      "id": "b02p01c",
+      "png": "debug/render_ground/b02p01c.png",
+      "width": 552,
+      "height": 552,
+      "warnings": []
+    },
+    {
+      "id": "b02p02a",
+      "png": "debug/render_ground/b02p02a.png",
+      "width": 480,
+      "height": 480,
+      "warnings": []
+    },
+    {
+      "id": "b02p02b",
+      "png": "debug/render_ground/b02p02b.png",
+      "width": 480,
+      "height": 480,
+      "warnings": []
+    },
+    {
+      "id": "b02p02c",
+      "png": "debug/render_ground/b02p02c.png",
+      "width": 480,
+      "height": 480,
+      "warnings": []
+    },
+    {
+      "id": "b03p01a",
+      "png": "debug/render_ground/b03p01a.png",
+      "width": 552,
+      "height": 552,
+      "warnings": []
+    },
+    {
+      "id": "b03p01b",
+      "png": "debug/render_ground/b03p01b.png",
+      "width": 552,
+      "height": 552,
+      "warnings": []
+    },
+    {
+      "id": "b03p01c",
+      "png": "debug/render_ground/b03p01c.png",
+      "width": 552,
+      "height": 552,
+      "warnings": []
+    },
+    {
+      "id": "b03p02a",
+      "png": "debug/render_ground/b03p02a.png",
+      "width": 480,
+      "height": 480,
+      "warnings": []
+    },
+    {
+      "id": "b03p02b",
+      "png": "debug/render_ground/b03p02b.png",
+      "width": 480,
+      "height": 480,
+      "warnings": []
+    },
+    {
+      "id": "b03p02c",
+      "png": "debug/render_ground/b03p02c.png",
+      "width": 480,
+      "height": 480,
+      "warnings": []
+    },
+    {
+      "id": "b04p01a",
+      "png": "debug/render_ground/b04p01a.png",
+      "width": 552,
+      "height": 552,
+      "warnings": []
+    },
+    {
+      "id": "b04p01b",
+      "png": "debug/render_ground/b04p01b.png",
+      "width": 552,
+      "height": 552,
+      "warnings": []
+    },
+    {
+      "id": "b04p01c",
+      "png": "debug/render_ground/b04p01c.png",
+      "width": 552,
+      "height": 552,
+      "warnings": []
+    },
+    {
+      "id": "b04p02a",
+      "png": "debug/render_ground/b04p02a.png",
+      "width": 480,
+      "height": 480,
+      "warnings": []
+    },
+    {
+      "id": "b04p02b",
+      "png": "debug/render_ground/b04p02b.png",
+      "width": 480,
+      "height": 480,
+      "warnings": []
+    },
+    {
+      "id": "b04p02c",
+      "png": "debug/render_ground/b04p02c.png",
+      "width": 480,
+      "height": 480,
+      "warnings": []
+    },
+    {
+      "id": "b05p01a",
+      "png": "debug/render_ground/b05p01a.png",
+      "width": 552,
+      "height": 552,
+      "warnings": []
+    },
+    {
+      "id": "b05p01b",
+      "png": "debug/render_ground/b05p01b.png",
+      "width": 552,
+      "height": 552,
+      "warnings": []
+    },
+    {
+      "id": "b05p01c",
+      "png": "debug/render_ground/b05p01c.png",
+      "width": 552,
+      "height": 552,
+      "warnings": []
+    },
+    {
+      "id": "b05p02a",
+      "png": "debug/render_ground/b05p02a.png",
+      "width": 480,
+      "height": 480,
+      "warnings": []
+    },
+    {
+      "id": "b05p02b",
+      "png": "debug/render_ground/b05p02b.png",
+      "width": 480,
+      "height": 480,
+      "warnings": []
+    },
+    {
+      "id": "b05p02c",
+      "png": "debug/render_ground/b05p02c.png",
+      "width": 480,
+      "height": 480,
+      "warnings": []
+    },
+    {
+      "id": "b06p01a",
+      "png": "debug/render_ground/b06p01a.png",
+      "width": 552,
+      "height": 552,
+      "warnings": []
+    },
+    {
+      "id": "b06p01b",
+      "png": "debug/render_ground/b06p01b.png",
+      "width": 552,
+      "height": 552,
+      "warnings": []
+    },
+    {
+      "id": "b06p01c",
+      "png": "debug/render_ground/b06p01c.png",
+      "width": 552,
+      "height": 552,
+      "warnings": []
+    },
+    {
+      "id": "b06p02a",
+      "png": "debug/render_ground/b06p02a.png",
+      "width": 480,
+      "height": 480,
+      "warnings": []
+    },
+    {
+      "id": "b06p02b",
+      "png": "debug/render_ground/b06p02b.png",
+      "width": 480,
+      "height": 480,
+      "warnings": []
+    },
+    {
+      "id": "b06p02c",
+      "png": "debug/render_ground/b06p02c.png",
+      "width": 480,
+      "height": 480,
+      "warnings": []
+    },
+    {
+      "id": "b07p01a",
+      "png": "debug/render_ground/b07p01a.png",
+      "width": 552,
+      "height": 552,
+      "warnings": []
+    },
+    {
+      "id": "b07p01b",
+      "png": "debug/render_ground/b07p01b.png",
+      "width": 552,
+      "height": 552,
+      "warnings": []
+    },
+    {
+      "id": "b07p01c",
+      "png": "debug/render_ground/b07p01c.png",
+      "width": 552,
+      "height": 552,
+      "warnings": []
+    },
+    {
+      "id": "b07p02a",
+      "png": "debug/render_ground/b07p02a.png",
+      "width": 480,
+      "height": 480,
+      "warnings": []
+    },
+    {
+      "id": "b07p02b",
+      "png": "debug/render_ground/b07p02b.png",
+      "width": 480,
+      "height": 480,
+      "warnings": []
+    },
+    {
+      "id": "b07p02c",
+      "png": "debug/render_ground/b07p02c.png",
+      "width": 480,
+      "height": 480,
+      "warnings": []
+    },
+    {
+      "id": "b08p01a",
+      "png": "debug/render_ground/b08p01a.png",
+      "width": 552,
+      "height": 552,
+      "warnings": []
+    },
+    {
+      "id": "b08p01b",
+      "png": "debug/render_ground/b08p01b.png",
+      "width": 552,
+      "height": 552,
+      "warnings": []
+    },
+    {
+      "id": "b08p01c",
+      "png": "debug/render_ground/b08p01c.png",
+      "width": 552,
+      "height": 552,
+      "warnings": []
+    },
+    {
+      "id": "b08p02a",
+      "png": "debug/render_ground/b08p02a.png",
+      "width": 480,
+      "height": 480,
+      "warnings": []
+    },
+    {
+      "id": "b08p02b",
+      "png": "debug/render_ground/b08p02b.png",
+      "width": 480,
+      "height": 480,
+      "warnings": []
+    },
+    {
+      "id": "b08p02c",
+      "png": "debug/render_ground/b08p02c.png",
+      "width": 480,
+      "height": 480,
+      "warnings": []
+    },
+    {
+      "id": "b09p01a",
+      "png": "debug/render_ground/b09p01a.png",
+      "width": 552,
+      "height": 552,
+      "warnings": []
+    },
+    {
+      "id": "b09p01b",
+      "png": "debug/render_ground/b09p01b.png",
+      "width": 552,
+      "height": 552,
+      "warnings": []
+    },
+    {
+      "id": "b09p01c",
+      "png": "debug/render_ground/b09p01c.png",
+      "width": 552,
+      "height": 552,
+      "warnings": []
+    },
+    {
+      "id": "b09p02a",
+      "png": "debug/render_ground/b09p02a.png",
+      "width": 480,
+      "height": 480,
+      "warnings": []
+    },
+    {
+      "id": "b09p02b",
+      "png": "debug/render_ground/b09p02b.png",
+      "width": 480,
+      "height": 480,
+      "warnings": []
+    },
+    {
+      "id": "b09p02c",
+      "png": "debug/render_ground/b09p02c.png",
+      "width": 480,
+      "height": 480,
+      "warnings": []
+    },
+    {
+      "id": "b10p01a",
+      "png": "debug/render_ground/b10p01a.png",
+      "width": 552,
+      "height": 552,
+      "warnings": []
+    },
+    {
+      "id": "b10p01b",
+      "png": "debug/render_ground/b10p01b.png",
+      "width": 552,
+      "height": 552,
+      "warnings": []
+    },
+    {
+      "id": "b10p01c",
+      "png": "debug/render_ground/b10p01c.png",
+      "width": 552,
+      "height": 552,
+      "warnings": []
+    },
+    {
+      "id": "b10p02a",
+      "png": "debug/render_ground/b10p02a.png",
+      "width": 480,
+      "height": 480,
+      "warnings": []
+    },
+    {
+      "id": "b10p02b",
+      "png": "debug/render_ground/b10p02b.png",
+      "width": 480,
+      "height": 480,
+      "warnings": []
+    },
+    {
+      "id": "b10p02c",
+      "png": "debug/render_ground/b10p02c.png",
+      "width": 480,
+      "height": 480,
+      "warnings": []
+    },
+    {
+      "id": "b11p01a",
+      "png": "debug/render_ground/b11p01a.png",
+      "width": 552,
+      "height": 552,
+      "warnings": []
+    },
+    {
+      "id": "b11p01b",
+      "png": "debug/render_ground/b11p01b.png",
+      "width": 552,
+      "height": 552,
+      "warnings": []
+    },
+    {
+      "id": "b11p01c",
+      "png": "debug/render_ground/b11p01c.png",
+      "width": 552,
+      "height": 552,
+      "warnings": []
+    },
+    {
+      "id": "b11p02a",
+      "png": "debug/render_ground/b11p02a.png",
+      "width": 480,
+      "height": 480,
+      "warnings": []
+    },
+    {
+      "id": "b11p02b",
+      "png": "debug/render_ground/b11p02b.png",
+      "width": 480,
+      "height": 480,
+      "warnings": []
+    },
+    {
+      "id": "b11p02c",
+      "png": "debug/render_ground/b11p02c.png",
+      "width": 480,
+      "height": 480,
+      "warnings": []
+    },
+    {
+      "id": "b12p01a",
+      "png": "debug/render_ground/b12p01a.png",
+      "width": 552,
+      "height": 552,
+      "warnings": []
+    },
+    {
+      "id": "b12p01b",
+      "png": "debug/render_ground/b12p01b.png",
+      "width": 552,
+      "height": 552,
+      "warnings": []
+    },
+    {
+      "id": "b12p01c",
+      "png": "debug/render_ground/b12p01c.png",
+      "width": 552,
+      "height": 552,
+      "warnings": []
+    },
+    {
+      "id": "b12p02a",
+      "png": "debug/render_ground/b12p02a.png",
+      "width": 480,
+      "height": 480,
+      "warnings": []
+    },
+    {
+      "id": "b12p02b",
+      "png": "debug/render_ground/b12p02b.png",
+      "width": 480,
+      "height": 480,
+      "warnings": []
+    },
+    {
+      "id": "b12p02c",
+      "png": "debug/render_ground/b12p02c.png",
+      "width": 480,
+      "height": 480,
+      "warnings": []
+    },
+    {
+      "id": "b13p01a",
+      "png": "debug/render_ground/b13p01a.png",
+      "width": 552,
+      "height": 552,
+      "warnings": []
+    },
+    {
+      "id": "b13p01b",
+      "png": "debug/render_ground/b13p01b.png",
+      "width": 552,
+      "height": 552,
+      "warnings": []
+    },
+    {
+      "id": "b13p01c",
+      "png": "debug/render_ground/b13p01c.png",
+      "width": 552,
+      "height": 552,
+      "warnings": []
+    },
+    {
+      "id": "b13p02a",
+      "png": "debug/render_ground/b13p02a.png",
+      "width": 480,
+      "height": 480,
+      "warnings": []
+    },
+    {
+      "id": "b13p02b",
+      "png": "debug/render_ground/b13p02b.png",
+      "width": 480,
+      "height": 480,
+      "warnings": []
+    },
+    {
+      "id": "b13p02c",
+      "png": "debug/render_ground/b13p02c.png",
+      "width": 480,
+      "height": 480,
+      "warnings": []
+    },
+    {
+      "id": "b14p01a",
+      "png": "debug/render_ground/b14p01a.png",
+      "width": 552,
+      "height": 552,
+      "warnings": []
+    },
+    {
+      "id": "b14p01b",
+      "png": "debug/render_ground/b14p01b.png",
+      "width": 552,
+      "height": 552,
+      "warnings": []
+    },
+    {
+      "id": "b14p01c",
+      "png": "debug/render_ground/b14p01c.png",
+      "width": 552,
+      "height": 552,
+      "warnings": []
+    },
+    {
+      "id": "b14p02a",
+      "png": "debug/render_ground/b14p02a.png",
+      "width": 480,
+      "height": 480,
+      "warnings": []
+    },
+    {
+      "id": "b14p02b",
+      "png": "debug/render_ground/b14p02b.png",
+      "width": 480,
+      "height": 480,
+      "warnings": []
+    },
+    {
+      "id": "b14p02c",
+      "png": "debug/render_ground/b14p02c.png",
+      "width": 480,
+      "height": 480,
+      "warnings": []
+    },
+    {
+      "id": "b15p01a",
+      "png": "debug/render_ground/b15p01a.png",
+      "width": 552,
+      "height": 552,
+      "warnings": []
+    },
+    {
+      "id": "b15p01b",
+      "png": "debug/render_ground/b15p01b.png",
+      "width": 552,
+      "height": 552,
+      "warnings": []
+    },
+    {
+      "id": "b15p01c",
+      "png": "debug/render_ground/b15p01c.png",
+      "width": 552,
+      "height": 552,
+      "warnings": []
+    },
+    {
+      "id": "b15p02a",
+      "png": "debug/render_ground/b15p02a.png",
+      "width": 480,
+      "height": 480,
+      "warnings": []
+    },
+    {
+      "id": "b15p02b",
+      "png": "debug/render_ground/b15p02b.png",
+      "width": 480,
+      "height": 480,
+      "warnings": []
+    },
+    {
+      "id": "b15p02c",
+      "png": "debug/render_ground/b15p02c.png",
+      "width": 480,
+      "height": 480,
+      "warnings": []
+    },
+    {
+      "id": "b16p01a",
+      "png": "debug/render_ground/b16p01a.png",
+      "width": 552,
+      "height": 552,
+      "warnings": []
+    },
+    {
+      "id": "b16p01b",
+      "png": "debug/render_ground/b16p01b.png",
+      "width": 552,
+      "height": 552,
+      "warnings": []
+    },
+    {
+      "id": "b16p01c",
+      "png": "debug/render_ground/b16p01c.png",
+      "width": 552,
+      "height": 552,
+      "warnings": []
+    },
+    {
+      "id": "b16p02a",
+      "png": "debug/render_ground/b16p02a.png",
+      "width": 480,
+      "height": 480,
+      "warnings": []
+    },
+    {
+      "id": "b16p02b",
+      "png": "debug/render_ground/b16p02b.png",
+      "width": 480,
+      "height": 480,
+      "warnings": []
+    },
+    {
+      "id": "b16p02c",
+      "png": "debug/render_ground/b16p02c.png",
+      "width": 480,
+      "height": 480,
+      "warnings": []
+    },
+    {
+      "id": "bois_des_plaintes",
+      "png": "debug/render_ground/bois_des_plaintes.png",
+      "width": 360,
+      "height": 336,
+      "warnings": []
+    },
+    {
+      "id": "bois_sombres_fond",
+      "png": "debug/render_ground/bois_sombres_fond.png",
+      "width": 552,
+      "height": 576,
+      "warnings": []
+    },
+    {
+      "id": "bois_sombres_oree",
+      "png": "debug/render_ground/bois_sombres_oree.png",
+      "width": 456,
+      "height": 384,
+      "warnings": []
+    },
+    {
+      "id": "caverne_trouble_autel",
+      "png": "debug/render_ground/caverne_trouble_autel.png",
+      "width": 408,
+      "height": 288,
+      "warnings": []
+    },
+    {
+      "id": "caverne_trouble_fond",
+      "png": "debug/render_ground/caverne_trouble_fond.png",
+      "width": 408,
+      "height": 384,
+      "warnings": []
+    },
+    {
+      "id": "champ_braises",
+      "png": "debug/render_ground/champ_braises.png",
+      "width": 360,
+      "height": 360,
+      "warnings": []
+    },
+    {
+      "id": "champ_foudre",
+      "png": "debug/render_ground/champ_foudre.png",
+      "width": 384,
+      "height": 360,
+      "warnings": []
+    },
+    {
+      "id": "champ_vent_boreal",
+      "png": "debug/render_ground/champ_vent_boreal.png",
+      "width": 360,
+      "height": 336,
+      "warnings": []
+    },
+    {
+      "id": "cretes_boreales",
+      "png": "debug/render_ground/cretes_boreales.png",
+      "width": 504,
+      "height": 480,
+      "warnings": []
+    },
+    {
+      "id": "d01p01",
+      "png": "debug/render_ground/d01p01.png",
+      "width": 432,
+      "height": 360,
+      "warnings": []
+    },
+    {
+      "id": "d01p02",
+      "png": "debug/render_ground/d01p02.png",
+      "width": 360,
+      "height": 336,
+      "warnings": []
+    },
+    {
+      "id": "d02p01",
+      "png": "debug/render_ground/d02p01.png",
+      "width": 384,
+      "height": 312,
+      "warnings": []
+    },
+    {
+      "id": "d02p02",
+      "png": "debug/render_ground/d02p02.png",
+      "width": 360,
+      "height": 336,
+      "warnings": []
+    },
+    {
+      "id": "d03p01",
+      "png": "debug/render_ground/d03p01.png",
+      "width": 360,
+      "height": 312,
+      "warnings": []
+    },
+    {
+      "id": "d03p02",
+      "png": "debug/render_ground/d03p02.png",
+      "width": 456,
+      "height": 552,
+      "warnings": []
+    },
+    {
+      "id": "d04p01",
+      "png": "debug/render_ground/d04p01.png",
+      "width": 456,
+      "height": 384,
+      "warnings": []
+    },
+    {
+      "id": "d05p01",
+      "png": "debug/render_ground/d05p01.png",
+      "width": 672,
+      "height": 240,
+      "warnings": []
+    },
+    {
+      "id": "d05p02",
+      "png": "debug/render_ground/d05p02.png",
+      "width": 360,
+      "height": 408,
+      "warnings": []
+    },
+    {
+      "id": "d06p01",
+      "png": "debug/render_ground/d06p01.png",
+      "width": 408,
+      "height": 288,
+      "warnings": []
+    },
+    {
+      "id": "d06p02",
+      "png": "debug/render_ground/d06p02.png",
+      "width": 456,
+      "height": 456,
+      "warnings": []
+    },
+    {
+      "id": "d06p03",
+      "png": "debug/render_ground/d06p03.png",
+      "width": 456,
+      "height": 456,
+      "warnings": []
+    },
+    {
+      "id": "d07p01",
+      "png": "debug/render_ground/d07p01.png",
+      "width": 456,
+      "height": 240,
+      "warnings": []
+    },
+    {
+      "id": "d07p02",
+      "png": "debug/render_ground/d07p02.png",
+      "width": 312,
+      "height": 600,
+      "warnings": []
+    },
+    {
+      "id": "d08p01",
+      "png": "debug/render_ground/d08p01.png",
+      "width": 360,
+      "height": 288,
+      "warnings": []
+    },
+    {
+      "id": "d08p02",
+      "png": "debug/render_ground/d08p02.png",
+      "width": 360,
+      "height": 288,
+      "warnings": []
+    },
+    {
+      "id": "d09p01",
+      "png": "debug/render_ground/d09p01.png",
+      "width": 360,
+      "height": 312,
+      "warnings": []
+    },
+    {
+      "id": "d09p02",
+      "png": "debug/render_ground/d09p02.png",
+      "width": 456,
+      "height": 456,
+      "warnings": []
+    },
+    {
+      "id": "d09p03",
+      "png": "debug/render_ground/d09p03.png",
+      "width": 552,
+      "height": 552,
+      "warnings": []
+    },
+    {
+      "id": "d10p01",
+      "png": "debug/render_ground/d10p01.png",
+      "width": 264,
+      "height": 336,
+      "warnings": []
+    },
+    {
+      "id": "d10p02",
+      "png": "debug/render_ground/d10p02.png",
+      "width": 456,
+      "height": 456,
+      "warnings": []
+    },
+    {
+      "id": "d10p03",
+      "png": "debug/render_ground/d10p03.png",
+      "width": 528,
+      "height": 504,
+      "warnings": []
+    },
+    {
+      "id": "d11p01",
+      "png": "debug/render_ground/d11p01.png",
+      "width": 264,
+      "height": 288,
+      "warnings": []
+    },
+    {
+      "id": "d11p02",
+      "png": "debug/render_ground/d11p02.png",
+      "width": 456,
+      "height": 456,
+      "warnings": []
+    },
+    {
+      "id": "d11p03",
+      "png": "debug/render_ground/d11p03.png",
+      "width": 504,
+      "height": 504,
+      "warnings": []
+    },
+    {
+      "id": "d12p01",
+      "png": "debug/render_ground/d12p01.png",
+      "width": 408,
+      "height": 336,
+      "warnings": []
+    },
+    {
+      "id": "d13p01",
+      "png": "debug/render_ground/d13p01.png",
+      "width": 408,
+      "height": 288,
+      "warnings": []
+    },
+    {
+      "id": "d22p01",
+      "png": "debug/render_ground/d22p01.png",
+      "width": 408,
+      "height": 360,
+      "warnings": []
+    },
+    {
+      "id": "d24p01",
+      "png": "debug/render_ground/d24p01.png",
+      "width": 408,
+      "height": 384,
+      "warnings": []
+    },
+    {
+      "id": "d24p02",
+      "png": "debug/render_ground/d24p02.png",
+      "width": 408,
+      "height": 288,
+      "warnings": []
+    },
+    {
+      "id": "foret_givree_oree",
+      "png": "debug/render_ground/foret_givree_oree.png",
+      "width": 264,
+      "height": 336,
+      "warnings": []
+    },
+    {
+      "id": "foret_tendre_oree",
+      "png": "debug/render_ground/foret_tendre_oree.png",
+      "width": 432,
+      "height": 360,
+      "warnings": []
+    },
+    {
+      "id": "fosse_ardente",
+      "png": "debug/render_ground/fosse_ardente.png",
+      "width": 504,
+      "height": 504,
+      "warnings": []
+    },
+    {
+      "id": "fosse_argentee",
+      "png": "debug/render_ground/fosse_argentee.png",
+      "width": 552,
+      "height": 600,
+      "warnings": []
+    },
+    {
+      "id": "gorge_ardente_coeur",
+      "png": "debug/render_ground/gorge_ardente_coeur.png",
+      "width": 456,
+      "height": 456,
+      "warnings": []
+    },
+    {
+      "id": "gorge_ardente_porte",
+      "png": "debug/render_ground/gorge_ardente_porte.png",
+      "width": 408,
+      "height": 336,
+      "warnings": []
+    },
+    {
+      "id": "gouffre_muet_bord",
+      "png": "debug/render_ground/gouffre_muet_bord.png",
+      "width": 672,
+      "height": 240,
+      "warnings": []
+    },
+    {
+      "id": "grand_canyon_porte",
+      "png": "debug/render_ground/grand_canyon_porte.png",
+      "width": 456,
+      "height": 240,
+      "warnings": []
+    },
+    {
+      "id": "grotte_lazuli_fond",
+      "png": "debug/render_ground/grotte_lazuli_fond.png",
+      "width": 360,
+      "height": 288,
+      "warnings": []
+    },
+    {
+      "id": "grotte_lazuli_seuil",
+      "png": "debug/render_ground/grotte_lazuli_seuil.png",
+      "width": 360,
+      "height": 288,
+      "warnings": []
+    },
+    {
+      "id": "grotte_statique_seuil",
+      "png": "debug/render_ground/grotte_statique_seuil.png",
+      "width": 384,
+      "height": 312,
+      "warnings": []
+    },
+    {
+      "id": "h01p01",
+      "png": "debug/render_ground/h01p01.png",
+      "width": 456,
+      "height": 240,
+      "warnings": []
+    },
+    {
+      "id": "h01p01w",
+      "png": "debug/render_ground/h01p01w.png",
+      "width": 456,
+      "height": 240,
+      "warnings": []
+    },
+    {
+      "id": "h01p02",
+      "png": "debug/render_ground/h01p02.png",
+      "width": 480,
+      "height": 336,
+      "warnings": []
+    },
+    {
+      "id": "h01p03",
+      "png": "debug/render_ground/h01p03.png",
+      "width": 528,
+      "height": 360,
+      "warnings": []
+    },
+    {
+      "id": "h02p01",
+      "png": "debug/render_ground/h02p01.png",
+      "width": 480,
+      "height": 336,
+      "warnings": []
+    },
+    {
+      "id": "h02p01w",
+      "png": "debug/render_ground/h02p01w.png",
+      "width": 464,
+      "height": 216,
+      "warnings": []
+    },
+    {
+      "id": "h02p02",
+      "png": "debug/render_ground/h02p02.png",
+      "width": 456,
+      "height": 312,
+      "warnings": []
+    },
+    {
+      "id": "h02p02w",
+      "png": "debug/render_ground/h02p02w.png",
+      "width": 456,
+      "height": 312,
+      "warnings": []
+    },
+    {
+      "id": "h02p03",
+      "png": "debug/render_ground/h02p03.png",
+      "width": 360,
+      "height": 336,
+      "warnings": []
+    },
+    {
+      "id": "h02p03w",
+      "png": "debug/render_ground/h02p03w.png",
+      "width": 360,
+      "height": 336,
+      "warnings": []
+    },
+    {
+      "id": "h03p01",
+      "png": "debug/render_ground/h03p01.png",
+      "width": 552,
+      "height": 336,
+      "warnings": []
+    },
+    {
+      "id": "h04p01",
+      "png": "debug/render_ground/h04p01.png",
+      "width": 504,
+      "height": 336,
+      "warnings": []
+    },
+    {
+      "id": "h04p02",
+      "png": "debug/render_ground/h04p02.png",
+      "width": 480,
+      "height": 336,
+      "warnings": []
+    },
+    {
+      "id": "h05p01",
+      "png": "debug/render_ground/h05p01.png",
+      "width": 480,
+      "height": 336,
+      "warnings": []
+    },
+    {
+      "id": "h05p02",
+      "png": "debug/render_ground/h05p02.png",
+      "width": 456,
+      "height": 312,
+      "warnings": []
+    },
+    {
+      "id": "h06p01",
+      "png": "debug/render_ground/h06p01.png",
+      "width": 456,
+      "height": 336,
+      "warnings": []
+    },
+    {
+      "id": "h06p02",
+      "png": "debug/render_ground/h06p02.png",
+      "width": 480,
+      "height": 336,
+      "warnings": []
+    },
+    {
+      "id": "h06p03",
+      "png": "debug/render_ground/h06p03.png",
+      "width": 456,
+      "height": 336,
+      "warnings": []
+    },
+    {
+      "id": "h06p04",
+      "png": "debug/render_ground/h06p04.png",
+      "width": 480,
+      "height": 336,
+      "warnings": []
+    },
+    {
+      "id": "h06p05",
+      "png": "debug/render_ground/h06p05.png",
+      "width": 456,
+      "height": 336,
+      "warnings": []
+    },
+    {
+      "id": "h06p06",
+      "png": "debug/render_ground/h06p06.png",
+      "width": 480,
+      "height": 312,
+      "warnings": []
+    },
+    {
+      "id": "h07p01",
+      "png": "debug/render_ground/h07p01.png",
+      "width": 456,
+      "height": 312,
+      "warnings": []
+    },
+    {
+      "id": "h07p02",
+      "png": "debug/render_ground/h07p02.png",
+      "width": 456,
+      "height": 312,
+      "warnings": []
+    },
+    {
+      "id": "h07p03",
+      "png": "debug/render_ground/h07p03.png",
+      "width": 480,
+      "height": 312,
+      "warnings": []
+    },
+    {
+      "id": "h07p04",
+      "png": "debug/render_ground/h07p04.png",
+      "width": 480,
+      "height": 336,
+      "warnings": []
+    },
+    {
+      "id": "h07p04w",
+      "png": "debug/render_ground/h07p04w.png",
+      "width": 480,
+      "height": 336,
+      "warnings": []
+    },
+    {
+      "id": "h07p05",
+      "png": "debug/render_ground/h07p05.png",
+      "width": 456,
+      "height": 336,
+      "warnings": []
+    },
+    {
+      "id": "h07p06",
+      "png": "debug/render_ground/h07p06.png",
+      "width": 480,
+      "height": 336,
+      "warnings": []
+    },
+    {
+      "id": "h07p07",
+      "png": "debug/render_ground/h07p07.png",
+      "width": 480,
+      "height": 312,
+      "warnings": []
+    },
+    {
+      "id": "h07p08",
+      "png": "debug/render_ground/h07p08.png",
+      "width": 456,
+      "height": 312,
+      "warnings": []
+    },
+    {
+      "id": "h08p01",
+      "png": "debug/render_ground/h08p01.png",
+      "width": 480,
+      "height": 336,
+      "warnings": []
+    },
+    {
+      "id": "h09p01",
+      "png": "debug/render_ground/h09p01.png",
+      "width": 504,
+      "height": 336,
+      "warnings": []
+    },
+    {
+      "id": "h09p02",
+      "png": "debug/render_ground/h09p02.png",
+      "width": 480,
+      "height": 336,
+      "warnings": []
+    },
+    {
+      "id": "h10p01",
+      "png": "debug/render_ground/h10p01.png",
+      "width": 480,
+      "height": 336,
+      "warnings": []
+    },
+    {
+      "id": "h10p02",
+      "png": "debug/render_ground/h10p02.png",
+      "width": 456,
+      "height": 312,
+      "warnings": []
+    },
+    {
+      "id": "h11p01",
+      "png": "debug/render_ground/h11p01.png",
+      "width": 528,
+      "height": 336,
+      "warnings": []
+    },
+    {
+      "id": "h12p01",
+      "png": "debug/render_ground/h12p01.png",
+      "width": 456,
+      "height": 336,
+      "warnings": []
+    },
+    {
+      "id": "h13p01",
+      "png": "debug/render_ground/h13p01.png",
+      "width": 504,
+      "height": 360,
+      "warnings": []
+    },
+    {
+      "id": "h13p02",
+      "png": "debug/render_ground/h13p02.png",
+      "width": 360,
+      "height": 312,
+      "warnings": []
+    },
+    {
+      "id": "h13p03",
+      "png": "debug/render_ground/h13p03.png",
+      "width": 456,
+      "height": 312,
+      "warnings": []
+    },
+    {
+      "id": "h13p04",
+      "png": "debug/render_ground/h13p04.png",
+      "width": 504,
+      "height": 360,
+      "warnings": []
+    },
+    {
+      "id": "h14p01",
+      "png": "debug/render_ground/h14p01.png",
+      "width": 456,
+      "height": 336,
+      "warnings": []
+    },
+    {
+      "id": "h15p01",
+      "png": "debug/render_ground/h15p01.png",
+      "width": 480,
+      "height": 312,
+      "warnings": []
+    },
+    {
+      "id": "h16p01",
+      "png": "debug/render_ground/h16p01.png",
+      "width": 480,
+      "height": 336,
+      "warnings": []
+    },
+    {
+      "id": "h17p01",
+      "png": "debug/render_ground/h17p01.png",
+      "width": 456,
+      "height": 336,
+      "warnings": []
+    },
+    {
+      "id": "h17p01w",
+      "png": "debug/render_ground/h17p01w.png",
+      "width": 456,
+      "height": 336,
+      "warnings": []
+    },
+    {
+      "id": "h18p01",
+      "png": "debug/render_ground/h18p01.png",
+      "width": 480,
+      "height": 336,
+      "warnings": []
+    },
+    {
+      "id": "h19p01",
+      "png": "debug/render_ground/h19p01.png",
+      "width": 456,
+      "height": 312,
+      "warnings": []
+    },
+    {
+      "id": "h19p01w",
+      "png": "debug/render_ground/h19p01w.png",
+      "width": 456,
+      "height": 312,
+      "warnings": []
+    },
+    {
+      "id": "h20p01",
+      "png": "debug/render_ground/h20p01.png",
+      "width": 456,
+      "height": 336,
+      "warnings": []
+    },
+    {
+      "id": "h21p01",
+      "png": "debug/render_ground/h21p01.png",
+      "width": 480,
+      "height": 312,
+      "warnings": []
+    },
+    {
+      "id": "h21p02",
+      "png": "debug/render_ground/h21p02.png",
+      "width": 480,
+      "height": 312,
+      "warnings": []
+    },
+    {
+      "id": "h22p01",
+      "png": "debug/render_ground/h22p01.png",
+      "width": 480,
+      "height": 312,
+      "warnings": []
+    },
+    {
+      "id": "h23p01",
+      "png": "debug/render_ground/h23p01.png",
+      "width": 456,
+      "height": 312,
+      "warnings": []
+    },
+    {
+      "id": "h24p01",
+      "png": "debug/render_ground/h24p01.png",
+      "width": 480,
+      "height": 360,
+      "warnings": []
+    },
+    {
+      "id": "h25p01",
+      "png": "debug/render_ground/h25p01.png",
+      "width": 480,
+      "height": 288,
+      "warnings": []
+    },
+    {
+      "id": "h26p01",
+      "png": "debug/render_ground/h26p01.png",
+      "width": 480,
+      "height": 312,
+      "warnings": []
+    },
+    {
+      "id": "h27p01",
+      "png": "debug/render_ground/h27p01.png",
+      "width": 480,
+      "height": 312,
+      "warnings": []
+    },
+    {
+      "id": "h28p01",
+      "png": "debug/render_ground/h28p01.png",
+      "width": 480,
+      "height": 312,
+      "warnings": []
+    },
+    {
+      "id": "h28p02",
+      "png": "debug/render_ground/h28p02.png",
+      "width": 480,
+      "height": 312,
+      "warnings": []
+    },
+    {
+      "id": "h29p01",
+      "png": "debug/render_ground/h29p01.png",
+      "width": 480,
+      "height": 264,
+      "warnings": []
+    },
+    {
+      "id": "h29p02",
+      "png": "debug/render_ground/h29p02.png",
+      "width": 480,
+      "height": 336,
+      "warnings": []
+    },
+    {
+      "id": "h29p03",
+      "png": "debug/render_ground/h29p03.png",
+      "width": 480,
+      "height": 336,
+      "warnings": []
+    },
+    {
+      "id": "h29p03w",
+      "png": "debug/render_ground/h29p03w.png",
+      "width": 480,
+      "height": 336,
+      "warnings": []
+    },
+    {
+      "id": "h29p04",
+      "png": "debug/render_ground/h29p04.png",
+      "width": 480,
+      "height": 312,
+      "warnings": []
+    },
+    {
+      "id": "mont_cendre_pied",
+      "png": "debug/render_ground/mont_cendre_pied.png",
+      "width": 360,
+      "height": 312,
+      "warnings": []
+    },
+    {
+      "id": "mont_gele_pied",
+      "png": "debug/render_ground/mont_gele_pied.png",
+      "width": 264,
+      "height": 288,
+      "warnings": []
+    },
+    {
+      "id": "mont_grondant_pied",
+      "png": "debug/render_ground/mont_grondant_pied.png",
+      "width": 408,
+      "height": 288,
+      "warnings": []
+    },
+    {
+      "id": "palier_celeste",
+      "png": "debug/render_ground/palier_celeste.png",
+      "width": 456,
+      "height": 456,
+      "warnings": []
+    },
+    {
+      "id": "parvis_celeste",
+      "png": "debug/render_ground/parvis_celeste.png",
+      "width": 408,
+      "height": 288,
+      "warnings": []
+    },
+    {
+      "id": "pic_ferreux_pied",
+      "png": "debug/render_ground/pic_ferreux_pied.png",
+      "width": 360,
+      "height": 312,
+      "warnings": []
+    },
+    {
+      "id": "place_pokemon",
+      "png": "debug/render_ground/place_pokemon.png",
+      "width": 1152,
+      "height": 888,
+      "warnings": []
+    },
+    {
+      "id": "s01",
+      "png": "debug/render_ground/s01.png",
+      "width": 480,
+      "height": 384,
+      "warnings": []
+    },
+    {
+      "id": "s02",
+      "png": "debug/render_ground/s02.png",
+      "width": 288,
+      "height": 432,
+      "warnings": []
+    },
+    {
+      "id": "s03",
+      "png": "debug/render_ground/s03.png",
+      "width": 288,
+      "height": 312,
+      "warnings": []
+    },
+    {
+      "id": "s04",
+      "png": "debug/render_ground/s04.png",
+      "width": 240,
+      "height": 640,
+      "warnings": []
+    },
+    {
+      "id": "s05",
+      "png": "debug/render_ground/s05.png",
+      "width": 264,
+      "height": 336,
+      "warnings": []
+    },
+    {
+      "id": "s06",
+      "png": "debug/render_ground/s06.png",
+      "width": 240,
+      "height": 168,
+      "warnings": []
+    },
+    {
+      "id": "sanctuaire_voeu",
+      "png": "debug/render_ground/sanctuaire_voeu.png",
+      "width": 360,
+      "height": 336,
+      "warnings": []
+    },
+    {
+      "id": "sommet_aurore",
+      "png": "debug/render_ground/sommet_aurore.png",
+      "width": 528,
+      "height": 504,
+      "warnings": []
+    },
+    {
+      "id": "t00p01",
+      "png": "debug/render_ground/t00p01.png",
+      "width": 1152,
+      "height": 888,
+      "warnings": []
+    },
+    {
+      "id": "t01p01",
+      "png": "debug/render_ground/t01p01.png",
+      "width": 960,
+      "height": 720,
+      "warnings": []
+    },
+    {
+      "id": "t01p02a",
+      "png": "debug/render_ground/t01p02a.png",
+      "width": 456,
+      "height": 624,
+      "warnings": []
+    },
+    {
+      "id": "t01p02b",
+      "png": "debug/render_ground/t01p02b.png",
+      "width": 456,
+      "height": 624,
+      "warnings": []
+    },
+    {
+      "id": "t01p03",
+      "png": "debug/render_ground/t01p03.png",
+      "width": 720,
+      "height": 528,
+      "warnings": []
+    },
+    {
+      "id": "t01p04",
+      "png": "debug/render_ground/t01p04.png",
+      "width": 528,
+      "height": 528,
+      "warnings": []
+    },
+    {
+      "id": "t01p05",
+      "png": "debug/render_ground/t01p05.png",
+      "width": 648,
+      "height": 384,
+      "warnings": []
+    },
+    {
+      "id": "t01p06",
+      "png": "debug/render_ground/t01p06.png",
+      "width": 504,
+      "height": 384,
+      "warnings": []
+    },
+    {
+      "id": "t01p07",
+      "png": "debug/render_ground/t01p07.png",
+      "width": 408,
+      "height": 384,
+      "warnings": []
+    },
+    {
+      "id": "t01p07w",
+      "png": "debug/render_ground/t01p07w.png",
+      "width": 408,
+      "height": 384,
+      "warnings": []
+    },
+    {
+      "id": "tour_ciel_sommet",
+      "png": "debug/render_ground/tour_ciel_sommet.png",
+      "width": 552,
+      "height": 600,
+      "warnings": []
+    },
+    {
+      "id": "vallon_perdu",
+      "png": "debug/render_ground/vallon_perdu.png",
+      "width": 408,
+      "height": 360,
+      "warnings": []
+    },
+    {
+      "id": "w01",
+      "png": "debug/render_ground/w01.png",
+      "width": 1152,
+      "height": 888,
+      "warnings": []
+    },
+    {
+      "id": "w03p01",
+      "png": "debug/render_ground/w03p01.png",
+      "width": 960,
+      "height": 720,
+      "warnings": []
+    },
+    {
+      "id": "w03p02",
+      "png": "debug/render_ground/w03p02.png",
+      "width": 960,
+      "height": 720,
+      "warnings": []
+    },
+    {
+      "id": "w03p03",
+      "png": "debug/render_ground/w03p03.png",
+      "width": 960,
+      "height": 720,
+      "warnings": []
+    },
+    {
+      "id": "w04",
+      "png": "debug/render_ground/w04.png",
+      "width": 1440,
+      "height": 960,
+      "warnings": []
+    },
+    {
+      "id": "w05",
+      "png": "debug/render_ground/w05.png",
+      "width": 480,
+      "height": 264,
+      "warnings": []
+    },
+    {
+      "id": "w06",
+      "png": "debug/render_ground/w06.png",
+      "width": 336,
+      "height": 240,
+      "warnings": []
+    }
+  ],
+  "errors": [],
+  "runtime_capture": false,
+  "pixel_comparison": false
+}

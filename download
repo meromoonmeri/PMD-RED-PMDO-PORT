@@ -1,0 +1,2 @@
+[core]
+	fscache = false

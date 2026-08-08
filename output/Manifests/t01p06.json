@@ -1,0 +1,62 @@
+{
+  "converter_version": "2",
+  "external_graphics_used": false,
+  "features": {
+    "bma_layers_consumed": 1,
+    "bpa_slots_consumed": 0,
+    "bpa_slots_required": 0,
+    "frames": 1,
+    "height": 48,
+    "palette_animation_executed": false,
+    "period_ticks": 1,
+    "source_files": [
+      "T01P06.bpl",
+      "T01P06c.bpc",
+      "T01P06m.bma"
+    ],
+    "ticks_emitted": 1,
+    "tile_entries": 3024,
+    "unique_tiles": 1033,
+    "width": 63
+  },
+  "inputs": [
+    {
+      "authority": "pret/pmd-red",
+      "bytes": 452,
+      "path": "/tmp/pmd-red/data/map_bg/T01P06m.bma",
+      "role": "bma",
+      "sha256": "3dabc385aa054dbddc9ff26079fdf16de8722dac6a478ba1aeca4695a134fb67"
+    },
+    {
+      "authority": "pret/pmd-red",
+      "bytes": 25748,
+      "path": "/tmp/pmd-red/data/map_bg/T01P06c.bpc",
+      "role": "bpc",
+      "sha256": "2ee2aa4e5636a6ff97a7baccba3a7a2a5f16cbff716bf8f066b735c9b6e65401"
+    },
+    {
+      "authority": "pret/pmd-red",
+      "bytes": 664,
+      "path": "/tmp/pmd-red/data/map_bg/T01P06.bpl",
+      "role": "bpl",
+      "sha256": "e64c9a966ba73d8d67cfd8b86c37a54798a41191e40e986173fa7cc8b25d63f3"
+    }
+  ],
+  "map_id": "MAP_FILE_ID_MAKUHITA_DOJO_INSIDE",
+  "outputs": [
+    {
+      "bytes": 606602,
+      "path": "/home/user/pmdo_batch/Data/Ground/t01p06.rsground",
+      "role": "ground",
+      "sha256": "e2bf8b99823283f21aa246ee9b0ca9511561d35b146487b8e6feb817d4ed8c06"
+    },
+    {
+      "bytes": 209220,
+      "path": "/home/user/pmdo_batch/Content/Tile/t01p06_Base.tile",
+      "role": "tile",
+      "sha256": "cdd7dd3c279c382861136dda0e7944b15b9674da1c79d5fc8fbc3781598c95d1"
+    }
+  ],
+  "python": "3.13.14",
+  "schema": 1
+}

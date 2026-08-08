@@ -1,0 +1,62 @@
+{
+  "converter_version": "2",
+  "external_graphics_used": false,
+  "features": {
+    "bma_layers_consumed": 1,
+    "bpa_slots_consumed": 0,
+    "bpa_slots_required": 0,
+    "frames": 1,
+    "height": 42,
+    "palette_animation_executed": false,
+    "period_ticks": 1,
+    "source_files": [
+      "H07P04.bpl",
+      "H07P04c.bpc",
+      "H07P04m.bma"
+    ],
+    "ticks_emitted": 1,
+    "tile_entries": 2520,
+    "unique_tiles": 1381,
+    "width": 60
+  },
+  "inputs": [
+    {
+      "authority": "pret/pmd-red",
+      "bytes": 524,
+      "path": "/tmp/pmd-red/data/map_bg/H07P04m.bma",
+      "role": "bma",
+      "sha256": "06d98c70444fa2bb157824cd104c9280737596d5039f7176dafe4746cdcd7fd5"
+    },
+    {
+      "authority": "pret/pmd-red",
+      "bytes": 27032,
+      "path": "/tmp/pmd-red/data/map_bg/H07P04c.bpc",
+      "role": "bpc",
+      "sha256": "70645c2bec0fa1c28d84586dc70ec5cbd66784790d3092c3ddc98022ceaf0349"
+    },
+    {
+      "authority": "pret/pmd-red",
+      "bytes": 544,
+      "path": "/tmp/pmd-red/data/map_bg/H07P04.bpl",
+      "role": "bpl",
+      "sha256": "6587ba134b136a8984151fa33ec80f27282843cf8257ad72f26a60048f4572e0"
+    }
+  ],
+  "map_id": "MAP_FILE_ID_FRIEND_AREA_ENERGETIC_FOREST",
+  "outputs": [
+    {
+      "bytes": 505511,
+      "path": "/home/user/pmdo_batch/Data/Ground/h07p04.rsground",
+      "role": "ground",
+      "sha256": "f9cfd1f7582387915bb58a39c9d053b6dd05ca7d0d2ef8814f0d58d305669b77"
+    },
+    {
+      "bytes": 248532,
+      "path": "/home/user/pmdo_batch/Content/Tile/h07p04_Base.tile",
+      "role": "tile",
+      "sha256": "84d278df77f351cded1cbe2337ef37eb1cb6a1171c66c218faad4242d7039aa4"
+    }
+  ],
+  "python": "3.13.14",
+  "schema": 1
+}

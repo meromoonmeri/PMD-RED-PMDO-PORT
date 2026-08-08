@@ -1,0 +1,71 @@
+{
+  "converter_version": "2",
+  "external_graphics_used": false,
+  "features": {
+    "animation_model": "independent_cell_cycles",
+    "bma_layers_consumed": 1,
+    "bpa_slots_consumed": 1,
+    "framebuffers_materialized": 0,
+    "frames": "independent",
+    "global_period_ticks": 288,
+    "height": 69,
+    "max_cell_frames": 12,
+    "palette_animation_executed": true,
+    "source_files": [
+      "B01P01C.bpl",
+      "B01P01Cc.bpc",
+      "B01P01Cm.bma",
+      "B01P01C1.bpa"
+    ],
+    "tile_entries": 5384,
+    "unique_tiles": 883,
+    "width": 69
+  },
+  "inputs": [
+    {
+      "authority": "pret/pmd-red",
+      "bytes": 1040,
+      "path": "/tmp/pmd-red/data/map_bg/B01P01Cm.bma",
+      "role": "bma",
+      "sha256": "2b9893e9617f3bb4b27d1aea9fffe4c629a9dfbb9a33b65c061800d590b83e39"
+    },
+    {
+      "authority": "pret/pmd-red",
+      "bytes": 3100,
+      "path": "/tmp/pmd-red/data/map_bg/B01P01C1.bpa",
+      "role": "bpa_0",
+      "sha256": "f967f3fbb4aa66bbbd309aa3388fa18bac3a6615ef93efde0e273b77bb62659a"
+    },
+    {
+      "authority": "pret/pmd-red",
+      "bytes": 23392,
+      "path": "/tmp/pmd-red/data/map_bg/B01P01Cc.bpc",
+      "role": "bpc",
+      "sha256": "87be2ec0d6ab602a611e5b999ed8c61f97eab339c9483e764bad7193d513712d"
+    },
+    {
+      "authority": "pret/pmd-red",
+      "bytes": 1364,
+      "path": "/tmp/pmd-red/data/map_bg/B01P01C.bpl",
+      "role": "bpl",
+      "sha256": "ed48449ad49985472d6087501edeefb38f31dee1799289d32c497a3da1dd679c"
+    }
+  ],
+  "map_id": "MAP_FILE_ID_TEAM_BASE_PIKACHU_FINAL",
+  "outputs": [
+    {
+      "bytes": 991459,
+      "path": "output/Grounds/b01p01c.rsground",
+      "role": "ground",
+      "sha256": "6004b8191be4b6d34d586c2a55a1adad91c3ff7285b45977f5c0984332efa231"
+    },
+    {
+      "bytes": 224669,
+      "path": "output/Tiles/b01p01c_Base.tile",
+      "role": "tile",
+      "sha256": "255980603c67bc356116195959396bff0f0d53c31a484835f384d5255b5af962"
+    }
+  ],
+  "python": "3.13.14",
+  "schema": 1
+}

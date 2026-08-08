@@ -1,0 +1,62 @@
+{
+  "converter_version": "2",
+  "external_graphics_used": false,
+  "features": {
+    "bma_layers_consumed": 2,
+    "bpa_slots_consumed": 0,
+    "bpa_slots_required": 0,
+    "frames": 1,
+    "height": 48,
+    "palette_animation_executed": false,
+    "period_ticks": 1,
+    "source_files": [
+      "A01P01.bpl",
+      "A01P01c.bpc",
+      "A01P01m.bma"
+    ],
+    "ticks_emitted": 1,
+    "tile_entries": 2880,
+    "unique_tiles": 443,
+    "width": 60
+  },
+  "inputs": [
+    {
+      "authority": "pret/pmd-red",
+      "bytes": 528,
+      "path": "/tmp/pmd-red/data/map_bg/A01P01m.bma",
+      "role": "bma",
+      "sha256": "8e6693b39b3deea1a5656630b4ad0972b5aa5292bd1a1bca490c11f7e061bb3c"
+    },
+    {
+      "authority": "pret/pmd-red",
+      "bytes": 17704,
+      "path": "/tmp/pmd-red/data/map_bg/A01P01c.bpc",
+      "role": "bpc",
+      "sha256": "da69bb1cec50a179995080e8fc3dd381702ceefae1941d1a3060afe898922e05"
+    },
+    {
+      "authority": "pret/pmd-red",
+      "bytes": 64,
+      "path": "/tmp/pmd-red/data/map_bg/A01P01.bpl",
+      "role": "bpl",
+      "sha256": "a22e066e1fa1d36d86c27aa072bc1804d52965d9fa734feecf8528c1ececa554"
+    }
+  ],
+  "map_id": "MAP_FILE_ID_PERSONALITY_TEST_CYAN",
+  "outputs": [
+    {
+      "bytes": 577719,
+      "path": "/home/user/pmdo_batch/Data/Ground/a01p01.rsground",
+      "role": "ground",
+      "sha256": "16a30397701ed014152e396c084d85e001d990e719342fea9a57c441def75076"
+    },
+    {
+      "bytes": 102892,
+      "path": "/home/user/pmdo_batch/Content/Tile/a01p01_Base.tile",
+      "role": "tile",
+      "sha256": "7338c61e97a0ea44960d623edd281e047f49aceb96b4002969587510b4648b64"
+    }
+  ],
+  "python": "3.13.14",
+  "schema": 1
+}
