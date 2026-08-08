@@ -18,8 +18,20 @@ def tile(td,pal,hf,vf):
    for k,c in enumerate((b&15,b>>4)):
     if c:px[7-(x*2+k) if hf else x*2+k,7-y if vf else y]=pal[c]
  return im
-def materials(root,tileset):
- root=Path(root);mapped=REMAP[tileset];font=decomp((root/f'b{mapped:02d}fon').read_bytes());cel=decomp((root/f'b{mapped:02d}cel').read_bytes());palraw=(root/f'b{tileset:02d}pal').read_bytes()
+def _animated_palette(palraw,canm,rom,tick):
+ """Execute ReadAnimatedColorData/UpdateAnimatedColors for palette 0xA0..0xBF."""
+ raw=bytearray(palraw)
+ if not canm or not rom:return raw
+ for i in range(min(32,len(canm)//4)):
+  ptr=struct.unpack_from('<I',canm,i*4)[0];off=ptr-0x08000000 if ptr>=0x08000000 else ptr
+  if not 0<=off<=len(rom)-4:continue
+  count,duration=struct.unpack_from('<hh',rom,off)
+  if count<=0 or duration<=0 or off+4+count*4>len(rom):continue
+  frame=(tick//duration)%count;color=rom[off+4+frame*4:off+8+frame*4]
+  raw[(160+i)*4:(161+i)*4]=color
+ return raw
+def materials(root,tileset,rom=None,tick=0):
+ root=Path(root);mapped=REMAP[tileset];font=decomp((root/f'b{mapped:02d}fon').read_bytes());cel=decomp((root/f'b{mapped:02d}cel').read_bytes());palraw=(root/f'b{tileset:02d}pal').read_bytes();canm=(root/f'b{tileset:02d}canm').read_bytes() if (root/f'b{tileset:02d}canm').exists() else None;palraw=_animated_palette(palraw,canm,rom,tick)
  if len(cel)!=0x1194:raise ValueError(len(cel))
  tiles=[font[i:i+32] for i in range(0,len(font),32)];pals=[[tuple(palraw[(p*16+c)*4:(p*16+c)*4+4]) for c in range(16)] for p in range(12)]
  return tiles,pals,cel
@@ -35,13 +47,13 @@ def compose(chunks,w,h,tiles,pals,cel):
     if im is None:im=tile(tiles[ti],pals[pi%len(pals)],(ent>>10)&1,(ent>>11)&1);cache[ent]=im
     img.alpha_composite(im,((cx*3+j%3)*8,(cy*3+j//3)*8))
  return img
-def render_special(archive,tileset,variant,width_chunks,height_chunks):
- tiles,pals,cel=materials(archive,tileset);emap=decomp((Path(archive)/f'b{tileset:02d}emap{variant}').read_bytes())
+def render_special(archive,tileset,variant,width_chunks,height_chunks,rom=None,tick=0):
+ tiles,pals,cel=materials(archive,tileset,rom,tick);emap=decomp((Path(archive)/f'b{tileset:02d}emap{variant}').read_bytes())
  if len(emap)!=0x240:raise ValueError(len(emap))
  return compose([emap[y*24+x] for y in range(height_chunks) for x in range(width_chunks)],width_chunks,height_chunks,tiles,pals,cel)
 def _at(grid,x,y,w,h,default=0):return grid[y*64+x] if 0<=x<w and 0<=y<h else default
-def render_regular(archive,tileset,terrain,width_chunks,height_chunks,default=0):
- tiles,pals,cel=materials(archive,tileset);cex=decomp((Path(archive)/f'b{REMAP[tileset]:02d}cex').read_bytes())
+def render_regular(archive,tileset,terrain,width_chunks,height_chunks,default=0,rom=None,tick=0):
+ tiles,pals,cel=materials(archive,tileset,rom,tick);cex=decomp((Path(archive)/f'b{REMAP[tileset]:02d}cex').read_bytes())
  chunks=[]
  for y in range(height_chunks):
   for x in range(width_chunks):
